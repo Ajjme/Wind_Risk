@@ -1,7 +1,0 @@
-WebSocket server settings:
-  - Listen on :40447
-  - No SSL/TLS support (no cert file)
-  - proxying from :40447 to localhost:5901
-10.183.18.196 - - [22/Aug/2024 12:23:48] 10.183.18.196: Plain non-SSL (ws://) WebSocket connection
-10.183.18.196 - - [22/Aug/2024 12:23:48] 10.183.18.196: Path: '/websockify'
-10.183.18.196 - - [22/Aug/2024 12:23:48] connecting to: localhost:5901

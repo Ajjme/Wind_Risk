@@ -1,9 +1,0 @@
-c.NotebookApp.ip = '*'
-c.NotebookApp.port = 15597
-c.NotebookApp.port_retries = 0
-c.NotebookApp.password = u'sha1:kzyE0LhLah6afDND:3f236934b0168d7eb1525017290ac9b16d146a53'
-c.NotebookApp.base_url = '/node/dcc-core-04/15597/'
-c.NotebookApp.open_browser = False
-c.NotebookApp.allow_origin = '*'
-c.NotebookApp.notebook_dir = '/hpc/home/ajj54'
-c.NotebookApp.disable_check_xsrf = True
