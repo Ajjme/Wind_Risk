@@ -1,0 +1,2203 @@
+[2024-08-23T11:29:26.401Z] debug child:1004513 initiating handshake
+[2024-08-23T11:29:26.439Z] debug child:1004513 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:48186","auth":"none","password":"<redacted>","config":"/hpc/home/ajj54/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/hpc/home/ajj54/.local/share/code-server/extensions","user-data-dir":"/hpc/home/ajj54/.local/share/code-server","log":"debug","_":["/hpc/home/ajj54"],"session-socket":"/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":48186,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-08-23T11:29:26.440Z] info  code-server 4.90.2 dce1d6e172cc5f935b9732e7dee4b7a992529eda
+[2024-08-23T11:29:26.440Z] info  Using user-data-dir /hpc/home/ajj54/.local/share/code-server
+[2024-08-23T11:29:26.440Z] debug Using extensions-dir /hpc/home/ajj54/.local/share/code-server/extensions
+[2024-08-23T11:29:26.760Z] info  Using config file /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-23T11:29:26.761Z] info  HTTP server listening on http://0.0.0.0:48186/
+[2024-08-23T11:29:26.761Z] info    - Authentication is disabled
+[2024-08-23T11:29:26.761Z] info    - Not serving HTTPS
+[2024-08-23T11:29:26.761Z] info  Session server listening on /hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock
+[2024-08-23T11:29:33.747Z] debug heartbeat
+[07:29:35] 
+
+
+
+
+[07:29:36] Extension host agent started.
+[2024-08-23T11:29:36.593Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[07:29:36] Started initializing default profile extensions in extensions installation folder. file:///hpc/home/ajj54/.local/share/code-server/extensions
+[07:29:36] No uninstalled extensions found.
+[07:29:36] ComputeTargetPlatform: linux-x64
+[07:29:36] Completed initializing default profile extensions in extensions installation folder. file:///hpc/home/ajj54/.local/share/code-server/extensions
+[07:29:38] [10.183.18.196][f800d8d3][ManagementConnection] New connection established.
+[2024-08-23T11:29:39.687Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[07:29:39] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+[07:29:39] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache')
+[07:29:39] [10.183.18.196][127dbb7e][ExtensionHostConnection] New connection established.
+[07:29:40] [10.183.18.196][127dbb7e][ExtensionHostConnection] <1004601> Launched Extension Host Process.
+[2024-08-23T11:29:41.416Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-23T11:29:41.416Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[07:29:43] Terminal profile not validated pwsh [ 'pwsh' ]
+[07:29:43] Terminal profile not validated fish [ 'fish' ]
+[2024-08-23T11:29:44.555Z] debug Adding session to session registry: /tmp/vscode-ipc-1a6e5708-4970-456f-bd64-730f7d9c7d6f.sock
+[07:29:49] Terminal profile not validated fish [ 'fish' ]
+[07:29:49] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-23T11:30:33.753Z] debug 2 active connections
+[2024-08-23T11:30:33.753Z] debug heartbeat
+[2024-08-27T17:30:08.442Z] debug child:754317 initiating handshake
+[2024-08-27T17:30:08.452Z] debug child:754317 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:56929","auth":"none","password":"<redacted>","config":"/hpc/home/ajj54/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/hpc/home/ajj54/.local/share/code-server/extensions","user-data-dir":"/hpc/home/ajj54/.local/share/code-server","log":"debug","_":["/hpc/home/ajj54"],"session-socket":"/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":56929,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-08-27T17:30:08.454Z] info  code-server 4.90.2 dce1d6e172cc5f935b9732e7dee4b7a992529eda
+[2024-08-27T17:30:08.454Z] info  Using user-data-dir /hpc/home/ajj54/.local/share/code-server
+[2024-08-27T17:30:08.454Z] debug Using extensions-dir /hpc/home/ajj54/.local/share/code-server/extensions
+[2024-08-27T17:30:08.926Z] info  Using config file /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-27T17:30:08.927Z] info  HTTP server listening on http://0.0.0.0:56929/
+[2024-08-27T17:30:08.927Z] info    - Authentication is disabled
+[2024-08-27T17:30:08.927Z] info    - Not serving HTTPS
+[2024-08-27T17:30:08.927Z] info  Session server listening on /hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock
+[2024-08-27T17:30:21.499Z] debug heartbeat
+[13:30:23] 
+
+
+
+
+[13:30:25] Extension host agent started.
+[2024-08-27T17:30:25.640Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[13:30:25] No uninstalled extensions found.
+[13:30:27] [10.183.18.196][be023b14][ManagementConnection] New connection established.
+[2024-08-27T17:30:29.209Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[2024-08-27T17:30:29.584Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-27T17:30:29.584Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[13:30:30] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+[13:30:30] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:30:30] [10.183.18.196][773c05d6][ExtensionHostConnection] New connection established.
+[13:30:30] ComputeTargetPlatform: linux-x64
+[13:30:32] [10.183.18.196][773c05d6][ExtensionHostConnection] <755223> Launched Extension Host Process.
+[13:30:33] Terminal profile not validated fish [ 'fish' ]
+[13:30:33] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-27T17:30:35.391Z] debug Adding session to session registry: /tmp/vscode-ipc-85efb850-b400-4f44-8776-c5e98577ea5a.sock
+[2024-08-27T17:31:21.502Z] debug 2 active connections
+[2024-08-27T17:31:21.502Z] debug heartbeat
+[2024-08-27T17:32:21.505Z] debug 2 active connections
+[2024-08-27T17:32:21.506Z] debug heartbeat
+[2024-08-27T17:33:21.507Z] debug 2 active connections
+[2024-08-27T17:33:21.507Z] debug heartbeat
+[2024-08-27T17:34:21.507Z] debug 2 active connections
+[2024-08-27T17:34:21.508Z] debug heartbeat
+[2024-08-27T17:35:21.510Z] debug 2 active connections
+[2024-08-27T17:35:21.510Z] debug heartbeat
+[2024-08-27T17:36:21.512Z] debug 2 active connections
+[2024-08-27T17:36:21.513Z] debug heartbeat
+[2024-08-27T17:37:21.514Z] debug 2 active connections
+[2024-08-27T17:37:21.514Z] debug heartbeat
+[2024-08-27T17:38:21.515Z] debug 2 active connections
+[2024-08-27T17:38:21.516Z] debug heartbeat
+[2024-08-27T17:39:21.516Z] debug 2 active connections
+[2024-08-27T17:39:21.517Z] debug heartbeat
+[2024-08-27T17:40:21.518Z] debug 2 active connections
+[2024-08-27T17:40:21.519Z] debug heartbeat
+[2024-08-27T17:41:21.522Z] debug 2 active connections
+[2024-08-27T17:41:21.522Z] debug heartbeat
+[2024-08-27T17:41:34.602Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[13:41:35] [10.183.18.196][b8158df8][ManagementConnection] New connection established.
+[2024-08-27T17:41:36.427Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-27T17:41:36.428Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[13:41:36] [10.183.18.196][b8158df8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:41:36] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:41:36] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+[2024-08-27T17:42:15.109Z] debug child:757335 initiating handshake
+[2024-08-27T17:42:15.118Z] debug child:757335 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:13667","auth":"none","password":"<redacted>","config":"/hpc/home/ajj54/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/hpc/home/ajj54/.local/share/code-server/extensions","user-data-dir":"/hpc/home/ajj54/.local/share/code-server","log":"debug","_":["/hpc/home/ajj54"],"session-socket":"/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":13667,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-08-27T17:42:15.119Z] info  code-server 4.90.2 dce1d6e172cc5f935b9732e7dee4b7a992529eda
+[2024-08-27T17:42:15.119Z] info  Using user-data-dir /hpc/home/ajj54/.local/share/code-server
+[2024-08-27T17:42:15.119Z] debug Using extensions-dir /hpc/home/ajj54/.local/share/code-server/extensions
+[2024-08-27T17:42:15.187Z] info  Using config file /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-27T17:42:15.187Z] info  HTTP server listening on http://0.0.0.0:13667/
+[2024-08-27T17:42:15.187Z] info    - Authentication is disabled
+[2024-08-27T17:42:15.188Z] info    - Not serving HTTPS
+[2024-08-27T17:42:15.188Z] info  Session server listening on /hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock
+[2024-08-27T17:42:22.102Z] debug heartbeat
+[13:42:22] 
+
+
+
+
+[13:42:22] Extension host agent started.
+[13:42:22] No uninstalled extensions found.
+[2024-08-27T17:42:22.849Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[13:42:24] [10.183.18.196][abbc6ab6][ManagementConnection] New connection established.
+[2024-08-27T17:42:25.023Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-27T17:42:25.023Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[13:42:25] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:42:25] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+[13:42:25] ComputeTargetPlatform: linux-x64
+[13:42:25] [10.183.18.196][e07da17a][ExtensionHostConnection] New connection established.
+[13:42:27] [10.183.18.196][e07da17a][ExtensionHostConnection] <757433> Launched Extension Host Process.
+[13:42:27] Terminal profile not validated fish [ 'fish' ]
+[13:42:27] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-27T17:42:28.646Z] debug Adding session to session registry: /tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock
+[2024-08-27T17:43:22.106Z] debug 2 active connections
+[2024-08-27T17:43:22.107Z] debug heartbeat
+[2024-08-27T17:44:22.110Z] debug 2 active connections
+[2024-08-27T17:44:22.110Z] debug heartbeat
+[13:45:01] ComputeTargetPlatform: linux-x64
+[13:45:04] Getting Manifest... ms-python.python
+[13:45:05] Installing extension: ms-python.python file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:45:06] Getting Manifest... ms-python.debugpy
+[13:45:06] Installing extension: ms-python.debugpy file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:45:11] Extracted extension to file:///hpc/home/ajj54/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64: ms-python.debugpy
+[13:45:11] Renamed to /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.debugpy-2024.8.0-linux-x64
+[2024-08-27T17:45:22.112Z] debug 2 active connections
+[2024-08-27T17:45:22.112Z] debug heartbeat
+[13:45:30] Extracted extension to file:///hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal: ms-python.python
+[13:45:30] Renamed to /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal
+[13:45:30] Extension installed successfully: ms-python.debugpy file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:45:30] Extension installed successfully: ms-python.python file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:45:31] Terminal profile not validated fish [ 'fish' ]
+[13:45:31] Terminal profile not validated pwsh [ 'pwsh' ]
+[13:45:32] Terminal profile not validated fish [ 'fish' ]
+[13:45:32] Terminal profile not validated pwsh [ 'pwsh' ]
+[13:45:32] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: undefined,
+    executable: '/bin/bash',
+    args: undefined,
+    cwd: '/hpc/home/ajj54',
+    env: undefined,
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/hpc/home/ajj54',
+  cols: 80,
+  rows: 30,
+  env: {
+    SHELL: '/bin/bash',
+    SLURM_JOB_USER: 'ajj54',
+    SLURM_TASKS_PER_NODE: '1',
+    SLURM_JOB_UID: '1546375',
+    HISTCONTROL: 'ignoreboth',
+    SLURM_EXPORT_ENV: 'NONE',
+    SLURM_TASK_PID: '757233',
+    CONDA_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/conda',
+    _CE_M: '',
+    __MODULES_LMALTNAME: 'code-server/4.90.2&as|code-server/default&as|code-server/latest',
+    SLURM_LOCALID: '0',
+    SLURM_SUBMIT_DIR: '/var/www/ood/apps/sys/dashboard',
+    HOSTNAME: 'dcc-core-11',
+    HISTSIZE: '1000',
+    SLURMD_NODENAME: 'dcc-core-11',
+    SLURM_JOB_START_TIME: '1724780528',
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    SLURM_CLUSTER_NAME: 'dcc',
+    SLURM_JOB_END_TIME: '1724784128',
+    SLURM_CPUS_ON_NODE: '2',
+    SLURM_JOB_CPUS_PER_NODE: '2',
+    SACCT_FORMAT: 'user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    PWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_GTIDS: '0',
+    LOGNAME: 'ajj54',
+    CONDA_PREFIX: '/hpc/group/borsuklab/ajj54/miniconda3',
+    SLURM_JOB_PARTITION: 'common',
+    MODULESHOME: '/usr/share/Modules',
+    MANPATH: ':/opt/puppetlabs/puppet/share/man',
+    SLURM_TRES_PER_TASK: 'cpu=2',
+    SLURM_JOB_NUM_NODES: '1',
+    SLURM_JOBID: '15142852',
+    SLURM_JOB_QOS: 'normal',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    HOME: '/hpc/home/ajj54',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    LANG: 'en_US.UTF-8',
+    port: '13667',
+    SLURM_PROCID: '0',
+    __MODULES_LMCONFLICT: 'code-server/4.90.2&CODE-SERVER',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    TMPDIR: '/tmp',
+    SLURM_CPUS_PER_TASK: '2',
+    SLURM_NTASKS: '1',
+    SLURM_TOPOLOGY_ADDR: 'dcc-core-11',
+    HYDRA_BOOTSTRAP: 'slurm',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    SLURM_MEM_PER_NODE: '2048',
+    _CE_CONDA: '',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    USER: 'ajj54',
+    SLURM_NODELIST: 'dcc-core-11',
+    ENVIRONMENT: 'BATCH',
+    CONDA_SHLVL: '1',
+    MODULES_RUN_QUARANTINE: 'LD_LIBRARY_PATH LD_PRELOAD',
+    LOADEDMODULES: 'code-server/4.90.2',
+    SLURM_JOB_ACCOUNT: 'borsuklab',
+    SLURM_PRIO_PROCESS: '0',
+    SLURM_NPROCS: '1',
+    SHLVL: '2',
+    SLURM_NNODES: '1',
+    SLURM_SUBMIT_HOST: 'dcc-ondemand-01',
+    CONDA_PYTHON_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/python',
+    SLURM_JOB_ID: '15142852',
+    password: 'Qe4shWqiLg52wWnz',
+    SLURM_NODEID: '0',
+    S_COLORS: 'auto',
+    CONDA_DEFAULT_ENV: 'base',
+    DEBUGINFOD_URLS: 'https://debuginfod.centos.org/ ',
+    which_declare: 'declare -f',
+    host: 'dcc-core-11',
+    XDG_DATA_DIRS: '/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_CONF: '/var/spool/slurmd/conf-cache/slurm.conf',
+    PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin',
+    SLURM_JOB_NAME: 'sys/dashboard/sys/bc_codeserver',
+    MODULEPATH: '/opt/apps/modulefiles',
+    _LMFILES_: '/opt/apps/modulefiles/code-server/4.90.2',
+    MAIL: '/var/spool/mail/ajj54',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    SLURM_JOB_GID: '1000000',
+    SLURM_GET_USER_ENV: '1',
+    OLDPWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_JOB_NODELIST: 'dcc-core-11',
+    MODULES_CMD: '/usr/share/Modules/libexec/modulecmd.tcl',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    'BASH_FUNC_find_port%%': '() {  local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n' +
+      '}',
+    'BASH_FUNC_create_passwd%%': "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    'BASH_FUNC_random_number%%': '() {  shuf -i ${1}-${2} -n 1\n}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_wait_until_port_used%%': '() {  local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_port_used%%': '() {  local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      '}',
+    'BASH_FUNC_source_helpers%%': '() {  function random_number () \n' +
+      ' { \n' +
+      ' shuf -i ${1}-${2} -n 1\n' +
+      ' };\n' +
+      ' export -f random_number;\n' +
+      ' function port_used_python () \n' +
+      ' { \n' +
+      ` python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_python3 () \n' +
+      ' { \n' +
+      ` python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_nc () \n' +
+      ' { \n' +
+      ' nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_lsof () \n' +
+      ' { \n' +
+      ' lsof -i :"$2" > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_bash () \n' +
+      ' { \n' +
+      ' local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n' +
+      ' if [ "$bash_supported" == "/dev/tcp/*/*" ]; then\n' +
+      ' ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n' +
+      ' else\n' +
+      ' return 127;\n' +
+      ' fi\n' +
+      ' };\n' +
+      ' function port_used () \n' +
+      ' { \n' +
+      ' local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      ' };\n' +
+      ' export -f port_used;\n' +
+      ' function find_port () \n' +
+      ' { \n' +
+      ' local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f find_port;\n' +
+      ' function wait_until_port_used () \n' +
+      ' { \n' +
+      ' local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f wait_until_port_used;\n' +
+      ' function create_passwd () \n' +
+      ' { \n' +
+      " tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n" +
+      ' };\n' +
+      ' export -f create_passwd\n' +
+      '}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    FAMILY: 'almalinux',
+    LS_COLORS: '',
+    SSI_VERSION: '9.4',
+    PS1: '(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ',
+    _: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_PROXY_URI: 'https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/',
+    BROWSER: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.90.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/tmp/vscode-git-0892b29a11.sock'
+  }
+}
+[13:45:49] Terminal profile not validated fish [ 'fish' ]
+[13:45:49] Terminal profile not validated pwsh [ 'pwsh' ]
+[13:45:50] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: 'Python',
+    executable: '/bin/bash',
+    args: [],
+    cwd: '/hpc/home/ajj54',
+    env: {
+      PYTHONSTARTUP: '/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/pythonrc.py'
+    },
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/hpc/home/ajj54',
+  cols: 133,
+  rows: 10,
+  env: {
+    SHELL: '/bin/bash',
+    SLURM_JOB_USER: 'ajj54',
+    SLURM_TASKS_PER_NODE: '1',
+    SLURM_JOB_UID: '1546375',
+    HISTCONTROL: 'ignoreboth',
+    SLURM_EXPORT_ENV: 'NONE',
+    SLURM_TASK_PID: '757233',
+    CONDA_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/conda',
+    _CE_M: '',
+    __MODULES_LMALTNAME: 'code-server/4.90.2&as|code-server/default&as|code-server/latest',
+    SLURM_LOCALID: '0',
+    SLURM_SUBMIT_DIR: '/var/www/ood/apps/sys/dashboard',
+    HOSTNAME: 'dcc-core-11',
+    HISTSIZE: '1000',
+    SLURMD_NODENAME: 'dcc-core-11',
+    SLURM_JOB_START_TIME: '1724780528',
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    SLURM_CLUSTER_NAME: 'dcc',
+    SLURM_JOB_END_TIME: '1724784128',
+    SLURM_CPUS_ON_NODE: '2',
+    SLURM_JOB_CPUS_PER_NODE: '2',
+    SACCT_FORMAT: 'user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    PWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_GTIDS: '0',
+    LOGNAME: 'ajj54',
+    CONDA_PREFIX: '/hpc/group/borsuklab/ajj54/miniconda3',
+    SLURM_JOB_PARTITION: 'common',
+    MODULESHOME: '/usr/share/Modules',
+    MANPATH: ':/opt/puppetlabs/puppet/share/man',
+    SLURM_TRES_PER_TASK: 'cpu=2',
+    SLURM_JOB_NUM_NODES: '1',
+    SLURM_JOBID: '15142852',
+    SLURM_JOB_QOS: 'normal',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    HOME: '/hpc/home/ajj54',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    LANG: 'en_US.UTF-8',
+    port: '13667',
+    SLURM_PROCID: '0',
+    __MODULES_LMCONFLICT: 'code-server/4.90.2&CODE-SERVER',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    TMPDIR: '/tmp',
+    SLURM_CPUS_PER_TASK: '2',
+    SLURM_NTASKS: '1',
+    SLURM_TOPOLOGY_ADDR: 'dcc-core-11',
+    HYDRA_BOOTSTRAP: 'slurm',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    SLURM_MEM_PER_NODE: '2048',
+    _CE_CONDA: '',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    USER: 'ajj54',
+    SLURM_NODELIST: 'dcc-core-11',
+    ENVIRONMENT: 'BATCH',
+    CONDA_SHLVL: '1',
+    MODULES_RUN_QUARANTINE: 'LD_LIBRARY_PATH LD_PRELOAD',
+    LOADEDMODULES: 'code-server/4.90.2',
+    SLURM_JOB_ACCOUNT: 'borsuklab',
+    SLURM_PRIO_PROCESS: '0',
+    SLURM_NPROCS: '1',
+    SHLVL: '2',
+    SLURM_NNODES: '1',
+    SLURM_SUBMIT_HOST: 'dcc-ondemand-01',
+    CONDA_PYTHON_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/python',
+    SLURM_JOB_ID: '15142852',
+    password: 'Qe4shWqiLg52wWnz',
+    SLURM_NODEID: '0',
+    S_COLORS: 'auto',
+    CONDA_DEFAULT_ENV: 'base',
+    DEBUGINFOD_URLS: 'https://debuginfod.centos.org/ ',
+    which_declare: 'declare -f',
+    host: 'dcc-core-11',
+    XDG_DATA_DIRS: '/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_CONF: '/var/spool/slurmd/conf-cache/slurm.conf',
+    PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin',
+    SLURM_JOB_NAME: 'sys/dashboard/sys/bc_codeserver',
+    MODULEPATH: '/opt/apps/modulefiles',
+    _LMFILES_: '/opt/apps/modulefiles/code-server/4.90.2',
+    MAIL: '/var/spool/mail/ajj54',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    SLURM_JOB_GID: '1000000',
+    SLURM_GET_USER_ENV: '1',
+    OLDPWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_JOB_NODELIST: 'dcc-core-11',
+    MODULES_CMD: '/usr/share/Modules/libexec/modulecmd.tcl',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    'BASH_FUNC_find_port%%': '() {  local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n' +
+      '}',
+    'BASH_FUNC_create_passwd%%': "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    'BASH_FUNC_random_number%%': '() {  shuf -i ${1}-${2} -n 1\n}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_wait_until_port_used%%': '() {  local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_port_used%%': '() {  local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      '}',
+    'BASH_FUNC_source_helpers%%': '() {  function random_number () \n' +
+      ' { \n' +
+      ' shuf -i ${1}-${2} -n 1\n' +
+      ' };\n' +
+      ' export -f random_number;\n' +
+      ' function port_used_python () \n' +
+      ' { \n' +
+      ` python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_python3 () \n' +
+      ' { \n' +
+      ` python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_nc () \n' +
+      ' { \n' +
+      ' nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_lsof () \n' +
+      ' { \n' +
+      ' lsof -i :"$2" > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_bash () \n' +
+      ' { \n' +
+      ' local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n' +
+      ' if [ "$bash_supported" == "/dev/tcp/*/*" ]; then\n' +
+      ' ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n' +
+      ' else\n' +
+      ' return 127;\n' +
+      ' fi\n' +
+      ' };\n' +
+      ' function port_used () \n' +
+      ' { \n' +
+      ' local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      ' };\n' +
+      ' export -f port_used;\n' +
+      ' function find_port () \n' +
+      ' { \n' +
+      ' local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f find_port;\n' +
+      ' function wait_until_port_used () \n' +
+      ' { \n' +
+      ' local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f wait_until_port_used;\n' +
+      ' function create_passwd () \n' +
+      ' { \n' +
+      " tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n" +
+      ' };\n' +
+      ' export -f create_passwd\n' +
+      '}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    FAMILY: 'almalinux',
+    LS_COLORS: '',
+    SSI_VERSION: '9.4',
+    PS1: '(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ',
+    _: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_PROXY_URI: 'https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/',
+    BROWSER: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh',
+    PYTHONSTARTUP: '/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/pythonrc.py',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.90.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/tmp/vscode-git-0892b29a11.sock'
+  }
+}
+[13:45:50] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: 'Python: testing',
+    executable: '/bin/bash',
+    args: [],
+    cwd: '/hpc/home/ajj54',
+    env: {
+      PYTHONSTARTUP: '/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/pythonrc.py'
+    },
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/hpc/home/ajj54',
+  cols: 133,
+  rows: 10,
+  env: {
+    SHELL: '/bin/bash',
+    SLURM_JOB_USER: 'ajj54',
+    SLURM_TASKS_PER_NODE: '1',
+    SLURM_JOB_UID: '1546375',
+    HISTCONTROL: 'ignoreboth',
+    SLURM_EXPORT_ENV: 'NONE',
+    SLURM_TASK_PID: '757233',
+    CONDA_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/conda',
+    _CE_M: '',
+    __MODULES_LMALTNAME: 'code-server/4.90.2&as|code-server/default&as|code-server/latest',
+    SLURM_LOCALID: '0',
+    SLURM_SUBMIT_DIR: '/var/www/ood/apps/sys/dashboard',
+    HOSTNAME: 'dcc-core-11',
+    HISTSIZE: '1000',
+    SLURMD_NODENAME: 'dcc-core-11',
+    SLURM_JOB_START_TIME: '1724780528',
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    SLURM_CLUSTER_NAME: 'dcc',
+    SLURM_JOB_END_TIME: '1724784128',
+    SLURM_CPUS_ON_NODE: '2',
+    SLURM_JOB_CPUS_PER_NODE: '2',
+    SACCT_FORMAT: 'user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    PWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_GTIDS: '0',
+    LOGNAME: 'ajj54',
+    CONDA_PREFIX: '/hpc/group/borsuklab/ajj54/miniconda3',
+    SLURM_JOB_PARTITION: 'common',
+    MODULESHOME: '/usr/share/Modules',
+    MANPATH: ':/opt/puppetlabs/puppet/share/man',
+    SLURM_TRES_PER_TASK: 'cpu=2',
+    SLURM_JOB_NUM_NODES: '1',
+    SLURM_JOBID: '15142852',
+    SLURM_JOB_QOS: 'normal',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    HOME: '/hpc/home/ajj54',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    LANG: 'en_US.UTF-8',
+    port: '13667',
+    SLURM_PROCID: '0',
+    __MODULES_LMCONFLICT: 'code-server/4.90.2&CODE-SERVER',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    TMPDIR: '/tmp',
+    SLURM_CPUS_PER_TASK: '2',
+    SLURM_NTASKS: '1',
+    SLURM_TOPOLOGY_ADDR: 'dcc-core-11',
+    HYDRA_BOOTSTRAP: 'slurm',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    SLURM_MEM_PER_NODE: '2048',
+    _CE_CONDA: '',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    USER: 'ajj54',
+    SLURM_NODELIST: 'dcc-core-11',
+    ENVIRONMENT: 'BATCH',
+    CONDA_SHLVL: '1',
+    MODULES_RUN_QUARANTINE: 'LD_LIBRARY_PATH LD_PRELOAD',
+    LOADEDMODULES: 'code-server/4.90.2',
+    SLURM_JOB_ACCOUNT: 'borsuklab',
+    SLURM_PRIO_PROCESS: '0',
+    SLURM_NPROCS: '1',
+    SHLVL: '2',
+    SLURM_NNODES: '1',
+    SLURM_SUBMIT_HOST: 'dcc-ondemand-01',
+    CONDA_PYTHON_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/python',
+    SLURM_JOB_ID: '15142852',
+    password: 'Qe4shWqiLg52wWnz',
+    SLURM_NODEID: '0',
+    S_COLORS: 'auto',
+    CONDA_DEFAULT_ENV: 'base',
+    DEBUGINFOD_URLS: 'https://debuginfod.centos.org/ ',
+    which_declare: 'declare -f',
+    host: 'dcc-core-11',
+    XDG_DATA_DIRS: '/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_CONF: '/var/spool/slurmd/conf-cache/slurm.conf',
+    PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin',
+    SLURM_JOB_NAME: 'sys/dashboard/sys/bc_codeserver',
+    MODULEPATH: '/opt/apps/modulefiles',
+    _LMFILES_: '/opt/apps/modulefiles/code-server/4.90.2',
+    MAIL: '/var/spool/mail/ajj54',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    SLURM_JOB_GID: '1000000',
+    SLURM_GET_USER_ENV: '1',
+    OLDPWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_JOB_NODELIST: 'dcc-core-11',
+    MODULES_CMD: '/usr/share/Modules/libexec/modulecmd.tcl',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    'BASH_FUNC_find_port%%': '() {  local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n' +
+      '}',
+    'BASH_FUNC_create_passwd%%': "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    'BASH_FUNC_random_number%%': '() {  shuf -i ${1}-${2} -n 1\n}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_wait_until_port_used%%': '() {  local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_port_used%%': '() {  local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      '}',
+    'BASH_FUNC_source_helpers%%': '() {  function random_number () \n' +
+      ' { \n' +
+      ' shuf -i ${1}-${2} -n 1\n' +
+      ' };\n' +
+      ' export -f random_number;\n' +
+      ' function port_used_python () \n' +
+      ' { \n' +
+      ` python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_python3 () \n' +
+      ' { \n' +
+      ` python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_nc () \n' +
+      ' { \n' +
+      ' nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_lsof () \n' +
+      ' { \n' +
+      ' lsof -i :"$2" > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_bash () \n' +
+      ' { \n' +
+      ' local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n' +
+      ' if [ "$bash_supported" == "/dev/tcp/*/*" ]; then\n' +
+      ' ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n' +
+      ' else\n' +
+      ' return 127;\n' +
+      ' fi\n' +
+      ' };\n' +
+      ' function port_used () \n' +
+      ' { \n' +
+      ' local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      ' };\n' +
+      ' export -f port_used;\n' +
+      ' function find_port () \n' +
+      ' { \n' +
+      ' local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f find_port;\n' +
+      ' function wait_until_port_used () \n' +
+      ' { \n' +
+      ' local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f wait_until_port_used;\n' +
+      ' function create_passwd () \n' +
+      ' { \n' +
+      " tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n" +
+      ' };\n' +
+      ' export -f create_passwd\n' +
+      '}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    FAMILY: 'almalinux',
+    LS_COLORS: '',
+    SSI_VERSION: '9.4',
+    PS1: '(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ',
+    _: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_PROXY_URI: 'https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/',
+    BROWSER: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh',
+    PYTHONSTARTUP: '/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/pythonrc.py',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.90.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/tmp/vscode-git-0892b29a11.sock'
+  }
+}
+[13:45:51] Terminal profile not validated fish [ 'fish' ]
+[13:45:51] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-27T17:46:22.115Z] debug 2 active connections
+[2024-08-27T17:46:22.115Z] debug heartbeat
+[2024-08-27T17:47:22.117Z] debug 2 active connections
+[2024-08-27T17:47:22.117Z] debug heartbeat
+[2024-08-27T17:48:22.118Z] debug 2 active connections
+[2024-08-27T17:48:22.118Z] debug heartbeat
+[2024-08-27T17:49:22.120Z] debug 2 active connections
+[2024-08-27T17:49:22.120Z] debug heartbeat
+[2024-08-27T17:50:22.121Z] debug 2 active connections
+[2024-08-27T17:50:22.122Z] debug heartbeat
+[2024-08-27T17:51:22.124Z] debug 2 active connections
+[2024-08-27T17:51:22.125Z] debug heartbeat
+[2024-08-27T17:52:22.127Z] debug 2 active connections
+[2024-08-27T17:52:22.127Z] debug heartbeat
+[2024-08-27T17:53:22.128Z] debug 2 active connections
+[2024-08-27T17:53:22.129Z] debug heartbeat
+[2024-08-27T17:54:22.131Z] debug 2 active connections
+[2024-08-27T17:54:22.131Z] debug heartbeat
+[2024-08-27T17:55:22.135Z] debug 2 active connections
+[2024-08-27T17:55:22.135Z] debug heartbeat
+[2024-08-27T17:56:22.135Z] debug 2 active connections
+[2024-08-27T17:56:22.136Z] debug heartbeat
+[2024-08-27T17:57:22.139Z] debug 2 active connections
+[2024-08-27T17:57:22.139Z] debug heartbeat
+[2024-08-27T17:58:22.142Z] debug 2 active connections
+[2024-08-27T17:58:22.142Z] debug heartbeat
+[2024-08-27T17:59:22.142Z] debug 2 active connections
+[2024-08-27T17:59:22.142Z] debug heartbeat
+[2024-08-27T18:00:22.143Z] debug 2 active connections
+[2024-08-27T18:00:22.144Z] debug heartbeat
+[2024-08-27T18:01:22.144Z] debug 2 active connections
+[2024-08-27T18:01:22.145Z] debug heartbeat
+[2024-08-27T18:02:22.145Z] debug 2 active connections
+[2024-08-27T18:02:22.145Z] debug heartbeat
+[2024-08-27T18:03:22.146Z] debug 2 active connections
+[2024-08-27T18:03:22.147Z] debug heartbeat
+[2024-08-27T18:04:22.148Z] debug 2 active connections
+[2024-08-27T18:04:22.148Z] debug heartbeat
+[2024-08-27T18:05:22.148Z] debug 2 active connections
+[2024-08-27T18:05:22.148Z] debug heartbeat
+[2024-08-27T18:06:22.151Z] debug 2 active connections
+[2024-08-27T18:06:22.151Z] debug heartbeat
+[2024-08-27T18:07:22.151Z] debug 2 active connections
+[2024-08-27T18:07:22.153Z] debug heartbeat
+[2024-08-27T18:08:22.154Z] debug 2 active connections
+[2024-08-27T18:08:22.155Z] debug heartbeat
+[14:09:05] Terminal profile not validated fish [ 'fish' ]
+[14:09:06] Terminal profile not validated pwsh [ 'pwsh' ]
+[14:09:06] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: undefined,
+    executable: '/bin/bash',
+    args: [],
+    cwd: '/hpc/home/ajj54',
+    env: undefined,
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/hpc/home/ajj54',
+  cols: 142,
+  rows: 10,
+  env: {
+    SHELL: '/bin/bash',
+    SLURM_JOB_USER: 'ajj54',
+    SLURM_TASKS_PER_NODE: '1',
+    SLURM_JOB_UID: '1546375',
+    HISTCONTROL: 'ignoreboth',
+    SLURM_EXPORT_ENV: 'NONE',
+    SLURM_TASK_PID: '757233',
+    CONDA_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/conda',
+    _CE_M: '',
+    __MODULES_LMALTNAME: 'code-server/4.90.2&as|code-server/default&as|code-server/latest',
+    SLURM_LOCALID: '0',
+    SLURM_SUBMIT_DIR: '/var/www/ood/apps/sys/dashboard',
+    HOSTNAME: 'dcc-core-11',
+    HISTSIZE: '1000',
+    SLURMD_NODENAME: 'dcc-core-11',
+    SLURM_JOB_START_TIME: '1724780528',
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    SLURM_CLUSTER_NAME: 'dcc',
+    SLURM_JOB_END_TIME: '1724784128',
+    SLURM_CPUS_ON_NODE: '2',
+    SLURM_JOB_CPUS_PER_NODE: '2',
+    SACCT_FORMAT: 'user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    PWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_GTIDS: '0',
+    LOGNAME: 'ajj54',
+    CONDA_PREFIX: '/hpc/group/borsuklab/ajj54/miniconda3',
+    SLURM_JOB_PARTITION: 'common',
+    MODULESHOME: '/usr/share/Modules',
+    MANPATH: ':/opt/puppetlabs/puppet/share/man',
+    SLURM_TRES_PER_TASK: 'cpu=2',
+    SLURM_JOB_NUM_NODES: '1',
+    SLURM_JOBID: '15142852',
+    SLURM_JOB_QOS: 'normal',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    HOME: '/hpc/home/ajj54',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    LANG: 'en_US.UTF-8',
+    port: '13667',
+    SLURM_PROCID: '0',
+    __MODULES_LMCONFLICT: 'code-server/4.90.2&CODE-SERVER',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    TMPDIR: '/tmp',
+    SLURM_CPUS_PER_TASK: '2',
+    SLURM_NTASKS: '1',
+    SLURM_TOPOLOGY_ADDR: 'dcc-core-11',
+    HYDRA_BOOTSTRAP: 'slurm',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    SLURM_MEM_PER_NODE: '2048',
+    _CE_CONDA: '',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    USER: 'ajj54',
+    SLURM_NODELIST: 'dcc-core-11',
+    ENVIRONMENT: 'BATCH',
+    CONDA_SHLVL: '1',
+    MODULES_RUN_QUARANTINE: 'LD_LIBRARY_PATH LD_PRELOAD',
+    LOADEDMODULES: 'code-server/4.90.2',
+    SLURM_JOB_ACCOUNT: 'borsuklab',
+    SLURM_PRIO_PROCESS: '0',
+    SLURM_NPROCS: '1',
+    SHLVL: '2',
+    SLURM_NNODES: '1',
+    SLURM_SUBMIT_HOST: 'dcc-ondemand-01',
+    CONDA_PYTHON_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/python',
+    SLURM_JOB_ID: '15142852',
+    password: 'Qe4shWqiLg52wWnz',
+    SLURM_NODEID: '0',
+    S_COLORS: 'auto',
+    CONDA_DEFAULT_ENV: 'base',
+    DEBUGINFOD_URLS: 'https://debuginfod.centos.org/ ',
+    which_declare: 'declare -f',
+    host: 'dcc-core-11',
+    XDG_DATA_DIRS: '/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_CONF: '/var/spool/slurmd/conf-cache/slurm.conf',
+    PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin',
+    SLURM_JOB_NAME: 'sys/dashboard/sys/bc_codeserver',
+    MODULEPATH: '/opt/apps/modulefiles',
+    _LMFILES_: '/opt/apps/modulefiles/code-server/4.90.2',
+    MAIL: '/var/spool/mail/ajj54',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    SLURM_JOB_GID: '1000000',
+    SLURM_GET_USER_ENV: '1',
+    OLDPWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40',
+    SLURM_JOB_NODELIST: 'dcc-core-11',
+    MODULES_CMD: '/usr/share/Modules/libexec/modulecmd.tcl',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    'BASH_FUNC_find_port%%': '() {  local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n' +
+      '}',
+    'BASH_FUNC_create_passwd%%': "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    'BASH_FUNC_random_number%%': '() {  shuf -i ${1}-${2} -n 1\n}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_wait_until_port_used%%': '() {  local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_port_used%%': '() {  local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      '}',
+    'BASH_FUNC_source_helpers%%': '() {  function random_number () \n' +
+      ' { \n' +
+      ' shuf -i ${1}-${2} -n 1\n' +
+      ' };\n' +
+      ' export -f random_number;\n' +
+      ' function port_used_python () \n' +
+      ' { \n' +
+      ` python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_python3 () \n' +
+      ' { \n' +
+      ` python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_nc () \n' +
+      ' { \n' +
+      ' nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_lsof () \n' +
+      ' { \n' +
+      ' lsof -i :"$2" > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_bash () \n' +
+      ' { \n' +
+      ' local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n' +
+      ' if [ "$bash_supported" == "/dev/tcp/*/*" ]; then\n' +
+      ' ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n' +
+      ' else\n' +
+      ' return 127;\n' +
+      ' fi\n' +
+      ' };\n' +
+      ' function port_used () \n' +
+      ' { \n' +
+      ' local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      ' };\n' +
+      ' export -f port_used;\n' +
+      ' function find_port () \n' +
+      ' { \n' +
+      ' local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f find_port;\n' +
+      ' function wait_until_port_used () \n' +
+      ' { \n' +
+      ' local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f wait_until_port_used;\n' +
+      ' function create_passwd () \n' +
+      ' { \n' +
+      " tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n" +
+      ' };\n' +
+      ' export -f create_passwd\n' +
+      '}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    FAMILY: 'almalinux',
+    LS_COLORS: '',
+    SSI_VERSION: '9.4',
+    PS1: '(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ',
+    _: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_PROXY_URI: 'https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/',
+    BROWSER: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.90.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/tmp/vscode-git-0892b29a11.sock'
+  }
+}
+[2024-08-27T18:09:22.157Z] debug 2 active connections
+[2024-08-27T18:09:22.157Z] debug heartbeat
+[2024-08-27T18:10:22.157Z] debug 2 active connections
+[2024-08-27T18:10:22.157Z] debug heartbeat
+[2024-08-27T18:11:22.160Z] debug 2 active connections
+[2024-08-27T18:11:22.160Z] debug heartbeat
+[2024-08-27T18:12:22.162Z] debug 2 active connections
+[2024-08-27T18:12:22.162Z] debug heartbeat
+[2024-08-27T18:13:22.162Z] debug 2 active connections
+[2024-08-27T18:13:22.162Z] debug heartbeat
+[2024-08-27T18:14:22.165Z] debug 2 active connections
+[2024-08-27T18:14:22.165Z] debug heartbeat
+[2024-08-27T18:15:22.168Z] debug 2 active connections
+[2024-08-27T18:15:22.168Z] debug heartbeat
+[2024-08-27T18:16:22.168Z] debug 2 active connections
+[2024-08-27T18:16:22.169Z] debug heartbeat
+[2024-08-27T18:17:22.171Z] debug 2 active connections
+[2024-08-27T18:17:22.172Z] debug heartbeat
+[2024-08-27T18:18:22.174Z] debug 2 active connections
+[2024-08-27T18:18:22.174Z] debug heartbeat
+[2024-08-27T18:19:22.176Z] debug 1 active connection
+[2024-08-27T18:19:22.176Z] debug heartbeat
+[2024-08-27T18:20:22.179Z] debug 1 active connection
+[2024-08-27T18:20:22.179Z] debug heartbeat
+[2024-08-27T18:21:22.180Z] debug 1 active connection
+[2024-08-27T18:21:22.180Z] debug heartbeat
+[2024-08-27T18:22:22.182Z] debug 1 active connection
+[2024-08-27T18:22:22.182Z] debug heartbeat
+[2024-08-27T18:23:22.185Z] debug 1 active connection
+[2024-08-27T18:23:22.187Z] debug heartbeat
+[2024-08-27T18:24:22.189Z] debug 1 active connection
+[2024-08-27T18:24:22.190Z] debug heartbeat
+[2024-08-27T18:25:22.194Z] debug 1 active connection
+[2024-08-27T18:25:22.194Z] debug heartbeat
+[2024-08-27T18:26:22.195Z] debug 1 active connection
+[2024-08-27T18:26:22.195Z] debug heartbeat
+[2024-08-27T18:27:22.195Z] debug 1 active connection
+[2024-08-27T18:27:22.196Z] debug heartbeat
+[2024-08-27T18:28:22.199Z] debug 1 active connection
+[2024-08-27T18:28:22.199Z] debug heartbeat
+[2024-08-27T18:29:22.201Z] debug 1 active connection
+[2024-08-27T18:29:22.201Z] debug heartbeat
+[14:30:20] [10.183.18.196][e07da17a][ExtensionHostConnection] The client has reconnected.
+[14:30:20] [10.183.18.196][abbc6ab6][ManagementConnection] The client has reconnected.
+[2024-08-27T18:30:22.201Z] debug 2 active connections
+[2024-08-27T18:30:22.201Z] debug heartbeat
+[2024-08-27T18:31:22.204Z] debug 1 active connection
+[2024-08-27T18:31:22.204Z] debug heartbeat
+[2024-08-27T18:32:22.206Z] debug 1 active connection
+[2024-08-27T18:32:22.206Z] debug heartbeat
+[2024-08-27T18:33:22.208Z] debug 1 active connection
+[2024-08-27T18:33:22.208Z] debug heartbeat
+[2024-08-27T18:34:22.210Z] debug 1 active connection
+[2024-08-27T18:34:22.211Z] debug heartbeat
+[2024-08-27T18:35:22.212Z] debug 1 active connection
+[2024-08-27T18:35:22.212Z] debug heartbeat
+[2024-08-27T18:36:22.214Z] debug 1 active connection
+[2024-08-27T18:36:22.214Z] debug heartbeat
+[2024-08-27T18:37:22.216Z] debug 1 active connection
+[2024-08-27T18:37:22.217Z] debug heartbeat
+[2024-08-27T18:38:22.219Z] debug 1 active connection
+[2024-08-27T18:38:22.220Z] debug heartbeat
+[2024-08-27T18:39:22.222Z] debug 1 active connection
+[2024-08-27T18:39:22.223Z] debug heartbeat
+[2024-08-27T18:40:22.225Z] debug 1 active connection
+[2024-08-27T18:40:22.226Z] debug heartbeat
+[2024-08-27T18:41:22.226Z] debug 1 active connection
+[2024-08-27T18:41:22.226Z] debug heartbeat
+[2024-08-27T18:42:22.228Z] debug 1 active connection
+[2024-08-27T18:42:22.229Z] debug heartbeat
+[2024-08-29T10:49:58.189Z] debug child:2816956 initiating handshake
+[2024-08-29T10:49:58.219Z] debug child:2816956 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:57472","auth":"none","password":"<redacted>","config":"/hpc/home/ajj54/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/hpc/home/ajj54/.local/share/code-server/extensions","user-data-dir":"/hpc/home/ajj54/.local/share/code-server","log":"debug","_":["/hpc/home/ajj54"],"session-socket":"/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":57472,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-08-29T10:49:58.219Z] info  code-server 4.90.2 dce1d6e172cc5f935b9732e7dee4b7a992529eda
+[2024-08-29T10:49:58.220Z] info  Using user-data-dir /hpc/home/ajj54/.local/share/code-server
+[2024-08-29T10:49:58.220Z] debug Using extensions-dir /hpc/home/ajj54/.local/share/code-server/extensions
+[2024-08-29T10:49:58.355Z] info  Using config file /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-29T10:49:58.355Z] info  HTTP server listening on http://0.0.0.0:57472/
+[2024-08-29T10:49:58.355Z] info    - Authentication is disabled
+[2024-08-29T10:49:58.355Z] info    - Not serving HTTPS
+[2024-08-29T10:49:58.356Z] info  Session server listening on /hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock
+[2024-08-29T10:50:31.153Z] debug heartbeat
+[06:50:32] 
+
+
+
+
+[06:50:33] Extension host agent started.
+[06:50:33] No uninstalled extensions found.
+[2024-08-29T10:50:33.973Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[06:50:36] [10.183.18.196][4b31cb63][ManagementConnection] New connection established.
+[2024-08-29T10:50:36.829Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[06:50:37] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache')
+[06:50:37] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+[06:50:37] ComputeTargetPlatform: linux-x64
+[2024-08-29T10:50:37.536Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-29T10:50:37.536Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[06:50:37] [10.183.18.196][d0c64529][ExtensionHostConnection] New connection established.
+[06:50:39] [10.183.18.196][d0c64529][ExtensionHostConnection] <2818261> Launched Extension Host Process.
+[06:50:39] Terminal profile not validated fish [ 'fish' ]
+[06:50:39] Terminal profile not validated pwsh [ 'pwsh' ]
+[06:50:39] ComputeTargetPlatform: linux-x64
+[2024-08-29T10:50:42.022Z] debug Adding session to session registry: /tmp/vscode-ipc-988bd95e-767f-4458-b816-d61a64abdfd7.sock
+[06:50:44] Terminal profile not validated fish [ 'fish' ]
+[06:50:44] Terminal profile not validated pwsh [ 'pwsh' ]
+[06:50:44] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: undefined,
+    executable: '/bin/bash',
+    args: undefined,
+    cwd: '/hpc/home/ajj54',
+    env: undefined,
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/hpc/home/ajj54',
+  cols: 80,
+  rows: 30,
+  env: {
+    SHELL: '/bin/bash',
+    SLURM_JOB_USER: 'ajj54',
+    SLURM_TASKS_PER_NODE: '1',
+    SLURM_JOB_UID: '1546375',
+    HISTCONTROL: 'ignoreboth',
+    SLURM_EXPORT_ENV: 'NONE',
+    SLURM_TASK_PID: '2816504',
+    CONDA_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/conda',
+    _CE_M: '',
+    __MODULES_LMALTNAME: 'code-server/4.90.2&as|code-server/default&as|code-server/latest',
+    SLURM_LOCALID: '0',
+    SLURM_SUBMIT_DIR: '/var/www/ood/apps/sys/dashboard',
+    HOSTNAME: 'dcc-core-08',
+    HISTSIZE: '1000',
+    SLURMD_NODENAME: 'dcc-core-08',
+    SLURM_JOB_START_TIME: '1724928578',
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    SLURM_CLUSTER_NAME: 'dcc',
+    SLURM_JOB_END_TIME: '1724932178',
+    SLURM_CPUS_ON_NODE: '2',
+    SLURM_JOB_CPUS_PER_NODE: '2',
+    SACCT_FORMAT: 'user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    PWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/5febb683-3602-4f6c-87c4-892a8d4b2534',
+    SLURM_GTIDS: '0',
+    LOGNAME: 'ajj54',
+    CONDA_PREFIX: '/hpc/group/borsuklab/ajj54/miniconda3',
+    SLURM_JOB_PARTITION: 'common',
+    MODULESHOME: '/usr/share/Modules',
+    MANPATH: ':/opt/puppetlabs/puppet/share/man',
+    SLURM_TRES_PER_TASK: 'cpu=2',
+    SLURM_JOB_NUM_NODES: '1',
+    SLURM_JOBID: '15179672',
+    SLURM_JOB_QOS: 'normal',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    HOME: '/hpc/home/ajj54',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    LANG: 'en_US.UTF-8',
+    port: '57472',
+    SLURM_PROCID: '0',
+    __MODULES_LMCONFLICT: 'code-server/4.90.2&CODE-SERVER',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    TMPDIR: '/tmp',
+    SLURM_CPUS_PER_TASK: '2',
+    SLURM_NTASKS: '1',
+    SLURM_TOPOLOGY_ADDR: 'dcc-core-08',
+    HYDRA_BOOTSTRAP: 'slurm',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    SLURM_MEM_PER_NODE: '2048',
+    _CE_CONDA: '',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    USER: 'ajj54',
+    SLURM_NODELIST: 'dcc-core-08',
+    ENVIRONMENT: 'BATCH',
+    CONDA_SHLVL: '1',
+    MODULES_RUN_QUARANTINE: 'LD_LIBRARY_PATH LD_PRELOAD',
+    LOADEDMODULES: 'code-server/4.90.2',
+    SLURM_JOB_ACCOUNT: 'borsuklab',
+    SLURM_PRIO_PROCESS: '0',
+    SLURM_NPROCS: '1',
+    SHLVL: '2',
+    SLURM_NNODES: '1',
+    SLURM_SUBMIT_HOST: 'dcc-ondemand-01',
+    CONDA_PYTHON_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/python',
+    SLURM_JOB_ID: '15179672',
+    password: 'pWdjN5QHsquGTPtb',
+    SLURM_NODEID: '0',
+    S_COLORS: 'auto',
+    CONDA_DEFAULT_ENV: 'base',
+    DEBUGINFOD_URLS: 'https://debuginfod.centos.org/ ',
+    which_declare: 'declare -f',
+    host: 'dcc-core-08',
+    XDG_DATA_DIRS: '/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_CONF: '/var/spool/slurmd/conf-cache/slurm.conf',
+    PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin',
+    SLURM_JOB_NAME: 'sys/dashboard/sys/bc_codeserver',
+    MODULEPATH: '/opt/apps/modulefiles',
+    _LMFILES_: '/opt/apps/modulefiles/code-server/4.90.2',
+    MAIL: '/var/spool/mail/ajj54',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    SLURM_JOB_GID: '1000000',
+    SLURM_GET_USER_ENV: '1',
+    OLDPWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/5febb683-3602-4f6c-87c4-892a8d4b2534',
+    SLURM_JOB_NODELIST: 'dcc-core-08',
+    MODULES_CMD: '/usr/share/Modules/libexec/modulecmd.tcl',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    'BASH_FUNC_find_port%%': '() {  local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n' +
+      '}',
+    'BASH_FUNC_create_passwd%%': "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    'BASH_FUNC_random_number%%': '() {  shuf -i ${1}-${2} -n 1\n}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_wait_until_port_used%%': '() {  local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_port_used%%': '() {  local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      '}',
+    'BASH_FUNC_source_helpers%%': '() {  function random_number () \n' +
+      ' { \n' +
+      ' shuf -i ${1}-${2} -n 1\n' +
+      ' };\n' +
+      ' export -f random_number;\n' +
+      ' function port_used_python () \n' +
+      ' { \n' +
+      ` python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_python3 () \n' +
+      ' { \n' +
+      ` python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_nc () \n' +
+      ' { \n' +
+      ' nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_lsof () \n' +
+      ' { \n' +
+      ' lsof -i :"$2" > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_bash () \n' +
+      ' { \n' +
+      ' local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n' +
+      ' if [ "$bash_supported" == "/dev/tcp/*/*" ]; then\n' +
+      ' ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n' +
+      ' else\n' +
+      ' return 127;\n' +
+      ' fi\n' +
+      ' };\n' +
+      ' function port_used () \n' +
+      ' { \n' +
+      ' local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      ' };\n' +
+      ' export -f port_used;\n' +
+      ' function find_port () \n' +
+      ' { \n' +
+      ' local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f find_port;\n' +
+      ' function wait_until_port_used () \n' +
+      ' { \n' +
+      ' local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f wait_until_port_used;\n' +
+      ' function create_passwd () \n' +
+      ' { \n' +
+      " tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n" +
+      ' };\n' +
+      ' export -f create_passwd\n' +
+      '}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    FAMILY: 'almalinux',
+    LS_COLORS: '',
+    SSI_VERSION: '9.4',
+    PS1: '(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ',
+    _: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_PROXY_URI: 'https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-08/57472/proxy/{{port}}/',
+    BROWSER: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.90.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/tmp/vscode-git-0892b29a11.sock'
+  }
+}
+[2024-08-29T10:51:31.157Z] debug 2 active connections
+[2024-08-29T10:51:31.158Z] debug heartbeat
+[2024-08-29T10:52:31.160Z] debug 2 active connections
+[2024-08-29T10:52:31.160Z] debug heartbeat
+[2024-08-29T10:53:31.160Z] debug 2 active connections
+[2024-08-29T10:53:31.160Z] debug heartbeat
+[2024-08-29T10:54:31.162Z] debug 2 active connections
+[2024-08-29T10:54:31.162Z] debug heartbeat
+[2024-08-29T10:55:31.163Z] debug 2 active connections
+[2024-08-29T10:55:31.163Z] debug heartbeat
+[2024-08-29T10:56:31.166Z] debug 2 active connections
+[2024-08-29T10:56:31.166Z] debug heartbeat
+[2024-08-29T10:57:31.167Z] debug 2 active connections
+[2024-08-29T10:57:31.167Z] debug heartbeat
+[2024-08-29T10:58:31.174Z] debug 2 active connections
+[2024-08-29T10:58:31.174Z] debug heartbeat
+[2024-08-29T10:59:31.176Z] debug 2 active connections
+[2024-08-29T10:59:31.177Z] debug heartbeat
+[2024-08-29T11:00:31.178Z] debug 2 active connections
+[2024-08-29T11:00:31.179Z] debug heartbeat
+[2024-08-29T11:01:31.180Z] debug 2 active connections
+[2024-08-29T11:01:31.180Z] debug heartbeat
+[2024-08-29T11:02:31.180Z] debug 2 active connections
+[2024-08-29T11:02:31.180Z] debug heartbeat
+[2024-08-29T11:03:31.181Z] debug 2 active connections
+[2024-08-29T11:03:31.182Z] debug heartbeat
+[2024-08-29T11:04:31.182Z] debug 2 active connections
+[2024-08-29T11:04:31.182Z] debug heartbeat
+[2024-08-29T11:05:31.184Z] debug 2 active connections
+[2024-08-29T11:05:31.184Z] debug heartbeat
+[2024-08-29T11:06:31.185Z] debug 2 active connections
+[2024-08-29T11:06:31.185Z] debug heartbeat
+[2024-08-29T11:07:31.185Z] debug 2 active connections
+[2024-08-29T11:07:31.185Z] debug heartbeat
+[2024-08-29T11:08:31.186Z] debug 2 active connections
+[2024-08-29T11:08:31.186Z] debug heartbeat
+[2024-08-29T11:09:31.187Z] debug 2 active connections
+[2024-08-29T11:09:31.187Z] debug heartbeat
+[2024-08-29T11:10:31.190Z] debug 2 active connections
+[2024-08-29T11:10:31.190Z] debug heartbeat
+[2024-08-29T11:11:31.191Z] debug 2 active connections
+[2024-08-29T11:11:31.191Z] debug heartbeat
+[2024-08-29T11:12:31.191Z] debug 2 active connections
+[2024-08-29T11:12:31.191Z] debug heartbeat
+[2024-08-29T11:13:31.192Z] debug 2 active connections
+[2024-08-29T11:13:31.192Z] debug heartbeat
+[2024-08-29T11:14:31.194Z] debug 2 active connections
+[2024-08-29T11:14:31.194Z] debug heartbeat
+[2024-08-29T11:15:31.196Z] debug 2 active connections
+[2024-08-29T11:15:31.196Z] debug heartbeat
+[2024-08-29T11:16:31.196Z] debug 2 active connections
+[2024-08-29T11:16:31.197Z] debug heartbeat
+[2024-08-29T11:17:31.197Z] debug 2 active connections
+[2024-08-29T11:17:31.198Z] debug heartbeat
+[2024-08-29T11:18:31.198Z] debug 2 active connections
+[2024-08-29T11:18:31.198Z] debug heartbeat
+[2024-08-29T11:19:31.200Z] debug 2 active connections
+[2024-08-29T11:19:31.201Z] debug heartbeat
+[2024-08-29T11:20:31.203Z] debug 2 active connections
+[2024-08-29T11:20:31.203Z] debug heartbeat
+[2024-08-29T11:21:31.203Z] debug 2 active connections
+[2024-08-29T11:21:31.204Z] debug heartbeat
+[2024-08-29T11:22:31.205Z] debug 2 active connections
+[2024-08-29T11:22:31.205Z] debug heartbeat
+[2024-08-29T11:23:31.209Z] debug 2 active connections
+[2024-08-29T11:23:31.210Z] debug heartbeat
+[2024-08-29T11:24:31.211Z] debug 2 active connections
+[2024-08-29T11:24:31.211Z] debug heartbeat
+[2024-08-29T11:25:31.211Z] debug 2 active connections
+[07:29:32] Terminal profile not validated fish [ 'fish' ]
+[07:29:32] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-29T11:29:33.300Z] debug heartbeat
+[07:29:33] Terminal process launching on remote agent {
+  shellLaunchConfig: {
+    name: 'Python',
+    executable: '/bin/bash',
+    args: [],
+    cwd: '/hpc/home/ajj54',
+    env: {
+      PYTHONSTARTUP: '/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/pythonrc.py'
+    },
+    useShellEnvironment: true,
+    reconnectionProperties: undefined,
+    type: undefined,
+    isFeatureTerminal: undefined
+  },
+  initialCwd: '/hpc/home/ajj54',
+  cols: 198,
+  rows: 15,
+  env: {
+    SHELL: '/bin/bash',
+    SLURM_JOB_USER: 'ajj54',
+    SLURM_TASKS_PER_NODE: '1',
+    SLURM_JOB_UID: '1546375',
+    HISTCONTROL: 'ignoreboth',
+    SLURM_EXPORT_ENV: 'NONE',
+    SLURM_TASK_PID: '2816504',
+    CONDA_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/conda',
+    _CE_M: '',
+    __MODULES_LMALTNAME: 'code-server/4.90.2&as|code-server/default&as|code-server/latest',
+    SLURM_LOCALID: '0',
+    SLURM_SUBMIT_DIR: '/var/www/ood/apps/sys/dashboard',
+    HOSTNAME: 'dcc-core-08',
+    HISTSIZE: '1000',
+    SLURMD_NODENAME: 'dcc-core-08',
+    SLURM_JOB_START_TIME: '1724928578',
+    HYDRA_LAUNCHER_EXTRA_ARGS: '--external-launcher',
+    SLURM_CLUSTER_NAME: 'dcc',
+    SLURM_JOB_END_TIME: '1724932178',
+    SLURM_CPUS_ON_NODE: '2',
+    SLURM_JOB_CPUS_PER_NODE: '2',
+    SACCT_FORMAT: 'user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110',
+    PRTE_MCA_plm_slurm_args: '--external-launcher',
+    PWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/5febb683-3602-4f6c-87c4-892a8d4b2534',
+    SLURM_GTIDS: '0',
+    LOGNAME: 'ajj54',
+    CONDA_PREFIX: '/hpc/group/borsuklab/ajj54/miniconda3',
+    SLURM_JOB_PARTITION: 'common',
+    MODULESHOME: '/usr/share/Modules',
+    MANPATH: ':/opt/puppetlabs/puppet/share/man',
+    SLURM_TRES_PER_TASK: 'cpu=2',
+    SLURM_JOB_NUM_NODES: '1',
+    SLURM_JOBID: '15179672',
+    SLURM_JOB_QOS: 'normal',
+    I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS: '--external-launcher',
+    HOME: '/hpc/home/ajj54',
+    SSH_ASKPASS: '/usr/libexec/openssh/gnome-ssh-askpass',
+    LANG: 'en_US.UTF-8',
+    port: '57472',
+    SLURM_PROCID: '0',
+    __MODULES_LMCONFLICT: 'code-server/4.90.2&CODE-SERVER',
+    CONDA_PROMPT_MODIFIER: '(base) ',
+    TMPDIR: '/tmp',
+    SLURM_CPUS_PER_TASK: '2',
+    SLURM_NTASKS: '1',
+    SLURM_TOPOLOGY_ADDR: 'dcc-core-08',
+    HYDRA_BOOTSTRAP: 'slurm',
+    SLURM_TOPOLOGY_ADDR_PATTERN: 'node',
+    SLURM_MEM_PER_NODE: '2048',
+    _CE_CONDA: '',
+    LESSOPEN: '||/usr/bin/lesspipe.sh %s',
+    USER: 'ajj54',
+    SLURM_NODELIST: 'dcc-core-08',
+    ENVIRONMENT: 'BATCH',
+    CONDA_SHLVL: '1',
+    MODULES_RUN_QUARANTINE: 'LD_LIBRARY_PATH LD_PRELOAD',
+    LOADEDMODULES: 'code-server/4.90.2',
+    SLURM_JOB_ACCOUNT: 'borsuklab',
+    SLURM_PRIO_PROCESS: '0',
+    SLURM_NPROCS: '1',
+    SHLVL: '2',
+    SLURM_NNODES: '1',
+    SLURM_SUBMIT_HOST: 'dcc-ondemand-01',
+    CONDA_PYTHON_EXE: '/hpc/group/borsuklab/ajj54/miniconda3/bin/python',
+    SLURM_JOB_ID: '15179672',
+    password: 'pWdjN5QHsquGTPtb',
+    SLURM_NODEID: '0',
+    S_COLORS: 'auto',
+    CONDA_DEFAULT_ENV: 'base',
+    DEBUGINFOD_URLS: 'https://debuginfod.centos.org/ ',
+    which_declare: 'declare -f',
+    host: 'dcc-core-08',
+    XDG_DATA_DIRS: '/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share',
+    SLURM_CONF: '/var/spool/slurmd/conf-cache/slurm.conf',
+    PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin',
+    SLURM_JOB_NAME: 'sys/dashboard/sys/bc_codeserver',
+    MODULEPATH: '/opt/apps/modulefiles',
+    _LMFILES_: '/opt/apps/modulefiles/code-server/4.90.2',
+    MAIL: '/var/spool/mail/ajj54',
+    OMPI_MCA_plm_slurm_args: '--external-launcher',
+    SLURM_JOB_GID: '1000000',
+    SLURM_GET_USER_ENV: '1',
+    OLDPWD: '/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/5febb683-3602-4f6c-87c4-892a8d4b2534',
+    SLURM_JOB_NODELIST: 'dcc-core-08',
+    MODULES_CMD: '/usr/share/Modules/libexec/modulecmd.tcl',
+    I_MPI_HYDRA_BOOTSTRAP: 'slurm',
+    'BASH_FUNC_ml%%': '() {  module ml "$@"\n}',
+    'BASH_FUNC_find_port%%': '() {  local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC_which%%': '() {  ( alias;\n' +
+      ' eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n' +
+      '}',
+    'BASH_FUNC_create_passwd%%': "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    'BASH_FUNC_random_number%%': '() {  shuf -i ${1}-${2} -n 1\n}',
+    'BASH_FUNC_module%%': '() {  local _mlredir=0;\n' +
+      ' if [ -n "${MODULES_REDIRECT_OUTPUT+x}" ]; then\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '0' ]; then\n` +
+      ' _mlredir=0;\n' +
+      ' else\n' +
+      ` if [ "$MODULES_REDIRECT_OUTPUT" = '1' ]; then\n` +
+      ' _mlredir=1;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' case " $@ " in \n' +
+      " *' --no-redirect '*)\n" +
+      ' _mlredir=0\n' +
+      ' ;;\n' +
+      " *' --redirect '*)\n" +
+      ' _mlredir=1\n' +
+      ' ;;\n' +
+      ' esac;\n' +
+      ' if [ $_mlredir -eq 0 ]; then\n' +
+      ' _module_raw "$@";\n' +
+      ' else\n' +
+      ' _module_raw "$@" 2>&1;\n' +
+      ' fi\n' +
+      '}',
+    'BASH_FUNC_wait_until_port_used%%': '() {  local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      '}',
+    'BASH_FUNC__module_raw%%': `() {  eval "$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash "$@")";\n` +
+      ' _mlstatus=$?;\n' +
+      ' return $_mlstatus\n' +
+      '}',
+    'BASH_FUNC_port_used%%': '() {  local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      '}',
+    'BASH_FUNC_source_helpers%%': '() {  function random_number () \n' +
+      ' { \n' +
+      ' shuf -i ${1}-${2} -n 1\n' +
+      ' };\n' +
+      ' export -f random_number;\n' +
+      ' function port_used_python () \n' +
+      ' { \n' +
+      ` python -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_python3 () \n' +
+      ' { \n' +
+      ` python3 -c "import socket; socket.socket().connect(('$1',$2))" > /dev/null 2>&1\n` +
+      ' };\n' +
+      ' function port_used_nc () \n' +
+      ' { \n' +
+      ' nc -w 2 "$1" "$2" < /dev/null > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_lsof () \n' +
+      ' { \n' +
+      ' lsof -i :"$2" > /dev/null 2>&1\n' +
+      ' };\n' +
+      ' function port_used_bash () \n' +
+      ' { \n' +
+      ' local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n' +
+      ' if [ "$bash_supported" == "/dev/tcp/*/*" ]; then\n' +
+      ' ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n' +
+      ' else\n' +
+      ' return 127;\n' +
+      ' fi\n' +
+      ' };\n' +
+      ' function port_used () \n' +
+      ' { \n' +
+      ' local port="${1#*:}";\n' +
+      ' local host=$((expr "${1}" : \'\\(.*\\):\' || echo "localhost") | awk \'END{print $NF}\');\n' +
+      ' local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n' +
+      ' for strategy in ${port_strategies[@]};\n' +
+      ' do\n' +
+      ' $strategy $host $port;\n' +
+      ' status=$?;\n' +
+      ' if [[ "$status" == "0" ]] || [[ "$status" == "1" ]]; then\n' +
+      ' return $status;\n' +
+      ' fi;\n' +
+      ' done;\n' +
+      ' return 127\n' +
+      ' };\n' +
+      ' export -f port_used;\n' +
+      ' function find_port () \n' +
+      ' { \n' +
+      ' local host="${1:-localhost}";\n' +
+      ' local min_port=${2:-2000};\n' +
+      ' local max_port=${3:-65535};\n' +
+      ' local port_range=($(shuf -i ${min_port}-${max_port}));\n' +
+      ' local retries=1;\n' +
+      ' for ((attempt=0; attempt<=$retries; attempt++))\n' +
+      ' do\n' +
+      ' for port in "${port_range[@]}";\n' +
+      ' do\n' +
+      ' if port_used "${host}:${port}"; then\n' +
+      ' continue;\n' +
+      ' fi;\n' +
+      ' echo "${port}";\n' +
+      ' return 0;\n' +
+      ' done;\n' +
+      ' done;\n' +
+      ' echo "error: failed to find available port in range ${min_port}..${max_port}" 1>&2;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f find_port;\n' +
+      ' function wait_until_port_used () \n' +
+      ' { \n' +
+      ' local port="${1}";\n' +
+      ' local time="${2:-30}";\n' +
+      ' for ((i=1; i<=time*2; i++))\n' +
+      ' do\n' +
+      ' port_used "${port}";\n' +
+      ' port_status=$?;\n' +
+      ' if [ "$port_status" == "0" ]; then\n' +
+      ' return 0;\n' +
+      ' else\n' +
+      ' if [ "$port_status" == "127" ]; then\n' +
+      ' echo "commands to find port were either not found or inaccessible.";\n' +
+      ` echo "command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.";\n` +
+      ' return 127;\n' +
+      ' fi;\n' +
+      ' fi;\n' +
+      ' sleep 0.5;\n' +
+      ' done;\n' +
+      ' return 1\n' +
+      ' };\n' +
+      ' export -f wait_until_port_used;\n' +
+      ' function create_passwd () \n' +
+      ' { \n' +
+      " tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n" +
+      ' };\n' +
+      ' export -f create_passwd\n' +
+      '}',
+    LOG_LEVEL: 'debug',
+    NODE_EXEC_PATH: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    FAMILY: 'almalinux',
+    LS_COLORS: '',
+    SSI_VERSION: '9.4',
+    PS1: '(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ',
+    _: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_PROXY_URI: 'https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-08/57472/proxy/{{port}}/',
+    BROWSER: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh',
+    PYTHONSTARTUP: '/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/pythonrc.py',
+    TERM_PROGRAM: 'vscode',
+    TERM_PROGRAM_VERSION: '1.90.1',
+    COLORTERM: 'truecolor',
+    GIT_ASKPASS: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass.sh',
+    VSCODE_GIT_ASKPASS_NODE: '/admin/apps/rhel9/code-server-4.90.2/lib/node',
+    VSCODE_GIT_ASKPASS_EXTRA_ARGS: '',
+    VSCODE_GIT_ASKPASS_MAIN: '/admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions/git/dist/askpass-main.js',
+    VSCODE_GIT_IPC_HANDLE: '/tmp/vscode-git-0892b29a11.sock'
+  }
+}
+[2024-08-29T11:30:33.302Z] debug 2 active connections
+[2024-08-29T11:30:33.302Z] debug heartbeat
+[2024-08-29T11:31:33.303Z] debug 2 active connections
+[2024-08-29T11:31:33.303Z] debug heartbeat
+[2024-08-29T11:32:33.306Z] debug 2 active connections
+[2024-08-29T11:32:33.306Z] debug heartbeat

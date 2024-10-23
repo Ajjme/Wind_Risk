@@ -1,0 +1,2 @@
+/hpc/group/borsuklab/ajj54/miniconda3
+/hpc/group/borsuklab/ajj54/miniconda3/envs/crabook

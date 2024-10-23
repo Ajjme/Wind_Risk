@@ -1,0 +1,76 @@
+Script starting...
+Tue Aug 27 01:29:43 PM EDT 2024: Waiting for Code Server to open port 56929...
+Tue Aug 27 01:29:43 PM EDT 2024: Running on compute node :56929
+code-server 4.90.2
+Tue Aug 27 01:29:44 PM EDT 2024: Started code-server
+
+[2024-08-27T17:30:07.481Z] debug parent:753255 spawned child process 754317
+[2024-08-27T17:30:08.442Z] debug child:754317 initiating handshake
+[2024-08-27T17:30:08.448Z] debug parent:753255 got message [38;2;140;140;140m{"message":{"type":"handshake"}}[0m
+[2024-08-27T17:30:08.452Z] debug child:754317 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:56929","auth":"none","password":"<redacted>","config":"/hpc/home/ajj54/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/hpc/home/ajj54/.local/share/code-server/extensions","user-data-dir":"/hpc/home/ajj54/.local/share/code-server","log":"debug","_":["/hpc/home/ajj54"],"session-socket":"/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":56929,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-08-27T17:30:08.454Z] info  code-server 4.90.2 dce1d6e172cc5f935b9732e7dee4b7a992529eda
+[2024-08-27T17:30:08.454Z] info  Using user-data-dir /hpc/home/ajj54/.local/share/code-server
+[2024-08-27T17:30:08.454Z] debug Using extensions-dir /hpc/home/ajj54/.local/share/code-server/extensions
+[2024-08-27T17:30:08.926Z] info  Using config file /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-27T17:30:08.927Z] info  HTTP server listening on http://0.0.0.0:56929/
+[2024-08-27T17:30:08.927Z] info    - Authentication is disabled
+[2024-08-27T17:30:08.927Z] info    - Not serving HTTPS
+[2024-08-27T17:30:08.927Z] info  Session server listening on /hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock
+Tue Aug 27 01:30:08 PM EDT 2024: Discovered code-server listening on port 56929!
+Generating connection YAML file...
+[2024-08-27T17:30:21.499Z] debug heartbeat
+[13:30:23] 
+
+
+
+
+[13:30:25] Extension host agent started.
+[2024-08-27T17:30:25.640Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[13:30:25] No uninstalled extensions found.
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/out/vsda_bg.wasm
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/out/vsda.js
+[13:30:27] [10.183.18.196][be023b14][ManagementConnection] New connection established.
+[2024-08-27T17:30:29.209Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[2024-08-27T17:30:29.584Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-27T17:30:29.584Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[13:30:30] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+[13:30:30] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:30:30] [10.183.18.196][773c05d6][ExtensionHostConnection] New connection established.
+[13:30:30] ComputeTargetPlatform: linux-x64
+[13:30:32] [10.183.18.196][773c05d6][ExtensionHostConnection] <755223> Launched Extension Host Process.
+[13:30:33] Terminal profile not validated fish [ 'fish' ]
+[13:30:33] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-27T17:30:35.391Z] debug Adding session to session registry: /tmp/vscode-ipc-85efb850-b400-4f44-8776-c5e98577ea5a.sock
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/node_modules/vscode-regexp-languagedetection/dist/index.js
+[2024-08-27T17:31:21.502Z] debug 2 active connections
+[2024-08-27T17:31:21.502Z] debug heartbeat
+[2024-08-27T17:32:21.505Z] debug 2 active connections
+[2024-08-27T17:32:21.506Z] debug heartbeat
+[2024-08-27T17:33:21.507Z] debug 2 active connections
+[2024-08-27T17:33:21.507Z] debug heartbeat
+[2024-08-27T17:34:21.507Z] debug 2 active connections
+[2024-08-27T17:34:21.508Z] debug heartbeat
+[2024-08-27T17:35:21.510Z] debug 2 active connections
+[2024-08-27T17:35:21.510Z] debug heartbeat
+[2024-08-27T17:36:21.512Z] debug 2 active connections
+[2024-08-27T17:36:21.513Z] debug heartbeat
+[2024-08-27T17:37:21.514Z] debug 2 active connections
+[2024-08-27T17:37:21.514Z] debug heartbeat
+[2024-08-27T17:38:21.515Z] debug 2 active connections
+[2024-08-27T17:38:21.516Z] debug heartbeat
+[2024-08-27T17:39:21.516Z] debug 2 active connections
+[2024-08-27T17:39:21.517Z] debug heartbeat
+[2024-08-27T17:40:21.518Z] debug 2 active connections
+[2024-08-27T17:40:21.519Z] debug heartbeat
+[2024-08-27T17:41:21.522Z] debug 2 active connections
+[2024-08-27T17:41:21.522Z] debug heartbeat
+[2024-08-27T17:41:34.602Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/out/vsda_bg.wasm
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/out/vsda.js
+[13:41:35] [10.183.18.196][b8158df8][ManagementConnection] New connection established.
+[2024-08-27T17:41:36.427Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-27T17:41:36.428Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[13:41:36] [10.183.18.196][b8158df8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[13:41:36] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+[13:41:36] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+slurmstepd: error: *** JOB 15142513 ON dcc-core-11 CANCELLED AT 2024-08-27T13:41:41 ***

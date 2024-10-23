@@ -1,0 +1,51 @@
+Script starting...
+Fri Aug 23 07:28:56 AM EDT 2024: Waiting for Code Server to open port 48186...
+Fri Aug 23 07:28:56 AM EDT 2024: Running on compute node :48186
+code-server 4.90.2
+Fri Aug 23 07:28:56 AM EDT 2024: Started code-server
+
+[2024-08-23T11:29:25.622Z] info  Wrote default config file to /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-23T11:29:25.655Z] debug parent:1004183 spawned child process 1004513
+[2024-08-23T11:29:26.401Z] debug child:1004513 initiating handshake
+[2024-08-23T11:29:26.433Z] debug parent:1004183 got message [38;2;140;140;140m{"message":{"type":"handshake"}}[0m
+[2024-08-23T11:29:26.439Z] debug child:1004513 got message [38;2;140;140;140m{"message":{"type":"handshake","args":{"bind-addr":"0.0.0.0:48186","auth":"none","password":"<redacted>","config":"/hpc/home/ajj54/.config/code-server/config.yaml","disable-telemetry":true,"extensions-dir":"/hpc/home/ajj54/.local/share/code-server/extensions","user-data-dir":"/hpc/home/ajj54/.local/share/code-server","log":"debug","_":["/hpc/home/ajj54"],"session-socket":"/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock","verbose":false,"host":"0.0.0.0","port":48186,"proxy-domain":[],"usingEnvPassword":true,"usingEnvHashedPassword":false}}}[0m
+[2024-08-23T11:29:26.440Z] info  code-server 4.90.2 dce1d6e172cc5f935b9732e7dee4b7a992529eda
+[2024-08-23T11:29:26.440Z] info  Using user-data-dir /hpc/home/ajj54/.local/share/code-server
+[2024-08-23T11:29:26.440Z] debug Using extensions-dir /hpc/home/ajj54/.local/share/code-server/extensions
+[2024-08-23T11:29:26.760Z] info  Using config file /hpc/home/ajj54/.config/code-server/config.yaml
+[2024-08-23T11:29:26.761Z] info  HTTP server listening on http://0.0.0.0:48186/
+[2024-08-23T11:29:26.761Z] info    - Authentication is disabled
+[2024-08-23T11:29:26.761Z] info    - Not serving HTTPS
+[2024-08-23T11:29:26.761Z] info  Session server listening on /hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock
+Fri Aug 23 07:29:26 AM EDT 2024: Discovered code-server listening on port 48186!
+Generating connection YAML file...
+[2024-08-23T11:29:33.747Z] debug heartbeat
+[07:29:35] 
+
+
+
+
+[07:29:36] Extension host agent started.
+[2024-08-23T11:29:36.593Z] debug redirecting from /? to ./?folder=/hpc/home/ajj54
+[07:29:36] Started initializing default profile extensions in extensions installation folder. file:///hpc/home/ajj54/.local/share/code-server/extensions
+[07:29:36] No uninstalled extensions found.
+[07:29:36] ComputeTargetPlatform: linux-x64
+[07:29:36] Completed initializing default profile extensions in extensions installation folder. file:///hpc/home/ajj54/.local/share/code-server/extensions
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/out/vsda_bg.wasm
+File not found: /admin/apps/rhel9/code-server-4.90.2/lib/vscode/out/vsda.js
+[07:29:38] [10.183.18.196][f800d8d3][ManagementConnection] New connection established.
+[2024-08-23T11:29:39.687Z] debug Making request [38;2;140;140;140m{"uri":"https://api.github.com/repos/coder/code-server/releases/latest"}[0m
+[07:29:39] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+[07:29:39] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache')
+[07:29:39] [10.183.18.196][127dbb7e][ExtensionHostConnection] New connection established.
+[07:29:40] [10.183.18.196][127dbb7e][ExtensionHostConnection] <1004601> Launched Extension Host Process.
+[2024-08-23T11:29:41.416Z] debug got latest version [38;2;140;140;140m{"latest":"4.92.2"}[0m
+[2024-08-23T11:29:41.416Z] debug comparing versions [38;2;140;140;140m{"current":"4.90.2","latest":"4.92.2"}[0m
+[07:29:43] Terminal profile not validated pwsh [ 'pwsh' ]
+[07:29:43] Terminal profile not validated fish [ 'fish' ]
+[2024-08-23T11:29:44.555Z] debug Adding session to session registry: /tmp/vscode-ipc-1a6e5708-4970-456f-bd64-730f7d9c7d6f.sock
+[07:29:49] Terminal profile not validated fish [ 'fish' ]
+[07:29:49] Terminal profile not validated pwsh [ 'pwsh' ]
+[2024-08-23T11:30:33.753Z] debug 2 active connections
+[2024-08-23T11:30:33.753Z] debug heartbeat
+slurmstepd: error: *** JOB 14948989 ON dcc-core-12 CANCELLED AT 2024-08-23T07:30:51 ***

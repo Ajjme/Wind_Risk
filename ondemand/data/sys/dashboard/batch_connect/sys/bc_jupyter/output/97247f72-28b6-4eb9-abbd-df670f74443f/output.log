@@ -1,0 +1,107 @@
+Script starting...
+Waiting for Jupyter Lab server to open port 38390...
+TIMING - Starting wait at: Sat Sep  7 06:39:54 AM EDT 2024
+TIMING - Starting main script at: Sat Sep  7 06:39:54 AM EDT 2024
+Anaconda3 2021.05
+Currently Loaded Modulefiles:
+ 1) Anaconda3/2021.05  
+TIMING - Starting jupyter at: Sat Sep  7 06:39:55 AM EDT 2024
++ jupyter lab --config=/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_jupyter/output/97247f72-28b6-4eb9-abbd-df670f74443f/config.py
+[I 2024-09-07 06:40:00.405 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-09-07 06:40:02.286 ServerApp] nbclassic | extension was successfully linked.
+[W 2024-09-07 06:40:02.468 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-09-07 06:40:02.522 LabApp] JupyterLab extension loaded from /opt/apps/rhel8/Anaconda3-2021.05/lib/python3.8/site-packages/jupyterlab
+[I 2024-09-07 06:40:02.523 LabApp] JupyterLab application directory is /admin/apps/rhel8/Anaconda3-2021.05/share/jupyter/lab
+[I 2024-09-07 06:40:02.533 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-09-07 06:40:02.582 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-09-07 06:40:02.583 ServerApp] Serving notebooks from local directory: /hpc/home/ajj54
+[I 2024-09-07 06:40:02.583 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2024-09-07 06:40:02.583 ServerApp] http://dcc-core-25:38390/node/dcc-core-25/38390/lab
+[I 2024-09-07 06:40:02.583 ServerApp]  or http://127.0.0.1:38390/node/dcc-core-25/38390/lab
+[I 2024-09-07 06:40:02.583 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-09-07 06:40:02.604 ServerApp] No web browser found: could not locate runnable browser.
+Discovered Jupyter Lab server listening on port 38390!
+TIMING - Wait ended at: Sat Sep  7 06:40:02 AM EDT 2024
+Generating connection YAML file...
+[I 2024-09-07 06:41:08.855 ServerApp] 302 POST /node/dcc-core-25/38390/login (10.183.18.196) 4.62ms
+[I 2024-09-07 06:41:09.102 ServerApp] 302 GET /node/dcc-core-25/38390/ (10.183.18.196) 1.25ms
+[W 2024-09-07 06:41:15.453 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-09-07 06:41:17.681 ServerApp] 500 GET /node/dcc-core-25/38390/api/nbconvert?1725705674106 (10.183.18.196): Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[W 2024-09-07 06:41:17.681 ServerApp] Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[E 2024-09-07 06:41:17.682 ServerApp] {
+      "Host": "dcc-core-25:38390",
+      "Sec-Ch-Ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "X-Xsrftoken": "2|3fd49a20|e0c59f0edacda6a26b7fac930994c739|1725705669",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-25/38390/lab?",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-dcc-core-25-38390=\"2|1:0|10:1725705668|26:username-dcc-core-25-38390|44:YmU5YzdkNDVlNDBiNDE3NzkwMzdmZWY1ZTJjMzQ4NmU=|18ad1a6f0d797aa50eba7461b7649a348c2bd90c9facb94a2274f8e6e96cb2a1\"; _xsrf=2|3fd49a20|e0c59f0edacda6a26b7fac930994c739|1725705669; _ga_5R4BP9RPSY=GS1.1.1721934655.1.1.1721935869.0.0.0; _gcl_au=1.1.93754352.1721940098; _rdt_uuid=1721940098878.dabc33fa-484e-4dec-881d-b82df815ed07; _fbp=fb.1.1721940099129.232582454193655244; _hjSessionUser_3209393=eyJpZCI6ImQwYjViNDc1LTMzYjUtNTI3Yy05YTM2LTY2Njg5YjcyNjE2YSIsImNyZWF0ZWQiOjE3MjE5NDAwOTkyNjUsImV4aXN0aW5nIjpmYWxzZX0=; _ga_JDRK8M0914=GS1.1.1721940098.1.0.1721940100.0.0.0; _ga_VP33BWKZP1=GS1.1.1721940098.1.0.1721940100.58.0.0; _ga_FQH8MG1Z9C=GS1.1.1721940097.2.1.1721940122.35.0.0; _ga_T7KHMBY40X=GS1.2.1721940141.1.0.1721940141.0.0.0; _ga_18T0J58HVL=GS1.1.1721940139.1.1.1721940261.0.0.0; _ga_THGXZ7DM6Q=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_2BEJD95ZW1=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_RB5H4BVBQT=GS1.1.1722516832.4.0.1722516832.0.0.0; _ga_HJ9GVFLS08=GS1.1.1722868908.1.1.1722868942.0.0.0; _ga_T34M7MV779=GS1.1.1723046187.2.1.1723046230.0.0.0; _ga_STDXEBPYV0=GS1.1.1723836371.2.0.1723836375.0.0.0; _clck=gppc4e%7C2%7Cfok%7C0%7C1667; _ga_GJFVDNDC6R=GS1.1.1724416384.1.1.1724417971.0.0.0; _ga_CNR00DKCGC=GS1.1.1724419204.2.0.1724419204.0.0.0; fpestid=YuMy8l61xBOxJMmrwPXsLH9IO9nod1WVaCi0H0OGeWzzSbxFT1CVffHq1a5R6XC8f7KKTA; _cc_id=e34c23b3d68f4570548755eef3c55801; _ga=GA1.1.1481303474.1721829798; _ga_7LNNFG7NW2=GS1.1.1724609648.1.1.1724609667.0.0.0; _ga_ZGEZX7R0BR=GS1.1.1724609649.1.1.1724609667.0.0.0; _ga_LH9ENGBHNG=GS1.1.1724610552.3.0.1724610552.0.0.0; _ga_SYW5D2PTM9=GS1.1.1724610561.1.1.1724610927.0.0.0; _ga_3VP6LF1NFL=GS1.1.1724610640.1.1.1724610927.0.0.0; _ga_4KL7HLELGY=GS1.1.1724722840.4.0.1724722840.60.0.0; _ga_79GD7X288Z=GS1.1.1724947241.6.0.1724947241.0.0.0; SAPWP_active=1; _ga_9SLH7QHRC3=GS1.1.1725147211.2.0.1725147211.0.0.0; PS_TokenSite=https://dukehub.duke.edu/psp/CSPRD01_9/?siss-csweb-303-5600-PORTAL-PSJSESSIONID; SignOnDefault=; hpt_institution=DUKEU; ExpirePage=https://dukehub.duke.edu/psp/CSPRD01_9/; PS_LOGINLIST=https://dukehub.duke.edu/CSPRD01; PS_TOKEN=ogAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4Abwg4AC4AMQAwABR8YMvwUFLO6kJw1aQs5Qh/2P+TumIAAAAFAFNkYXRhVnicHYzBCYAwEAQnUXymE8XkEiRvFX8iWogNWpxL7jGz7MK9QN955+TP0y4YM0alsBAZdk4OwsrDxc2mNZKTlMiMcm00MaqblItYWjY565Fp4wdKYAq9; PS_LASTSITE=https://dukehub.duke.edu/psp/CSPRD01_9/; ps_theme=node:SA portal:EMPLOYEE theme_id:DU_PRD_DEFAULT_THEME_FLUID css:DU_PRD_BRAND_CLASSIC_TMPL_860 css_f:DU_PRD_BRAND_FLUID_TMPL_860 accessibility:N macroset:DU_MACROSET_PRD_860 formfactor:3 piamode:2; CSRFCookie=c4443684-5d37-4f86-b063-37144581bc21; PS_TOKENEXPIRE=3_Sep_2024_20:06:32_GMT; _ga_WB1N5CCGML=GS1.1.1725394887.7.0.1725394888.0.0.0; _ga_8PZ75Y3FMV=GS1.1.1725541955.8.0.1725541957.0.0.0; _hp2_props.3001039959=%7B%22Base.appName%22%3A%22Canvas%22%7D; _hp2_id.3001039959=%7B%22userId%22%3A%225230993266289319%22%2C%22pageviewId%22%3A%226232397189763008%22%2C%22sessionId%22%3A%223013790735183091%22%2C%22identity%22%3A%22uu-2-bfb8cec48274feadf5dcba5a8bdcfc3a247717c162275eb6c4327f7892066a12-aSv0eXf2o2liik7LauscbHJllzIjnV1XuSfipj9L%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-User": "ajj54",
+      "X-Forwarded-Escaped-Uri": "%2fnode%2fdcc-core-25%2f38390%2fapi%2fnbconvert%3f1725705674106",
+      "Via": "1.1 dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-For": "76.36.237.156",
+      "X-Forwarded-Host": "dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-Server": "dcc-ondemand-01.oit.duke.edu",
+      "Connection": "close"
+    }
+[E 2024-09-07 06:41:17.682 ServerApp] 500 GET /node/dcc-core-25/38390/api/nbconvert?1725705674106 (10.183.18.196) 42.97ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-25/38390/lab?
+[W 2024-09-07 06:41:17.686 ServerApp] 500 GET /node/dcc-core-25/38390/api/nbconvert?1725705674160 (10.183.18.196): Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[W 2024-09-07 06:41:17.687 ServerApp] Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[E 2024-09-07 06:41:17.688 ServerApp] {
+      "Host": "dcc-core-25:38390",
+      "Sec-Ch-Ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "X-Xsrftoken": "2|3fd49a20|e0c59f0edacda6a26b7fac930994c739|1725705669",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-25/38390/lab?",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-dcc-core-25-38390=\"2|1:0|10:1725705668|26:username-dcc-core-25-38390|44:YmU5YzdkNDVlNDBiNDE3NzkwMzdmZWY1ZTJjMzQ4NmU=|18ad1a6f0d797aa50eba7461b7649a348c2bd90c9facb94a2274f8e6e96cb2a1\"; _xsrf=2|3fd49a20|e0c59f0edacda6a26b7fac930994c739|1725705669; _ga_5R4BP9RPSY=GS1.1.1721934655.1.1.1721935869.0.0.0; _gcl_au=1.1.93754352.1721940098; _rdt_uuid=1721940098878.dabc33fa-484e-4dec-881d-b82df815ed07; _fbp=fb.1.1721940099129.232582454193655244; _hjSessionUser_3209393=eyJpZCI6ImQwYjViNDc1LTMzYjUtNTI3Yy05YTM2LTY2Njg5YjcyNjE2YSIsImNyZWF0ZWQiOjE3MjE5NDAwOTkyNjUsImV4aXN0aW5nIjpmYWxzZX0=; _ga_JDRK8M0914=GS1.1.1721940098.1.0.1721940100.0.0.0; _ga_VP33BWKZP1=GS1.1.1721940098.1.0.1721940100.58.0.0; _ga_FQH8MG1Z9C=GS1.1.1721940097.2.1.1721940122.35.0.0; _ga_T7KHMBY40X=GS1.2.1721940141.1.0.1721940141.0.0.0; _ga_18T0J58HVL=GS1.1.1721940139.1.1.1721940261.0.0.0; _ga_THGXZ7DM6Q=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_2BEJD95ZW1=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_RB5H4BVBQT=GS1.1.1722516832.4.0.1722516832.0.0.0; _ga_HJ9GVFLS08=GS1.1.1722868908.1.1.1722868942.0.0.0; _ga_T34M7MV779=GS1.1.1723046187.2.1.1723046230.0.0.0; _ga_STDXEBPYV0=GS1.1.1723836371.2.0.1723836375.0.0.0; _clck=gppc4e%7C2%7Cfok%7C0%7C1667; _ga_GJFVDNDC6R=GS1.1.1724416384.1.1.1724417971.0.0.0; _ga_CNR00DKCGC=GS1.1.1724419204.2.0.1724419204.0.0.0; fpestid=YuMy8l61xBOxJMmrwPXsLH9IO9nod1WVaCi0H0OGeWzzSbxFT1CVffHq1a5R6XC8f7KKTA; _cc_id=e34c23b3d68f4570548755eef3c55801; _ga=GA1.1.1481303474.1721829798; _ga_7LNNFG7NW2=GS1.1.1724609648.1.1.1724609667.0.0.0; _ga_ZGEZX7R0BR=GS1.1.1724609649.1.1.1724609667.0.0.0; _ga_LH9ENGBHNG=GS1.1.1724610552.3.0.1724610552.0.0.0; _ga_SYW5D2PTM9=GS1.1.1724610561.1.1.1724610927.0.0.0; _ga_3VP6LF1NFL=GS1.1.1724610640.1.1.1724610927.0.0.0; _ga_4KL7HLELGY=GS1.1.1724722840.4.0.1724722840.60.0.0; _ga_79GD7X288Z=GS1.1.1724947241.6.0.1724947241.0.0.0; SAPWP_active=1; _ga_9SLH7QHRC3=GS1.1.1725147211.2.0.1725147211.0.0.0; PS_TokenSite=https://dukehub.duke.edu/psp/CSPRD01_9/?siss-csweb-303-5600-PORTAL-PSJSESSIONID; SignOnDefault=; hpt_institution=DUKEU; ExpirePage=https://dukehub.duke.edu/psp/CSPRD01_9/; PS_LOGINLIST=https://dukehub.duke.edu/CSPRD01; PS_TOKEN=ogAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4Abwg4AC4AMQAwABR8YMvwUFLO6kJw1aQs5Qh/2P+TumIAAAAFAFNkYXRhVnicHYzBCYAwEAQnUXymE8XkEiRvFX8iWogNWpxL7jGz7MK9QN955+TP0y4YM0alsBAZdk4OwsrDxc2mNZKTlMiMcm00MaqblItYWjY565Fp4wdKYAq9; PS_LASTSITE=https://dukehub.duke.edu/psp/CSPRD01_9/; ps_theme=node:SA portal:EMPLOYEE theme_id:DU_PRD_DEFAULT_THEME_FLUID css:DU_PRD_BRAND_CLASSIC_TMPL_860 css_f:DU_PRD_BRAND_FLUID_TMPL_860 accessibility:N macroset:DU_MACROSET_PRD_860 formfactor:3 piamode:2; CSRFCookie=c4443684-5d37-4f86-b063-37144581bc21; PS_TOKENEXPIRE=3_Sep_2024_20:06:32_GMT; _ga_WB1N5CCGML=GS1.1.1725394887.7.0.1725394888.0.0.0; _ga_8PZ75Y3FMV=GS1.1.1725541955.8.0.1725541957.0.0.0; _hp2_props.3001039959=%7B%22Base.appName%22%3A%22Canvas%22%7D; _hp2_id.3001039959=%7B%22userId%22%3A%225230993266289319%22%2C%22pageviewId%22%3A%226232397189763008%22%2C%22sessionId%22%3A%223013790735183091%22%2C%22identity%22%3A%22uu-2-bfb8cec48274feadf5dcba5a8bdcfc3a247717c162275eb6c4327f7892066a12-aSv0eXf2o2liik7LauscbHJllzIjnV1XuSfipj9L%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-User": "ajj54",
+      "X-Forwarded-Escaped-Uri": "%2fnode%2fdcc-core-25%2f38390%2fapi%2fnbconvert%3f1725705674160",
+      "Via": "1.1 dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-For": "76.36.237.156",
+      "X-Forwarded-Host": "dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-Server": "dcc-ondemand-01.oit.duke.edu",
+      "Connection": "close"
+    }
+[E 2024-09-07 06:41:17.688 ServerApp] 500 GET /node/dcc-core-25/38390/api/nbconvert?1725705674160 (10.183.18.196) 47.44ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-25/38390/lab?
+[W 2024-09-07 06:41:31.637 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[W 2024-09-07 06:41:31.933 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-07 06:41:32.564 ServerApp] Kernel started: b4cbfdfc-9216-4377-8b4e-14cd67a20287
+[I 2024-09-07 06:41:33.344 ServerApp] Kernel started: 081f3ccc-e6e1-457a-826c-f40b2426b012
+[I 2024-09-07 06:41:33.393 ServerApp] Kernel started: 68f1e03c-28a1-44c9-8957-e84484fd0bf7
+ERROR 1: PROJ: internal_proj_create_from_database: /hpc/group/borsuklab/ajj54/miniconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.
+ERROR 1: PROJ: internal_proj_create_from_database: /hpc/group/borsuklab/ajj54/miniconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.
+ERROR 1: PROJ: internal_proj_identify: /hpc/group/borsuklab/ajj54/miniconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.
+ERROR 1: PROJ: internal_proj_identify: /hpc/group/borsuklab/ajj54/miniconda3/share/proj/proj.db contains DATABASE.LAYOUT.VERSION.MINOR = 2 whereas a number >= 3 is expected. It comes from another PROJ installation.
+[I 2024-09-07 06:43:32.227 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-07 06:43:32.228 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-07 06:45:32.747 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-07 06:45:32.749 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-07 06:47:04.235 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-07 06:47:04.237 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-07 06:49:34.311 ServerApp] Saving file at /Return_Period_Example.ipynb
+[I 2024-09-07 06:51:35.291 ServerApp] Saving file at /Return_Period_Example.ipynb
+[I 2024-09-07 06:53:36.273 ServerApp] Saving file at /Return_Period_Example.ipynb
+[I 2024-09-07 06:55:37.263 ServerApp] Saving file at /Return_Period_Example.ipynb
+[I 2024-09-07 06:58:52.713 ServerApp] Starting buffering for b4cbfdfc-9216-4377-8b4e-14cd67a20287:31dfa535-594e-4925-aee6-7f81a513b30f
+[I 2024-09-07 06:58:52.716 ServerApp] Starting buffering for 68f1e03c-28a1-44c9-8957-e84484fd0bf7:f7278af8-cd64-44cb-9d61-c96a024ec4ab
+[I 2024-09-07 06:58:52.716 ServerApp] Starting buffering for 081f3ccc-e6e1-457a-826c-f40b2426b012:b9e8d311-f976-44c9-9d6e-0e2520e4243c
+slurmstepd: error: *** JOB 15645912 ON dcc-core-25 CANCELLED AT 2024-09-07T07:39:55 DUE TO TIME LIMIT ***

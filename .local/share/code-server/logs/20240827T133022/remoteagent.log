@@ -1,0 +1,19 @@
+2024-08-27 13:30:25.189 [info] 
+
+
+
+
+2024-08-27 13:30:25.217 [info] Extension host agent started.
+2024-08-27 13:30:25.650 [debug] No uninstalled extensions found.
+2024-08-27 13:30:27.974 [info] [10.183.18.196][be023b14][ManagementConnection] New connection established.
+2024-08-27 13:30:30.122 [debug] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions
+2024-08-27 13:30:30.157 [debug] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+2024-08-27 13:30:30.232 [info] [10.183.18.196][773c05d6][ExtensionHostConnection] New connection established.
+2024-08-27 13:30:30.239 [debug] ComputeTargetPlatform: linux-x64
+2024-08-27 13:30:32.824 [info] [10.183.18.196][773c05d6][ExtensionHostConnection] <755223> Launched Extension Host Process.
+2024-08-27 13:30:33.503 [debug] Terminal profile not validated fish ["fish"]
+2024-08-27 13:30:33.507 [debug] Terminal profile not validated pwsh ["pwsh"]
+2024-08-27 13:41:35.942 [info] [10.183.18.196][b8158df8][ManagementConnection] New connection established.
+2024-08-27 13:41:36.522 [info] [10.183.18.196][b8158df8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-08-27 13:41:36.591 [debug] Using cached extensions scan result file:///hpc/home/ajj54/.local/share/code-server/extensions/extensions.json
+2024-08-27 13:41:36.619 [debug] Using cached extensions scan result file:///admin/apps/rhel9/code-server-4.90.2/lib/vscode/extensions

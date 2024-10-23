@@ -1,0 +1,16 @@
+{
+  "job_name": "sys/dashboard/sys/bc_desktop/dcc",
+  "workdir": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_desktop/dcc/output/f09068d0-c36b-484f-a1d7-bbd186cdfbbe",
+  "output_path": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_desktop/dcc/output/f09068d0-c36b-484f-a1d7-bbd186cdfbbe/output.log",
+  "shell_path": "/bin/bash",
+  "accounting_id": "borsuklab",
+  "wall_time": 3600,
+  "native": [
+    "--mem",
+    "2G",
+    "-c",
+    "2"
+  ],
+  "queue_name": "common",
+  "email_on_started": false
+}

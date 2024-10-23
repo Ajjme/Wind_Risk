@@ -1,0 +1,20 @@
+{
+  "job_name": "sys/dashboard/sys/bc_jupyter",
+  "workdir": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_jupyter/output/98e1667a-be9c-433f-8fa7-101b05c8e067",
+  "output_path": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_jupyter/output/98e1667a-be9c-433f-8fa7-101b05c8e067/output.log",
+  "shell_path": "/bin/bash",
+  "wall_time": 3600,
+  "native": [
+    "--account",
+    "borsuklab",
+    "--nodes",
+    "1",
+    "--ntasks",
+    "1",
+    "--cpus-per-task",
+    "2",
+    "--mem",
+    "2G"
+  ],
+  "queue_name": "common"
+}

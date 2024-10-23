@@ -1,0 +1,19 @@
+2024-08-23 07:29:36.533 [info] 
+
+
+
+
+2024-08-23 07:29:36.551 [info] Extension host agent started.
+2024-08-23 07:29:36.603 [info] Started initializing default profile extensions in extensions installation folder. file:///hpc/home/ajj54/.local/share/code-server/extensions
+2024-08-23 07:29:36.604 [debug] No uninstalled extensions found.
+2024-08-23 07:29:36.610 [debug] ComputeTargetPlatform: linux-x64
+2024-08-23 07:29:36.618 [info] Completed initializing default profile extensions in extensions installation folder. file:///hpc/home/ajj54/.local/share/code-server/extensions
+2024-08-23 07:29:38.878 [info] [10.183.18.196][f800d8d3][ManagementConnection] New connection established.
+2024-08-23 07:29:39.847 [debug] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2024-08-23 07:29:39.848 [debug] Error while reading the extension cache file: /hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache Unable to read file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache' (Error: Unable to resolve nonexistent file '/hpc/home/ajj54/.local/share/code-server/CachedProfilesData/__default__profile__/extensions.user.cache')
+2024-08-23 07:29:39.921 [info] [10.183.18.196][127dbb7e][ExtensionHostConnection] New connection established.
+2024-08-23 07:29:40.377 [info] [10.183.18.196][127dbb7e][ExtensionHostConnection] <1004601> Launched Extension Host Process.
+2024-08-23 07:29:43.103 [debug] Terminal profile not validated pwsh ["pwsh"]
+2024-08-23 07:29:43.106 [debug] Terminal profile not validated fish ["fish"]
+2024-08-23 07:29:49.036 [debug] Terminal profile not validated fish ["fish"]
+2024-08-23 07:29:49.037 [debug] Terminal profile not validated pwsh ["pwsh"]

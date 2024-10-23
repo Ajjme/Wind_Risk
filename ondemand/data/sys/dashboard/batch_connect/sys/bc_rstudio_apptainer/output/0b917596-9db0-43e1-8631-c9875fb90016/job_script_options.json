@@ -1,0 +1,21 @@
+{
+  "job_name": "sys/dashboard/sys/bc_rstudio_apptainer",
+  "workdir": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_rstudio_apptainer/output/0b917596-9db0-43e1-8631-c9875fb90016",
+  "output_path": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_rstudio_apptainer/output/0b917596-9db0-43e1-8631-c9875fb90016/output.log",
+  "shell_path": "/bin/bash",
+  "accounting_id": "borsuklab",
+  "queue_name": "common",
+  "wall_time": 3600,
+  "native": [
+    "--account",
+    "borsuklab",
+    "--nodes",
+    "1",
+    "--ntasks",
+    "1",
+    "--cpus-per-task",
+    "2",
+    "--mem",
+    "2G"
+  ]
+}

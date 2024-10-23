@@ -1,0 +1,1802 @@
+2024-08-27 13:45:32.137 [info] Experiment 'pythonCreateEnvOnPipInstall' is active
+2024-08-27 13:45:32.138 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-08-27 13:45:32.145 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-08-27 13:45:32.146 [info] Experiment 'pythonTestAdapter' is active
+2024-08-27 13:45:32.164 [error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir '/hpc/home/ajj54/.pixi/envs'
+	at Object.readdirSync (node:fs:1515:26)
+	at /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586747
+	at /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586938
+	at Array.map (<anonymous>)
+	at d.initWatchers (/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:586656)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+	at async d.ensureWatchersReady (/hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/out/client/extension.js:2:543067)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/hpc/home/ajj54/.pixi/envs'
+}
+2024-08-27 13:45:32.166 [error] Dir "/hpc/home/ajj54/.pixi/envs" is not watchable (directory does not exist)
+2024-08-27 13:45:32.181 [debug] Start watching file for changes /hpc/home/ajj54/.conda/environments.txt
+2024-08-27 13:45:32.182 [debug] Start watching: /hpc/home/ajj54/.conda with pattern environments.txt using VSCode API
+2024-08-27 13:45:32.198 [debug] Start watching root /hpc/home/ajj54 for globs ["python","*/python","*/bin/python"]
+2024-08-27 13:45:32.199 [debug] Start watching: /hpc/home/ajj54 with pattern python using VSCode API
+2024-08-27 13:45:32.200 [debug] Start watching: /hpc/home/ajj54 with pattern */python using VSCode API
+2024-08-27 13:45:32.201 [debug] Start watching: /hpc/home/ajj54 with pattern */bin/python using VSCode API
+2024-08-27 13:45:32.283 [info] Default formatter is set to null for workspace /hpc/home/ajj54
+2024-08-27 13:45:32.297 [debug] Testing: Setting up watcher for /hpc/home/ajj54
+2024-08-27 13:45:32.298 [info] Starting Environment refresh
+2024-08-27 13:45:32.299 [info] Searching for interpreters in posix paths locator
+2024-08-27 13:45:32.316 [info] Searching for pyenv environments
+2024-08-27 13:45:32.317 [info] Searching for conda environments
+2024-08-27 13:45:32.318 [debug] Searching for conda.
+2024-08-27 13:45:32.320 [info] Searching for global virtual environments
+2024-08-27 13:45:32.320 [info] Searching for custom virtual environments
+2024-08-27 13:45:32.327 [debug] Probing conda binary: conda
+2024-08-27 13:45:32.330 [debug] Getting pixi
+2024-08-27 13:45:32.330 [debug] Probing pixi binary: pixi
+2024-08-27 13:45:32.331 [debug] Searching for custom workspace envs
+2024-08-27 13:45:32.333 [debug] Probing Hatch binary hatch
+2024-08-27 13:45:32.492 [info] pyenv is not installed
+2024-08-27 13:45:32.492 [info] Finished searching for pyenv environments: 190 milliseconds
+2024-08-27 13:45:32.496 [info] Finished searching for custom virtual envs: 193 milliseconds
+2024-08-27 13:45:32.497 [debug] Couldn't locate the state binary.
+2024-08-27 13:45:32.502 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:32.516 [info] > conda info --json
+2024-08-27 13:45:32.519 [debug] Searching for workspace virtual envs in: /hpc/home/ajj54
+2024-08-27 13:45:32.523 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:32.538 [info] > pixi --version
+2024-08-27 13:45:32.541 [error] [Error: spawn pixi ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn pixi',
+  path: 'pixi',
+  spawnargs: [ '--version' ]
+}
+2024-08-27 13:45:32.541 [debug] Failed to find pixi: pixi
+2024-08-27 13:45:32.543 [debug] No pixi binary found
+2024-08-27 13:45:32.544 [debug] Finished searching for Pixi envs
+2024-08-27 13:45:32.549 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:32.562 [info] > hatch env show --json
+2024-08-27 13:45:32.563 [info] cwd: .
+2024-08-27 13:45:32.566 [debug] [Error: spawn hatch ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:286:19)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'spawn hatch',
+  path: 'hatch',
+  spawnargs: [ 'env', 'show', '--json' ]
+}
+2024-08-27 13:45:32.566 [debug] Failed to find Hatch binary hatch
+2024-08-27 13:45:32.568 [debug] No Hatch binary found
+2024-08-27 13:45:32.569 [debug] Finished searching for Hatch envs
+2024-08-27 13:45:32.571 [debug] Finished searching for poetry envs
+2024-08-27 13:45:32.585 [debug] Attempting to resolve symbolic link: /bin/python
+2024-08-27 13:45:32.595 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:32.606 [info] > pyenv which python
+2024-08-27 13:45:32.606 [info] cwd: .
+2024-08-27 13:45:32.607 [info] Finished searching for global virtual envs: 304 milliseconds
+2024-08-27 13:45:32.629 [debug] [Error: Command failed: pyenv which python
+/bin/sh: line 1: pyenv: command not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:530:35)
+	at maybeClose (node:internal/child_process:1105:16)
+	at Socket.<anonymous> (node:internal/child_process:457:11)
+	at Socket.emit (node:events:518:28)
+	at Pipe.<anonymous> (node:net:337:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'pyenv which python'
+}
+2024-08-27 13:45:32.656 [info] Found: /bin/python --> /bin/python3.9
+2024-08-27 13:45:32.656 [debug] Attempting to resolve symbolic link: /bin/python3
+2024-08-27 13:45:32.665 [info] Found: /bin/python3 --> /bin/python3.9
+2024-08-27 13:45:32.666 [debug] Attempting to resolve symbolic link: /bin/python3.9
+2024-08-27 13:45:32.673 [info] Found: /bin/python3.9 --> /bin/python3.9
+2024-08-27 13:45:32.743 [debug] Attempting to resolve symbolic link: /usr/bin/python
+2024-08-27 13:45:32.855 [info] Found: /usr/bin/python --> /usr/bin/python3.9
+2024-08-27 13:45:32.856 [debug] Attempting to resolve symbolic link: /usr/bin/python3
+2024-08-27 13:45:32.861 [info] Found: /usr/bin/python3 --> /usr/bin/python3.9
+2024-08-27 13:45:32.861 [debug] Attempting to resolve symbolic link: /usr/bin/python3.9
+2024-08-27 13:45:32.863 [info] Found: /usr/bin/python3.9 --> /usr/bin/python3.9
+2024-08-27 13:45:32.889 [debug] Attempting to resolve symbolic link: /hpc/group/borsuklab/ajj54/miniconda3/bin/python
+2024-08-27 13:45:32.890 [info] Found: /hpc/group/borsuklab/ajj54/miniconda3/bin/python --> /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.12
+2024-08-27 13:45:32.899 [debug] Attempting to resolve symbolic link: /hpc/group/borsuklab/ajj54/miniconda3/bin/python3
+2024-08-27 13:45:32.904 [info] Found: /hpc/group/borsuklab/ajj54/miniconda3/bin/python3 --> /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.12
+2024-08-27 13:45:32.904 [debug] Attempting to resolve symbolic link: /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.1
+2024-08-27 13:45:32.910 [info] Found: /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.1 --> /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.12
+2024-08-27 13:45:32.910 [debug] Attempting to resolve symbolic link: /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.12
+2024-08-27 13:45:32.912 [info] Found: /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.12 --> /hpc/group/borsuklab/ajj54/miniconda3/bin/python3.12
+2024-08-27 13:45:32.922 [debug] Finished searching for workspace virtual envs
+2024-08-27 13:45:32.924 [debug] Found 3 python binaries in posix paths
+2024-08-27 13:45:32.936 [debug] Python API env change detected /bin/python add
+2024-08-27 13:45:32.944 [info] > /bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-27 13:45:32.953 [debug] Python API env change detected /usr/bin/python add
+2024-08-27 13:45:32.959 [info] Finished searching for interpreters in posix paths locator: 659 milliseconds
+2024-08-27 13:45:32.959 [info] > /usr/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-27 13:45:33.046 [debug] Found interpreter for >> /bin/python -I /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py <<: {"versionInfo":[3,9,18,"final",0],"sysPrefix":"/usr","sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]","is64Bit":true}
+2024-08-27 13:45:33.048 [debug] Python API env change detected /bin/python update
+2024-08-27 13:45:33.098 [debug] Found interpreter for >> /usr/bin/python -I /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py <<: {"versionInfo":[3,9,18,"final",0],"sysPrefix":"/usr","sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]","is64Bit":true}
+2024-08-27 13:45:33.100 [debug] Python API env change detected /usr/bin/python update
+2024-08-27 13:45:34.524 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:39.015 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:44.088 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:46.442 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:48.776 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:49.263 [debug] conda info --json: {
+  "GID": 1000000,
+  "UID": 1546375,
+  "active_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "active_prefix_name": "base",
+  "av_data_dir": "/hpc/group/borsuklab/ajj54/miniconda3/etc/conda",
+  "av_metadata_url_base": null,
+  "channels": [
+    "https://repo.anaconda.com/pkgs/main/linux-64",
+    "https://repo.anaconda.com/pkgs/main/noarch",
+    "https://repo.anaconda.com/pkgs/r/linux-64",
+    "https://repo.anaconda.com/pkgs/r/noarch"
+  ],
+  "conda_build_version": "not installed",
+  "conda_env_version": "24.7.1",
+  "conda_location": "/hpc/group/borsuklab/ajj54/miniconda3/lib/python3.12/site-packages/conda",
+  "conda_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "conda_shlvl": 1,
+  "conda_version": "24.7.1",
+  "config_files": [],
+  "default_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "env_vars": {
+    "CIO_TEST": "<not set>",
+    "CONDA_DEFAULT_ENV": "base",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "CONDA_ROOT": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "CONDA_SHLVL": "1",
+    "CURL_CA_BUNDLE": "<not set>",
+    "LD_PRELOAD": "<not set>",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin",
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUNBUFFERED": "1",
+    "REQUESTS_CA_BUNDLE": "<not set>",
+    "SSL_CERT_FILE": "<not set>",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules"
+  },
+  "envs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3"
+  ],
+  "envs_dirs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3/envs",
+    "/hpc/home/ajj54/.conda/envs"
+  ],
+  "netrc_file": null,
+  "offline": false,
+  "pkgs_dirs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3/pkgs",
+    "/hpc/home/ajj54/.conda/pkgs"
+  ],
+  "platform": "linux-64",
+  "python_version": "3.12.4.final.0",
+  "rc_path": "/hpc/home/ajj54/.condarc",
+  "requests_version": "2.32.3",
+  "root_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "root_writable": true,
+  "site_dirs": [],
+  "solver": {
+    "default": true,
+    "name": "libmamba",
+    "user_agent": "solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8"
+  },
+  "sys.executable": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+  "sys.prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "sys.version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]",
+  "sys_rc_path": "/hpc/group/borsuklab/ajj54/miniconda3/.condarc",
+  "user_agent": "conda/24.7.1 requests/2.32.3 CPython/3.12.4 Linux/5.14.0-427.18.1.el9_4.x86_64 almalinux/9.4 glibc/2.34 solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8 aau/0.4.4 c/K_ecGZYvcj1xnmXSbI_Jxg s/ubrEeHh7RJZ_58FtHCoCRg e/BY-93ji1Ct8vL9aTmg1ZeQ",
+  "user_rc_path": "/hpc/home/ajj54/.condarc",
+  "virtual_pkgs": [
+    [
+      "__archspec",
+      "1",
+      "skylake_avx512"
+    ],
+    [
+      "__conda",
+      "24.7.1",
+      "0"
+    ],
+    [
+      "__glibc",
+      "2.34",
+      "0"
+    ],
+    [
+      "__linux",
+      "5.14.0",
+      "0"
+    ],
+    [
+      "__unix",
+      "0",
+      "0"
+    ]
+  ]
+}
+
+2024-08-27 13:45:49.263 [debug] Found conda via filesystem probing: conda
+2024-08-27 13:45:49.264 [debug] Searching for conda environments using conda
+2024-08-27 13:45:49.273 [debug] Looking into conda env for executable: {"prefix":"/hpc/group/borsuklab/ajj54/miniconda3","name":"base"}
+2024-08-27 13:45:49.274 [debug] Found executable within conda env {"prefix":"/hpc/group/borsuklab/ajj54/miniconda3","name":"base"}
+2024-08-27 13:45:49.275 [debug] Found conda executable: /hpc/group/borsuklab/ajj54/miniconda3/bin/python
+2024-08-27 13:45:49.313 [debug] Python API env change detected /hpc/group/borsuklab/ajj54/miniconda3/bin/python add
+2024-08-27 13:45:49.320 [info] Finished searching for conda environments: 17012 milliseconds
+2024-08-27 13:45:49.321 [info] > /hpc/group/borsuklab/ajj54/miniconda3/bin/python -I ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py ./.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py
+2024-08-27 13:45:49.323 [info] Environments refresh paths discovered (event): 17030 milliseconds
+2024-08-27 13:45:49.323 [debug] Finished with environment reducer
+2024-08-27 13:45:49.323 [info] Environments refresh paths discovered: 17030 milliseconds
+2024-08-27 13:45:49.325 [debug] Python API env change detected /hpc/group/borsuklab/ajj54/miniconda3/bin/python update
+2024-08-27 13:45:49.415 [debug] Found interpreter for >> /hpc/group/borsuklab/ajj54/miniconda3/bin/python -I /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/get_output_via_markers.py /hpc/home/ajj54/.local/share/code-server/extensions/ms-python.python-2024.12.3-universal/python_files/interpreterInfo.py <<: {"versionInfo":[3,12,4,"final",0],"sysPrefix":"/hpc/group/borsuklab/ajj54/miniconda3","sysVersion":"3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]","is64Bit":true}
+2024-08-27 13:45:49.417 [debug] Python API env change detected /hpc/group/borsuklab/ajj54/miniconda3/bin/python update
+2024-08-27 13:45:49.422 [debug] Python API env change detected /hpc/group/borsuklab/ajj54/miniconda3/bin/python update
+2024-08-27 13:45:49.422 [info] Environments refresh finished (event): 17124 milliseconds
+2024-08-27 13:45:49.423 [debug] Finished with environment resolver
+2024-08-27 13:45:49.426 [debug] Environments added to cache [{"name":"","location":"","kind":"global-other","executable":{"filename":"/bin/python","sysPrefix":"/usr","ctime":1719518707571,"mtime":1712121854000},"display":"Python 3.9.18 64-bit","version":{"major":3,"minor":9,"micro":18,"release":{"level":"final","serial":0},"sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]"},"arch":3,"distro":{"org":""},"source":["path env var"],"id":"/bin/python","detailedDisplayName":"Python 3.9.18 64-bit"},{"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python","sysPrefix":"/usr","ctime":1719518707571,"mtime":1712121854000},"display":"Python 3.9.18 64-bit","version":{"major":3,"minor":9,"micro":18,"release":{"level":"final","serial":0},"sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]"},"arch":3,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python","detailedDisplayName":"Python 3.9.18 64-bit"},{"name":"base","location":"/hpc/group/borsuklab/ajj54/miniconda3","kind":"virt-conda","executable":{"filename":"/hpc/group/borsuklab/ajj54/miniconda3/bin/python","sysPrefix":"/hpc/group/borsuklab/ajj54/miniconda3","ctime":1724779080825,"mtime":1724779080825},"display":"Python 3.12.4 ('base')","version":{"major":3,"minor":12,"micro":4,"release":{"level":"final","serial":0},"sysVersion":"3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]"},"arch":3,"distro":{"org":"Anaconda, Inc."},"source":["path env var"],"type":"Conda","id":"/hpc/group/borsuklab/ajj54/miniconda3/bin/python","detailedDisplayName":"Python 3.12.4 ('base': conda)"}]
+2024-08-27 13:45:49.440 [info] Environment refresh took 17147 milliseconds
+2024-08-27 13:45:49.451 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:49.452 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:49.455 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:49.456 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:49.457 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:49.458 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:49.460 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:49.460 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:49.462 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:49.462 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:49.464 [debug] Dump environment variables {
+    "SHELL": "/bin/bash",
+    "SLURM_JOB_USER": "ajj54",
+    "SLURM_TASKS_PER_NODE": "1",
+    "SLURM_JOB_UID": "1546375",
+    "HISTCONTROL": "ignoreboth",
+    "SLURM_EXPORT_ENV": "NONE",
+    "SLURM_TASK_PID": "757233",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "_CE_M": "",
+    "__MODULES_LMALTNAME": "code-server/4.90.2&as|code-server/default&as|code-server/latest",
+    "SLURM_LOCALID": "0",
+    "SLURM_SUBMIT_DIR": "/var/www/ood/apps/sys/dashboard",
+    "HOSTNAME": "dcc-core-11",
+    "HISTSIZE": "1000",
+    "SLURMD_NODENAME": "dcc-core-11",
+    "SLURM_JOB_START_TIME": "1724780528",
+    "HYDRA_LAUNCHER_EXTRA_ARGS": "--external-launcher",
+    "SLURM_CLUSTER_NAME": "dcc",
+    "SLURM_JOB_END_TIME": "1724784128",
+    "SLURM_CPUS_ON_NODE": "2",
+    "SLURM_JOB_CPUS_PER_NODE": "2",
+    "SACCT_FORMAT": "user%8,JobID%16,state%12,partition%15,start,elapsed%10,nodelist%20,MaxRss%10,ReqMem%6,NCPUS%4,ExitCode,Workdir%110",
+    "PRTE_MCA_plm_slurm_args": "--external-launcher",
+    "PWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_GTIDS": "0",
+    "LOGNAME": "ajj54",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "SLURM_JOB_PARTITION": "common",
+    "MODULESHOME": "/usr/share/Modules",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "SLURM_TRES_PER_TASK": "cpu=2",
+    "SLURM_JOB_NUM_NODES": "1",
+    "SLURM_JOBID": "15142852",
+    "SLURM_JOB_QOS": "normal",
+    "I_MPI_HYDRA_BOOTSTRAP_EXEC_EXTRA_ARGS": "--external-launcher",
+    "HOME": "/hpc/home/ajj54",
+    "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass",
+    "LANG": "en_US.UTF-8",
+    "port": "13667",
+    "SLURM_PROCID": "0",
+    "__MODULES_LMCONFLICT": "code-server/4.90.2&CODE-SERVER",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "TMPDIR": "/tmp",
+    "SLURM_CPUS_PER_TASK": "2",
+    "SLURM_NTASKS": "1",
+    "SLURM_TOPOLOGY_ADDR": "dcc-core-11",
+    "HYDRA_BOOTSTRAP": "slurm",
+    "SLURM_TOPOLOGY_ADDR_PATTERN": "node",
+    "SLURM_MEM_PER_NODE": "2048",
+    "_CE_CONDA": "",
+    "LESSOPEN": "||/usr/bin/lesspipe.sh %s",
+    "USER": "ajj54",
+    "SLURM_NODELIST": "dcc-core-11",
+    "ENVIRONMENT": "BATCH",
+    "CONDA_SHLVL": "1",
+    "MODULES_RUN_QUARANTINE": "LD_LIBRARY_PATH LD_PRELOAD",
+    "LOADEDMODULES": "code-server/4.90.2",
+    "SLURM_JOB_ACCOUNT": "borsuklab",
+    "SLURM_PRIO_PROCESS": "0",
+    "SLURM_NPROCS": "1",
+    "SHLVL": "2",
+    "SLURM_NNODES": "1",
+    "SLURM_SUBMIT_HOST": "dcc-ondemand-01",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "SLURM_JOB_ID": "15142852",
+    "password": "Qe4shWqiLg52wWnz",
+    "SLURM_NODEID": "0",
+    "S_COLORS": "auto",
+    "CONDA_DEFAULT_ENV": "base",
+    "DEBUGINFOD_URLS": "https://debuginfod.centos.org/ ",
+    "which_declare": "declare -f",
+    "host": "dcc-core-11",
+    "XDG_DATA_DIRS": "/hpc/home/ajj54/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share",
+    "SLURM_CONF": "/var/spool/slurmd/conf-cache/slurm.conf",
+    "SLURM_JOB_NAME": "sys/dashboard/sys/bc_codeserver",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "_LMFILES_": "/opt/apps/modulefiles/code-server/4.90.2",
+    "MAIL": "/var/spool/mail/ajj54",
+    "OMPI_MCA_plm_slurm_args": "--external-launcher",
+    "SLURM_JOB_GID": "1000000",
+    "SLURM_GET_USER_ENV": "1",
+    "OLDPWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "SLURM_JOB_NODELIST": "dcc-core-11",
+    "MODULES_CMD": "/usr/share/Modules/libexec/modulecmd.tcl",
+    "I_MPI_HYDRA_BOOTSTRAP": "slurm",
+    "BASH_FUNC_ml%%": "() {  module ml \"$@\"\n}",
+    "BASH_FUNC_find_port%%": "() {  local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n}",
+    "BASH_FUNC_which%%": "() {  ( alias;\n eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@\n}",
+    "BASH_FUNC_create_passwd%%": "() {  tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n}",
+    "BASH_FUNC_random_number%%": "() {  shuf -i ${1}-${2} -n 1\n}",
+    "BASH_FUNC_module%%": "() {  local _mlredir=0;\n if [ -n \"${MODULES_REDIRECT_OUTPUT+x}\" ]; then\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '0' ]; then\n _mlredir=0;\n else\n if [ \"$MODULES_REDIRECT_OUTPUT\" = '1' ]; then\n _mlredir=1;\n fi;\n fi;\n fi;\n case \" $@ \" in \n *' --no-redirect '*)\n _mlredir=0\n ;;\n *' --redirect '*)\n _mlredir=1\n ;;\n esac;\n if [ $_mlredir -eq 0 ]; then\n _module_raw \"$@\";\n else\n _module_raw \"$@\" 2>&1;\n fi\n}",
+    "BASH_FUNC_wait_until_port_used%%": "() {  local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n}",
+    "BASH_FUNC__module_raw%%": "() {  eval \"$(/usr/bin/tclsh '/usr/share/Modules/libexec/modulecmd.tcl' bash \"$@\")\";\n _mlstatus=$?;\n return $_mlstatus\n}",
+    "BASH_FUNC_port_used%%": "() {  local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n}",
+    "BASH_FUNC_source_helpers%%": "() {  function random_number () \n { \n shuf -i ${1}-${2} -n 1\n };\n export -f random_number;\n function port_used_python () \n { \n python -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_python3 () \n { \n python3 -c \"import socket; socket.socket().connect(('$1',$2))\" > /dev/null 2>&1\n };\n function port_used_nc () \n { \n nc -w 2 \"$1\" \"$2\" < /dev/null > /dev/null 2>&1\n };\n function port_used_lsof () \n { \n lsof -i :\"$2\" > /dev/null 2>&1\n };\n function port_used_bash () \n { \n local bash_supported=$(strings /bin/bash 2>/dev/null | grep tcp);\n if [ \"$bash_supported\" == \"/dev/tcp/*/*\" ]; then\n ( : < /dev/tcp/$1/$2 ) > /dev/null 2>&1;\n else\n return 127;\n fi\n };\n function port_used () \n { \n local port=\"${1#*:}\";\n local host=$((expr \"${1}\" : '\\(.*\\):' || echo \"localhost\") | awk 'END{print $NF}');\n local port_strategies=(port_used_nc port_used_lsof port_used_bash port_used_python port_used_python3);\n for strategy in ${port_strategies[@]};\n do\n $strategy $host $port;\n status=$?;\n if [[ \"$status\" == \"0\" ]] || [[ \"$status\" == \"1\" ]]; then\n return $status;\n fi;\n done;\n return 127\n };\n export -f port_used;\n function find_port () \n { \n local host=\"${1:-localhost}\";\n local min_port=${2:-2000};\n local max_port=${3:-65535};\n local port_range=($(shuf -i ${min_port}-${max_port}));\n local retries=1;\n for ((attempt=0; attempt<=$retries; attempt++))\n do\n for port in \"${port_range[@]}\";\n do\n if port_used \"${host}:${port}\"; then\n continue;\n fi;\n echo \"${port}\";\n return 0;\n done;\n done;\n echo \"error: failed to find available port in range ${min_port}..${max_port}\" 1>&2;\n return 1\n };\n export -f find_port;\n function wait_until_port_used () \n { \n local port=\"${1}\";\n local time=\"${2:-30}\";\n for ((i=1; i<=time*2; i++))\n do\n port_used \"${port}\";\n port_status=$?;\n if [ \"$port_status\" == \"0\" ]; then\n return 0;\n else\n if [ \"$port_status\" == \"127\" ]; then\n echo \"commands to find port were either not found or inaccessible.\";\n echo \"command options are lsof, nc, bash's /dev/tcp, or python (or python3) with socket lib.\";\n return 127;\n fi;\n fi;\n sleep 0.5;\n done;\n return 1\n };\n export -f wait_until_port_used;\n function create_passwd () \n { \n tr -cd 'a-zA-Z0-9' < /dev/urandom 2> /dev/null | head -c${1:-8}\n };\n export -f create_passwd\n}",
+    "CODE_SERVER_SESSION_SOCKET": "/hpc/home/ajj54/.local/share/code-server/code-server-ipc.sock",
+    "LOG_LEVEL": "debug",
+    "CODE_SERVER_PARENT_PID": "757300",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules",
+    "VSCODE_CWD": "/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_codeserver/output/173470ae-3880-4ba8-a4af-e9d73be5fb40",
+    "FAMILY": "almalinux",
+    "LS_COLORS": "",
+    "SSI_VERSION": "9.4",
+    "PS1": "(base) \\[\\e[32m\\]\\u@\\h  \\[\\e[34;1m\\]\\w $\\[\\e[0m\\] ",
+    "_": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "VSCODE_AMD_ENTRYPOINT": "vs/workbench/api/node/extensionHostProcess",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"en\",\"osLocale\":\"en\",\"availableLanguages\":{}}",
+    "VSCODE_PROXY_URI": "https://dcc-ondemand-01.oit.duke.edu/rnode/dcc-core-11/13667/proxy/{{port}}/",
+    "BROWSER": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/helpers/browser.sh",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_IPC_HOOK_CLI": "/tmp/vscode-ipc-6e48a1e6-7a61-4b8c-87b7-6efe85d3ec51.sock",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin"
+}
+2024-08-27 13:45:49.464 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:49.469 [debug] Needed to validate /bin/python with latest info
+2024-08-27 13:45:49.470 [info] Python interpreter path: /bin/python
+2024-08-27 13:45:49.472 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.473 [debug] Needed to validate /bin/python with latest info
+2024-08-27 13:45:49.473 [debug] Needed to validate /bin/python with latest info
+2024-08-27 13:45:49.476 [debug] Needed to validate /bin/python with latest info
+2024-08-27 13:45:49.478 [debug] Needed to validate /bin/python with latest info
+2024-08-27 13:45:49.480 [debug] Needed to validate /bin/python with latest info
+2024-08-27 13:45:49.491 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.491 [debug] Selected python for [/hpc/home/ajj54] is [global] type: /bin/python
+2024-08-27 13:45:49.492 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:45:49.494 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:45:49.496 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:45:49.498 [debug] Extension unknown accessed getActiveEnvironmentPath with args: undefined
+2024-08-27 13:45:49.499 [debug] Extension unknown accessed resolveEnvironment with args: {"id":"/bin/python","path":"/bin/python"}
+2024-08-27 13:45:49.522 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.525 [debug] Terminal shell path '/bin/bash' identified as shell 'bash'
+2024-08-27 13:45:49.525 [debug] Shell identified as bash 
+2024-08-27 13:45:49.525 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.527 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:49.529 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.529 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:49.531 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.532 [debug] Terminal shell path '/bin/bash' identified as shell 'bash'
+2024-08-27 13:45:49.533 [debug] Shell identified as bash 
+2024-08-27 13:45:49.556 [debug] Did we determine shell integration to be working for bash ? true
+2024-08-27 13:45:49.557 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.571 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.627 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.627 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:49.636 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.636 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:49.714 [debug] Found cached env for /bin/python
+2024-08-27 13:45:49.716 [warning] could not find a pixi interpreter for the interpreter at /bin/python
+2024-08-27 13:45:50.021 [debug] Activation Commands received undefined for shell /bin/bash, resource /hpc/home/ajj54 and interpreter /bin/python
+2024-08-27 13:45:50.022 [debug] Activated environment variables for /hpc/home/ajj54 undefined
+2024-08-27 13:45:50.640 [debug] Found requirement files: /hpc/home/ajj54
+2024-08-27 13:45:50.640 [info] CreateEnv Trigger - Skipping for /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:45:50.881 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:50.999 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:51.088 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:51.127 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:51.177 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:51.212 [debug] Received shell integration sequence for bash
+2024-08-27 13:45:54.350 [info] Starting Jedi language server for ajj54.
+2024-08-27 13:45:54.357 [debug] Found cached env for /bin/python
+2024-08-27 13:45:54.358 [debug] Terminal shell path '/bin/bash' identified as shell 'bash'
+2024-08-27 13:45:54.359 [debug] Shell identified as bash 
+2024-08-27 13:45:54.360 [debug] Found cached env for /bin/python
+2024-08-27 13:46:14.942 [debug] Received shell integration sequence for bash
+2024-08-27 13:46:33.903 [debug] Received shell integration sequence for bash
+2024-08-27 13:51:03.085 [debug] Detected change in file:  /hpc/home/ajj54/.conda/environments.txt initiating a refresh
+2024-08-27 13:51:03.117 [info] Searching for conda environments
+2024-08-27 13:51:03.118 [debug] Searching for custom workspace envs
+2024-08-27 13:51:03.118 [debug] Searching for conda environments using conda
+2024-08-27 13:51:03.127 [info] > conda info --json
+2024-08-27 13:51:03.128 [debug] Finished searching for custom workspace envs
+2024-08-27 13:51:03.128 [debug] Finished searching for Hatch envs
+2024-08-27 13:51:03.128 [debug] Finished searching for Pixi envs
+2024-08-27 13:51:03.129 [debug] Searching for workspace virtual envs in: /hpc/home/ajj54
+2024-08-27 13:51:03.129 [debug] Finished searching for poetry envs
+2024-08-27 13:51:03.567 [debug] Finished searching for workspace virtual envs
+2024-08-27 13:51:04.829 [debug] conda info --json: {
+  "GID": 1000000,
+  "UID": 1546375,
+  "active_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "active_prefix_name": "base",
+  "av_data_dir": "/hpc/group/borsuklab/ajj54/miniconda3/etc/conda",
+  "av_metadata_url_base": null,
+  "channels": [
+    "https://repo.anaconda.com/pkgs/main/linux-64",
+    "https://repo.anaconda.com/pkgs/main/noarch",
+    "https://repo.anaconda.com/pkgs/r/linux-64",
+    "https://repo.anaconda.com/pkgs/r/noarch"
+  ],
+  "conda_build_version": "not installed",
+  "conda_env_version": "24.7.1",
+  "conda_location": "/hpc/group/borsuklab/ajj54/miniconda3/lib/python3.12/site-packages/conda",
+  "conda_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "conda_shlvl": 1,
+  "conda_version": "24.7.1",
+  "config_files": [],
+  "default_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "env_vars": {
+    "CIO_TEST": "<not set>",
+    "CONDA_DEFAULT_ENV": "base",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "CONDA_ROOT": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "CONDA_SHLVL": "1",
+    "CURL_CA_BUNDLE": "<not set>",
+    "LD_PRELOAD": "<not set>",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin",
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUNBUFFERED": "1",
+    "REQUESTS_CA_BUNDLE": "<not set>",
+    "SSL_CERT_FILE": "<not set>",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules"
+  },
+  "envs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3"
+  ],
+  "envs_dirs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3/envs",
+    "/hpc/home/ajj54/.conda/envs"
+  ],
+  "netrc_file": null,
+  "offline": false,
+  "pkgs_dirs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3/pkgs",
+    "/hpc/home/ajj54/.conda/pkgs"
+  ],
+  "platform": "linux-64",
+  "python_version": "3.12.4.final.0",
+  "rc_path": "/hpc/home/ajj54/.condarc",
+  "requests_version": "2.32.3",
+  "root_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "root_writable": true,
+  "site_dirs": [],
+  "solver": {
+    "default": true,
+    "name": "libmamba",
+    "user_agent": "solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8"
+  },
+  "sys.executable": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+  "sys.prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "sys.version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]",
+  "sys_rc_path": "/hpc/group/borsuklab/ajj54/miniconda3/.condarc",
+  "user_agent": "conda/24.7.1 requests/2.32.3 CPython/3.12.4 Linux/5.14.0-427.18.1.el9_4.x86_64 almalinux/9.4 glibc/2.34 solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8 aau/0.4.4 c/K_ecGZYvcj1xnmXSbI_Jxg s/3JsFsptNDdHBO8A4MYNIhw e/BY-93ji1Ct8vL9aTmg1ZeQ",
+  "user_rc_path": "/hpc/home/ajj54/.condarc",
+  "virtual_pkgs": [
+    [
+      "__archspec",
+      "1",
+      "skylake_avx512"
+    ],
+    [
+      "__conda",
+      "24.7.1",
+      "0"
+    ],
+    [
+      "__glibc",
+      "2.34",
+      "0"
+    ],
+    [
+      "__linux",
+      "5.14.0",
+      "0"
+    ],
+    [
+      "__unix",
+      "0",
+      "0"
+    ]
+  ]
+}
+
+2024-08-27 13:51:04.829 [debug] Looking into conda env for executable: {"prefix":"/hpc/group/borsuklab/ajj54/miniconda3","name":"base"}
+2024-08-27 13:51:04.829 [debug] Found executable within conda env {"prefix":"/hpc/group/borsuklab/ajj54/miniconda3","name":"base"}
+2024-08-27 13:51:04.829 [debug] Found conda executable: /hpc/group/borsuklab/ajj54/miniconda3/bin/python
+2024-08-27 13:51:04.829 [info] Finished searching for conda environments: 1712 milliseconds
+2024-08-27 13:51:04.832 [info] Environments refresh finished (event): 1747 milliseconds
+2024-08-27 13:51:04.837 [debug] Finished with environment resolver
+2024-08-27 13:51:04.837 [debug] Finished with environment reducer
+2024-08-27 13:51:04.837 [info] Environments refresh paths discovered: 1752 milliseconds
+2024-08-27 13:51:04.839 [debug] Python API env change detected /bin/python update
+2024-08-27 13:51:04.842 [debug] Python API env change detected /hpc/group/borsuklab/ajj54/miniconda3/bin/python update
+2024-08-27 13:51:04.847 [debug] Environments added to cache [{"name":"","location":"","kind":"global-other","executable":{"filename":"/bin/python","sysPrefix":"/usr","ctime":1719518707571,"mtime":1712121854000},"display":"Python 3.9.18 64-bit","version":{"major":3,"minor":9,"micro":18,"release":{"level":"final","serial":0},"sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]"},"arch":3,"distro":{"org":""},"source":[],"id":"/bin/python","detailedDisplayName":"Python 3.9.18 64-bit"},{"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python","sysPrefix":"/usr","ctime":1719518707571,"mtime":1712121854000},"display":"Python 3.9.18 64-bit","version":{"major":3,"minor":9,"micro":18,"release":{"level":"final","serial":0},"sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]"},"arch":3,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python","detailedDisplayName":"Python 3.9.18 64-bit"},{"name":"base","location":"/hpc/group/borsuklab/ajj54/miniconda3","kind":"virt-conda","executable":{"filename":"/hpc/group/borsuklab/ajj54/miniconda3/bin/python","sysPrefix":"/hpc/group/borsuklab/ajj54/miniconda3","ctime":1724779080825,"mtime":1724779080825},"display":"Python 3.12.4 ('base')","version":{"major":3,"minor":12,"micro":4,"release":{"level":"final","serial":0},"sysVersion":"3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]"},"arch":3,"distro":{"org":"Anaconda, Inc."},"source":[],"type":"Conda","id":"/hpc/group/borsuklab/ajj54/miniconda3/bin/python","detailedDisplayName":"Python 3.12.4 ('base': conda)"}]
+2024-08-27 13:51:04.851 [debug] Found cached env for /bin/python
+2024-08-27 13:52:23.000 [debug] Received shell integration sequence for bash
+2024-08-27 13:54:26.378 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:54:26.628 [debug] Delay Trigger[Refresh Test Data]: triggered=1, called=1
+2024-08-27 13:54:26.628 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:54:27.963 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:54:27.964 [debug] Found cached env for /bin/python
+2024-08-27 13:54:27.969 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:54:27.976 [debug] Found cached env for /bin/python
+2024-08-27 13:54:27.977 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:54:28.049 [debug] Received shell integration sequence for bash
+2024-08-27 13:55:09.027 [debug] Received shell integration sequence for bash
+2024-08-27 13:56:51.088 [debug] Received shell integration sequence for bash
+2024-08-27 13:56:58.750 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:56:58.751 [debug] Found cached env for /bin/python
+2024-08-27 13:56:58.752 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:56:58.759 [debug] Found cached env for /bin/python
+2024-08-27 13:56:58.760 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:56:58.841 [debug] Received shell integration sequence for bash
+2024-08-27 13:57:41.014 [debug] Received shell integration sequence for bash
+2024-08-27 13:58:24.772 [debug] Received shell integration sequence for bash
+2024-08-27 13:59:23.557 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:23.557 [debug] Found cached env for /bin/python
+2024-08-27 13:59:23.559 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:59:23.563 [debug] Found cached env for /bin/python
+2024-08-27 13:59:23.564 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:23.645 [debug] Received shell integration sequence for bash
+2024-08-27 13:59:32.063 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:32.063 [debug] Found cached env for /bin/python
+2024-08-27 13:59:32.065 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:59:32.073 [debug] Found cached env for /bin/python
+2024-08-27 13:59:32.073 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:32.155 [debug] Received shell integration sequence for bash
+2024-08-27 13:59:36.520 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:36.769 [debug] Delay Trigger[Refresh Test Data]: triggered=2, called=2
+2024-08-27 13:59:36.770 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:38.533 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:38.534 [debug] Found cached env for /bin/python
+2024-08-27 13:59:38.535 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:59:38.548 [debug] Found cached env for /bin/python
+2024-08-27 13:59:38.548 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:38.622 [debug] Received shell integration sequence for bash
+2024-08-27 13:59:42.793 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:43.044 [debug] Delay Trigger[Refresh Test Data]: triggered=3, called=3
+2024-08-27 13:59:43.045 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:45.528 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:45.779 [debug] Delay Trigger[Refresh Test Data]: triggered=4, called=4
+2024-08-27 13:59:45.779 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:45.811 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:45.811 [debug] Found cached env for /bin/python
+2024-08-27 13:59:45.813 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 13:59:45.946 [debug] Found cached env for /bin/python
+2024-08-27 13:59:45.946 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 13:59:46.112 [debug] Received shell integration sequence for bash
+2024-08-27 14:00:35.580 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:00:35.831 [debug] Delay Trigger[Refresh Test Data]: triggered=5, called=5
+2024-08-27 14:00:35.831 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:00:56.739 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:00:56.990 [debug] Delay Trigger[Refresh Test Data]: triggered=6, called=6
+2024-08-27 14:00:56.991 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:01:12.213 [debug] Testing: Trigger refresh after saving /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:01:12.463 [debug] Delay Trigger[Refresh Test Data]: triggered=7, called=7
+2024-08-27 14:01:12.463 [info] Discover tests for workspace name: ajj54 - uri: /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:03:13.115 [debug] Detected change in file:  /hpc/home/ajj54/.conda/environments.txt initiating a refresh
+2024-08-27 14:03:13.116 [info] Searching for conda environments
+2024-08-27 14:03:13.119 [debug] Searching for custom workspace envs
+2024-08-27 14:03:13.120 [debug] Searching for conda environments using conda
+2024-08-27 14:03:13.131 [info] > conda info --json
+2024-08-27 14:03:13.132 [debug] Finished searching for custom workspace envs
+2024-08-27 14:03:13.133 [debug] Finished searching for Hatch envs
+2024-08-27 14:03:13.134 [debug] Finished searching for Pixi envs
+2024-08-27 14:03:13.137 [debug] Searching for workspace virtual envs in: /hpc/home/ajj54
+2024-08-27 14:03:13.137 [debug] Finished searching for poetry envs
+2024-08-27 14:03:13.172 [debug] Finished searching for workspace virtual envs
+2024-08-27 14:03:15.000 [debug] conda info --json: {
+  "GID": 1000000,
+  "UID": 1546375,
+  "active_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "active_prefix_name": "base",
+  "av_data_dir": "/hpc/group/borsuklab/ajj54/miniconda3/etc/conda",
+  "av_metadata_url_base": null,
+  "channels": [
+    "https://repo.anaconda.com/pkgs/main/linux-64",
+    "https://repo.anaconda.com/pkgs/main/noarch",
+    "https://repo.anaconda.com/pkgs/r/linux-64",
+    "https://repo.anaconda.com/pkgs/r/noarch"
+  ],
+  "conda_build_version": "not installed",
+  "conda_env_version": "24.7.1",
+  "conda_location": "/hpc/group/borsuklab/ajj54/miniconda3/lib/python3.12/site-packages/conda",
+  "conda_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "conda_shlvl": 1,
+  "conda_version": "24.7.1",
+  "config_files": [],
+  "default_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "env_vars": {
+    "CIO_TEST": "<not set>",
+    "CONDA_DEFAULT_ENV": "base",
+    "CONDA_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/conda",
+    "CONDA_PREFIX": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "CONDA_PROMPT_MODIFIER": "(base) ",
+    "CONDA_PYTHON_EXE": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+    "CONDA_ROOT": "/hpc/group/borsuklab/ajj54/miniconda3",
+    "CONDA_SHLVL": "1",
+    "CURL_CA_BUNDLE": "<not set>",
+    "LD_PRELOAD": "<not set>",
+    "MANPATH": ":/opt/puppetlabs/puppet/share/man",
+    "MODULEPATH": "/opt/apps/modulefiles",
+    "NODE_EXEC_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/node",
+    "PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/bin/remote-cli:/opt/apps/rhel9/code-server-4.90.2/bin:/hpc/group/borsuklab/ajj54/miniconda3/bin:/hpc/group/borsuklab/ajj54/miniconda3/condabin:/hpc/home/ajj54/.local/bin:/hpc/home/ajj54/bin:/usr/share/Modules/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/opt/slurm/bin",
+    "PYTHONIOENCODING": "utf-8",
+    "PYTHONUNBUFFERED": "1",
+    "REQUESTS_CA_BUNDLE": "<not set>",
+    "SSL_CERT_FILE": "<not set>",
+    "VSCODE_INJECT_NODE_MODULE_LOOKUP_PATH": "/admin/apps/rhel9/code-server-4.90.2/lib/vscode/remote/node_modules"
+  },
+  "envs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3"
+  ],
+  "envs_dirs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3/envs",
+    "/hpc/home/ajj54/.conda/envs"
+  ],
+  "netrc_file": null,
+  "offline": false,
+  "pkgs_dirs": [
+    "/hpc/group/borsuklab/ajj54/miniconda3/pkgs",
+    "/hpc/home/ajj54/.conda/pkgs"
+  ],
+  "platform": "linux-64",
+  "python_version": "3.12.4.final.0",
+  "rc_path": "/hpc/home/ajj54/.condarc",
+  "requests_version": "2.32.3",
+  "root_prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "root_writable": true,
+  "site_dirs": [],
+  "solver": {
+    "default": true,
+    "name": "libmamba",
+    "user_agent": "solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8"
+  },
+  "sys.executable": "/hpc/group/borsuklab/ajj54/miniconda3/bin/python",
+  "sys.prefix": "/hpc/group/borsuklab/ajj54/miniconda3",
+  "sys.version": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]",
+  "sys_rc_path": "/hpc/group/borsuklab/ajj54/miniconda3/.condarc",
+  "user_agent": "conda/24.7.1 requests/2.32.3 CPython/3.12.4 Linux/5.14.0-427.18.1.el9_4.x86_64 almalinux/9.4 glibc/2.34 solver/libmamba conda-libmamba-solver/24.7.0 libmambapy/1.5.8 aau/0.4.4 c/K_ecGZYvcj1xnmXSbI_Jxg s/B4H9O6_FMcrOcg27o017HQ e/BY-93ji1Ct8vL9aTmg1ZeQ",
+  "user_rc_path": "/hpc/home/ajj54/.condarc",
+  "virtual_pkgs": [
+    [
+      "__archspec",
+      "1",
+      "skylake_avx512"
+    ],
+    [
+      "__conda",
+      "24.7.1",
+      "0"
+    ],
+    [
+      "__glibc",
+      "2.34",
+      "0"
+    ],
+    [
+      "__linux",
+      "5.14.0",
+      "0"
+    ],
+    [
+      "__unix",
+      "0",
+      "0"
+    ]
+  ]
+}
+
+2024-08-27 14:03:15.001 [debug] Looking into conda env for executable: {"prefix":"/hpc/group/borsuklab/ajj54/miniconda3","name":"base"}
+2024-08-27 14:03:15.020 [debug] Found executable within conda env {"prefix":"/hpc/group/borsuklab/ajj54/miniconda3","name":"base"}
+2024-08-27 14:03:15.021 [debug] Found conda executable: /hpc/group/borsuklab/ajj54/miniconda3/bin/python
+2024-08-27 14:03:15.023 [info] Finished searching for conda environments: 1907 milliseconds
+2024-08-27 14:03:15.034 [info] Environments refresh finished (event): 1919 milliseconds
+2024-08-27 14:03:15.034 [debug] Finished with environment resolver
+2024-08-27 14:03:15.036 [debug] Finished with environment reducer
+2024-08-27 14:03:15.037 [info] Environments refresh paths discovered: 1923 milliseconds
+2024-08-27 14:03:15.040 [debug] Environments added to cache [{"name":"","location":"","kind":"global-other","executable":{"filename":"/bin/python","sysPrefix":"/usr","ctime":1719518707571,"mtime":1712121854000},"display":"Python 3.9.18 64-bit","version":{"major":3,"minor":9,"micro":18,"release":{"level":"final","serial":0},"sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]"},"arch":3,"distro":{"org":""},"source":[],"id":"/bin/python","detailedDisplayName":"Python 3.9.18 64-bit"},{"name":"","location":"","kind":"global-other","executable":{"filename":"/usr/bin/python","sysPrefix":"/usr","ctime":1719518707571,"mtime":1712121854000},"display":"Python 3.9.18 64-bit","version":{"major":3,"minor":9,"micro":18,"release":{"level":"final","serial":0},"sysVersion":"3.9.18 (main, Jan 24 2024, 00:00:00) \n[GCC 11.4.1 20231218 (Red Hat 11.4.1-3)]"},"arch":3,"distro":{"org":""},"source":["path env var"],"id":"/usr/bin/python","detailedDisplayName":"Python 3.9.18 64-bit"},{"name":"base","location":"/hpc/group/borsuklab/ajj54/miniconda3","kind":"virt-conda","executable":{"filename":"/hpc/group/borsuklab/ajj54/miniconda3/bin/python","sysPrefix":"/hpc/group/borsuklab/ajj54/miniconda3","ctime":1724779080825,"mtime":1724779080825},"display":"Python 3.12.4 ('base')","version":{"major":3,"minor":12,"micro":4,"release":{"level":"final","serial":0},"sysVersion":"3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:12:24) [GCC 11.2.0]"},"arch":3,"distro":{"org":"Anaconda, Inc."},"source":[],"type":"Conda","id":"/hpc/group/borsuklab/ajj54/miniconda3/bin/python","detailedDisplayName":"Python 3.12.4 ('base': conda)"}]
+2024-08-27 14:08:41.204 [debug] Received shell integration sequence for bash
+2024-08-27 14:08:47.661 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:08:47.661 [debug] Found cached env for /bin/python
+2024-08-27 14:08:47.662 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 14:08:47.748 [debug] Found cached env for /bin/python
+2024-08-27 14:08:47.748 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:08:57.617 [debug] Found cached env for /bin/python
+2024-08-27 14:09:01.507 [debug] Found cached env for /bin/python
+2024-08-27 14:09:07.197 [debug] Received shell integration sequence for bash
+2024-08-27 14:10:13.444 [debug] Received shell integration sequence for bash
+2024-08-27 14:10:13.493 [debug] Received shell integration sequence for bash
+2024-08-27 14:11:01.222 [debug] Attempting to run Python file /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:11:01.224 [debug] Found cached env for /bin/python
+2024-08-27 14:11:01.324 [debug] CreateEnv Trigger - skipping this because it was already run
+2024-08-27 14:11:01.330 [debug] Found cached env for /bin/python
+2024-08-27 14:11:01.331 [info] Send text to terminal: /bin/python /hpc/home/ajj54/Test/testing.py
+2024-08-27 14:11:01.484 [debug] Received shell integration sequence for bash
+2024-08-27 14:11:39.521 [debug] Found cached env for /bin/python
+2024-08-27 14:11:42.232 [debug] Found cached env for /bin/python
+2024-08-27 14:11:43.710 [debug] Found cached env for /bin/python
+2024-08-27 14:11:51.617 [debug] Found cached env for /bin/python
+2024-08-27 14:12:31.872 [debug] Found cached env for /bin/python
+2024-08-27 14:12:44.780 [debug] Received shell integration sequence for bash
+2024-08-27 14:12:44.780 [debug] Received shell integration sequence for bash
+2024-08-27 14:12:45.557 [debug] Received shell integration sequence for bash
+2024-08-27 14:12:45.557 [debug] Received shell integration sequence for bash
+2024-08-27 14:12:48.371 [debug] Found cached env for /bin/python
+2024-08-27 14:13:07.464 [debug] Received shell integration sequence for bash

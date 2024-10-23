@@ -1,0 +1,288 @@
+2024-08-27 13:45:33.626 [debug] MutationLogger "Persistent process "1" interaction state" set to "None", reason: initialized
+2024-08-27 13:45:34.512 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:34.515 [debug] CommandDetectionCapability#handlePromptStart 0 0
+2024-08-27 13:45:34.518 [debug] CommandDetectionCapability#handleCommandStart 30 0
+2024-08-27 13:45:50.070 [debug] MutationLogger "Persistent process "2" interaction state" set to "None", reason: initialized
+2024-08-27 13:45:50.073 [debug] MutationLogger "Persistent process "2" interaction state" set to "Session", reason: setTitle
+2024-08-27 13:45:50.081 [debug] MutationLogger "Persistent process "3" interaction state" set to "None", reason: initialized
+2024-08-27 13:45:50.089 [debug] MutationLogger "Persistent process "3" interaction state" set to "Session", reason: setTitle
+2024-08-27 13:45:50.860 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:50.860 [debug] CommandDetectionCapability#handlePromptStart 0 1
+2024-08-27 13:45:50.860 [debug] CommandDetectionCapability#handleCommandStart 30 1
+2024-08-27 13:45:50.878 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:45:50.879 [debug] CommandDetectionCapability#handleCommandExecuted 0 2
+2024-08-27 13:45:50.945 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:45:50.985 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:50.986 [debug] CommandDetectionCapability#handlePromptStart 0 3
+2024-08-27 13:45:50.987 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:45:50.992 [debug] CommandDetectionCapability#handleCommandStart 30 3
+2024-08-27 13:45:51.057 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:51.057 [debug] CommandDetectionCapability#handlePromptStart 0 3
+2024-08-27 13:45:51.059 [debug] CommandDetectionCapability#handleCommandStart 30 3
+2024-08-27 13:45:51.067 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:45:51.067 [debug] CommandDetectionCapability#handleCommandExecuted 0 4
+2024-08-27 13:45:51.106 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:45:51.114 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:51.115 [debug] CommandDetectionCapability#handlePromptStart 0 5
+2024-08-27 13:45:51.115 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:45:51.135 [debug] CommandDetectionCapability#handleCommandStart 30 5
+2024-08-27 13:45:51.140 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:45:51.140 [debug] CommandDetectionCapability#handleCommandExecuted 0 6
+2024-08-27 13:45:51.163 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:45:51.163 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:51.163 [debug] CommandDetectionCapability#handlePromptStart 0 7
+2024-08-27 13:45:51.168 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:45:51.168 [debug] CommandDetectionCapability#handleCommandStart 30 7
+2024-08-27 13:45:51.169 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:45:51.170 [debug] CommandDetectionCapability#handleCommandExecuted 0 8
+2024-08-27 13:45:51.198 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:45:51.204 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:45:51.205 [debug] CommandDetectionCapability#handlePromptStart 0 9
+2024-08-27 13:45:51.205 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:45:51.217 [debug] CommandDetectionCapability#handleCommandStart 30 9
+2024-08-27 13:46:14.651 [debug] CommandDetectionCapability#setCommandLine CONDA_DEFAULT_ENV true
+2024-08-27 13:46:14.652 [debug] CommandDetectionCapability#handleCommandExecuted 0 4
+2024-08-27 13:46:14.666 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined CONDA_DEFAULT_ENV [object Object]
+2024-08-27 13:46:14.678 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:46:14.678 [debug] CommandDetectionCapability#handlePromptStart 0 5
+2024-08-27 13:46:14.679 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:46:14.679 [debug] CommandDetectionCapability#handleCommandStart 30 5
+2024-08-27 13:46:33.868 [debug] CommandDetectionCapability#setCommandLine echo $CONDA_DEFAULT_ENV true
+2024-08-27 13:46:33.868 [debug] CommandDetectionCapability#handleCommandExecuted 0 6
+2024-08-27 13:46:33.869 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined echo $CONDA_DEFAULT_ENV [object Object]
+2024-08-27 13:46:33.880 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:46:33.881 [debug] CommandDetectionCapability#handlePromptStart 0 7
+2024-08-27 13:46:33.881 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:46:33.881 [debug] CommandDetectionCapability#handleCommandStart 30 7
+2024-08-27 13:47:20.809 [debug] CommandDetectionCapability#setCommandLine conda install plotly true
+2024-08-27 13:47:20.810 [debug] CommandDetectionCapability#handleCommandExecuted 0 8
+2024-08-27 13:47:22.950 [debug] ChildProcessMonitor: Has child processes changed true
+2024-08-27 13:52:22.958 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined conda install plotly [object Object]
+2024-08-27 13:52:22.959 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 13:52:22.966 [debug] CommandDetectionCapability#handlePromptStart 0 45
+2024-08-27 13:52:23.004 [debug] CommandDetectionCapability#handlePromptStart 7 45
+2024-08-27 13:52:23.007 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:52:23.008 [debug] CommandDetectionCapability#handleCommandStart 30 45
+2024-08-27 13:52:23.008 [debug] CommandDetectionCapability#handleCommandStart 30 45
+2024-08-27 13:52:25.284 [debug] ChildProcessMonitor: Has child processes changed false
+2024-08-27 13:54:27.997 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:54:27.998 [debug] CommandDetectionCapability#handleCommandExecuted 0 46
+2024-08-27 13:54:28.035 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:54:28.043 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B
+2024-08-27 13:54:28.043 [debug] CommandDetectionCapability#handlePromptStart 0 51
+2024-08-27 13:54:28.043 [debug] CommandDetectionCapability#handlePromptStart 7 51
+2024-08-27 13:54:28.043 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:54:28.045 [debug] CommandDetectionCapability#handleCommandStart 30 51
+2024-08-27 13:54:28.046 [debug] CommandDetectionCapability#handleCommandStart 30 51
+2024-08-27 13:54:58.608 [debug] CommandDetectionCapability#setCommandLine conda install plotly true
+2024-08-27 13:54:58.608 [debug] CommandDetectionCapability#handleCommandExecuted 0 52
+2024-08-27 13:55:00.747 [debug] ChildProcessMonitor: Has child processes changed true
+2024-08-27 13:55:08.999 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined conda install plotly [object Object]
+2024-08-27 13:55:09.010 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B
+2024-08-27 13:55:09.010 [debug] CommandDetectionCapability#handlePromptStart 0 60
+2024-08-27 13:55:09.010 [debug] CommandDetectionCapability#handlePromptStart 7 60
+2024-08-27 13:55:09.010 [debug] CommandDetectionCapability#handlePromptStart 7 60
+2024-08-27 13:55:09.011 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:55:09.011 [debug] CommandDetectionCapability#handleCommandStart 30 60
+2024-08-27 13:55:09.011 [debug] CommandDetectionCapability#handleCommandStart 30 60
+2024-08-27 13:55:09.011 [debug] CommandDetectionCapability#handleCommandStart 30 60
+2024-08-27 13:55:14.459 [debug] ChildProcessMonitor: Has child processes changed false
+2024-08-27 13:56:50.628 [debug] CommandDetectionCapability#setCommandLine conda activate base true
+2024-08-27 13:56:50.628 [debug] CommandDetectionCapability#handleCommandExecuted 0 61
+2024-08-27 13:56:51.066 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined conda activate base [object Object]
+2024-08-27 13:56:51.075 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B
+2024-08-27 13:56:51.075 [debug] CommandDetectionCapability#handlePromptStart adjusted commandFinished 61 -> 62
+2024-08-27 13:56:51.076 [debug] CommandDetectionCapability#handlePromptStart 0 62
+2024-08-27 13:56:51.077 [debug] CommandDetectionCapability#handlePromptStart 7 62
+2024-08-27 13:56:51.077 [debug] CommandDetectionCapability#handlePromptStart 7 62
+2024-08-27 13:56:51.077 [debug] CommandDetectionCapability#handlePromptStart 7 62
+2024-08-27 13:56:51.078 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:56:51.080 [debug] CommandDetectionCapability#handleCommandStart 30 61
+2024-08-27 13:56:51.080 [debug] CommandDetectionCapability#handleCommandStart 30 61
+2024-08-27 13:56:51.081 [debug] CommandDetectionCapability#handleCommandStart 30 61
+2024-08-27 13:56:51.082 [debug] CommandDetectionCapability#handleCommandStart 30 61
+2024-08-27 13:56:58.779 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:56:58.779 [debug] CommandDetectionCapability#handleCommandExecuted 0 62
+2024-08-27 13:56:58.812 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:56:58.824 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:56:58.824 [debug] CommandDetectionCapability#handlePromptStart 0 67
+2024-08-27 13:56:58.824 [debug] CommandDetectionCapability#handlePromptStart 7 67
+2024-08-27 13:56:58.824 [debug] CommandDetectionCapability#handlePromptStart 7 67
+2024-08-27 13:56:58.824 [debug] CommandDetectionCapability#handlePromptStart 7 67
+2024-08-27 13:56:58.826 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:56:58.827 [debug] CommandDetectionCapability#handleCommandStart 30 67
+2024-08-27 13:56:58.827 [debug] CommandDetectionCapability#handleCommandStart 30 67
+2024-08-27 13:56:58.827 [debug] CommandDetectionCapability#handleCommandStart 30 67
+2024-08-27 13:56:58.827 [debug] CommandDetectionCapability#handleCommandStart 30 67
+2024-08-27 13:57:40.907 [debug] CommandDetectionCapability#setCommandLine which python true
+2024-08-27 13:57:40.907 [debug] CommandDetectionCapability#handleCommandExecuted 0 68
+2024-08-27 13:57:40.994 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined which python [object Object]
+2024-08-27 13:57:41.001 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:57:41.001 [debug] CommandDetectionCapability#handlePromptStart 0 69
+2024-08-27 13:57:41.001 [debug] CommandDetectionCapability#handlePromptStart 7 69
+2024-08-27 13:57:41.001 [debug] CommandDetectionCapability#handlePromptStart 7 69
+2024-08-27 13:57:41.001 [debug] CommandDetectionCapability#handlePromptStart 7 69
+2024-08-27 13:57:41.002 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:57:41.002 [debug] CommandDetectionCapability#handleCommandStart 30 69
+2024-08-27 13:57:41.002 [debug] CommandDetectionCapability#handleCommandStart 30 69
+2024-08-27 13:57:41.002 [debug] CommandDetectionCapability#handleCommandStart 30 69
+2024-08-27 13:57:41.002 [debug] CommandDetectionCapability#handleCommandStart 30 69
+2024-08-27 13:58:22.819 [debug] CommandDetectionCapability#setCommandLine conda list true
+2024-08-27 13:58:22.819 [debug] CommandDetectionCapability#handleCommandExecuted 0 70
+2024-08-27 13:58:24.737 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined conda list | grep plotly [object Object]
+2024-08-27 13:58:24.751 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handlePromptStart 0 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handlePromptStart 7 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handlePromptStart 7 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handlePromptStart 7 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handleCommandStart 30 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handleCommandStart 30 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handleCommandStart 30 71
+2024-08-27 13:58:24.752 [debug] CommandDetectionCapability#handleCommandStart 30 71
+2024-08-27 13:58:25.001 [debug] ChildProcessMonitor: Has child processes changed true
+2024-08-27 13:58:29.038 [debug] ChildProcessMonitor: Has child processes changed false
+2024-08-27 13:59:23.584 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:59:23.584 [debug] CommandDetectionCapability#handleCommandExecuted 0 72
+2024-08-27 13:59:23.620 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:59:23.630 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handlePromptStart 0 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handlePromptStart 7 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handlePromptStart 7 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handlePromptStart 7 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handleCommandStart 30 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handleCommandStart 30 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handleCommandStart 30 77
+2024-08-27 13:59:23.631 [debug] CommandDetectionCapability#handleCommandStart 30 77
+2024-08-27 13:59:32.091 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:59:32.091 [debug] CommandDetectionCapability#handleCommandExecuted 0 78
+2024-08-27 13:59:32.132 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:59:32.139 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:59:32.139 [debug] CommandDetectionCapability#handlePromptStart 0 83
+2024-08-27 13:59:32.139 [debug] CommandDetectionCapability#handlePromptStart 7 83
+2024-08-27 13:59:32.139 [debug] CommandDetectionCapability#handlePromptStart 7 83
+2024-08-27 13:59:32.139 [debug] CommandDetectionCapability#handlePromptStart 7 83
+2024-08-27 13:59:32.140 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:59:32.140 [debug] CommandDetectionCapability#handleCommandStart 30 83
+2024-08-27 13:59:32.140 [debug] CommandDetectionCapability#handleCommandStart 30 83
+2024-08-27 13:59:32.140 [debug] CommandDetectionCapability#handleCommandStart 30 83
+2024-08-27 13:59:32.140 [debug] CommandDetectionCapability#handleCommandStart 30 83
+2024-08-27 13:59:38.566 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:59:38.566 [debug] CommandDetectionCapability#handleCommandExecuted 0 84
+2024-08-27 13:59:38.599 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:59:38.608 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:59:38.609 [debug] CommandDetectionCapability#handlePromptStart 0 89
+2024-08-27 13:59:38.609 [debug] CommandDetectionCapability#handlePromptStart 7 89
+2024-08-27 13:59:38.609 [debug] CommandDetectionCapability#handlePromptStart 7 89
+2024-08-27 13:59:38.609 [debug] CommandDetectionCapability#handlePromptStart 7 89
+2024-08-27 13:59:38.609 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:59:38.609 [debug] CommandDetectionCapability#handleCommandStart 30 89
+2024-08-27 13:59:38.610 [debug] CommandDetectionCapability#handleCommandStart 30 89
+2024-08-27 13:59:38.610 [debug] CommandDetectionCapability#handleCommandStart 30 89
+2024-08-27 13:59:38.610 [debug] CommandDetectionCapability#handleCommandStart 30 89
+2024-08-27 13:59:45.964 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 13:59:45.964 [debug] CommandDetectionCapability#handleCommandExecuted 0 90
+2024-08-27 13:59:46.007 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 13:59:46.058 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handlePromptStart 0 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handlePromptStart 7 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handlePromptStart 7 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handlePromptStart 7 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handleCommandStart 30 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handleCommandStart 30 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handleCommandStart 30 95
+2024-08-27 13:59:46.099 [debug] CommandDetectionCapability#handleCommandStart 30 95
+2024-08-27 14:00:15.062 [debug] CommandDetectionCapability#setCommandLine conda install -c conda-forge plotly true
+2024-08-27 14:00:15.062 [debug] CommandDetectionCapability#handleCommandExecuted 0 96
+2024-08-27 14:00:17.215 [debug] ChildProcessMonitor: Has child processes changed true
+2024-08-27 14:08:41.193 [debug] CommandDetectionCapability#handlePromptStart 0 9
+2024-08-27 14:08:41.194 [debug] CommandDetectionCapability#handleCommandStart 30 9
+2024-08-27 14:09:06.078 [debug] MutationLogger "Persistent process "4" interaction state" set to "None", reason: initialized
+2024-08-27 14:09:07.136 [debug] CommandDetectionCapability#setPromptTerminator  
+2024-08-27 14:09:07.136 [debug] CommandDetectionCapability#handlePromptStart 0 0
+2024-08-27 14:09:07.136 [debug] CommandDetectionCapability#handleCommandStart 30 0
+2024-08-27 14:10:13.423 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined conda install -c conda-forge plotly [object Object]
+2024-08-27 14:10:13.430 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B
+2024-08-27 14:10:13.430 [debug] CommandDetectionCapability#handlePromptStart 0 105
+2024-08-27 14:10:13.430 [debug] CommandDetectionCapability#handlePromptStart 7 105
+2024-08-27 14:10:13.430 [debug] CommandDetectionCapability#handlePromptStart 7 105
+2024-08-27 14:10:13.430 [debug] CommandDetectionCapability#handlePromptStart 7 105
+2024-08-27 14:10:13.430 [debug] CommandDetectionCapability#handlePromptStart 7 105
+2024-08-27 14:10:13.431 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 14:10:13.431 [debug] CommandDetectionCapability#handleCommandStart 30 105
+2024-08-27 14:10:13.431 [debug] CommandDetectionCapability#handleCommandStart 30 105
+2024-08-27 14:10:13.431 [debug] CommandDetectionCapability#handleCommandStart 30 105
+2024-08-27 14:10:13.431 [debug] CommandDetectionCapability#handleCommandStart 30 105
+2024-08-27 14:10:13.431 [debug] CommandDetectionCapability#handleCommandStart 30 105
+2024-08-27 14:10:13.441 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 14:10:13.441 [debug] CommandDetectionCapability#handleCommandExecuted 0 106
+2024-08-27 14:10:13.466 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B]633;B
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#handlePromptStart 0 109
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 14:10:13.475 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:10:13.476 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:10:13.476 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:10:13.476 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:10:13.476 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:10:15.526 [debug] ChildProcessMonitor: Has child processes changed false
+2024-08-27 14:11:01.350 [debug] CommandDetectionCapability#setCommandLine /bin/python /hpc/home/ajj54/Test/testing.py true
+2024-08-27 14:11:01.350 [debug] CommandDetectionCapability#handleCommandExecuted 0 109
+2024-08-27 14:11:01.460 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined /bin/python /hpc/home/ajj54/Test/testing.py [object Object]
+2024-08-27 14:11:01.469 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B]633;B
+2024-08-27 14:11:01.469 [debug] CommandDetectionCapability#handlePromptStart 0 109
+2024-08-27 14:11:01.469 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:11:01.469 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:11:01.469 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:11:01.469 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:11:01.470 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 14:11:01.471 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:11:01.472 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:11:01.473 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:11:01.474 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:11:01.474 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:44.769 [debug] CommandDetectionCapability#handlePromptStart 0 9
+2024-08-27 14:12:44.769 [debug] CommandDetectionCapability#handleCommandStart 30 9
+2024-08-27 14:12:44.770 [debug] CommandDetectionCapability#handlePromptStart 0 109
+2024-08-27 14:12:44.772 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:44.772 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:44.772 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:44.772 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:44.772 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:44.773 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:44.774 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:44.774 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:44.774 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:45.543 [debug] CommandDetectionCapability#handlePromptStart 0 9
+2024-08-27 14:12:45.543 [debug] CommandDetectionCapability#handleCommandStart 30 9
+2024-08-27 14:12:45.543 [debug] CommandDetectionCapability#handlePromptStart 0 109
+2024-08-27 14:12:45.547 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:45.550 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:45.555 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:45.561 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:12:45.561 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:45.561 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:45.561 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:45.561 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:12:45.561 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:13:07.422 [debug] CommandDetectionCapability#setCommandLine which python true
+2024-08-27 14:13:07.423 [debug] CommandDetectionCapability#handleCommandExecuted 0 109
+2024-08-27 14:13:07.432 [debug] CommandDetectionCapability#handleCommandFinished 0 undefined which python [object Object]
+2024-08-27 14:13:07.443 [debug] CommandDetectionCapability#setPromptTerminator  ]633;B]633;B]633;B]633;B
+2024-08-27 14:13:07.444 [debug] CommandDetectionCapability#handlePromptStart 0 109
+2024-08-27 14:13:07.444 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:13:07.444 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:13:07.444 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:13:07.444 [debug] CommandDetectionCapability#handlePromptStart 7 109
+2024-08-27 14:13:07.444 [debug] CommandDetectionCapability#onCommandFinished [object Object]
+2024-08-27 14:13:07.445 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:13:07.445 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:13:07.445 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:13:07.447 [debug] CommandDetectionCapability#handleCommandStart 30 109
+2024-08-27 14:13:07.447 [debug] CommandDetectionCapability#handleCommandStart 30 109

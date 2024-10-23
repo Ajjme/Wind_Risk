@@ -1,0 +1,191 @@
+Script starting...
+Waiting for Jupyter Lab server to open port 15578...
+TIMING - Starting wait at: Thu Sep  5 07:01:33 PM EDT 2024
+TIMING - Starting main script at: Thu Sep  5 07:01:33 PM EDT 2024
+Anaconda3 2021.05
+Currently Loaded Modulefiles:
+ 1) Anaconda3/2021.05  
+TIMING - Starting jupyter at: Thu Sep  5 07:01:34 PM EDT 2024
++ jupyter lab --config=/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_jupyter/output/06af5dce-c65f-4597-9b0d-cd68d06adeed/config.py
+[I 2024-09-05 19:01:39.444 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-09-05 19:01:44.063 ServerApp] nbclassic | extension was successfully linked.
+[W 2024-09-05 19:01:44.696 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-09-05 19:01:44.891 LabApp] JupyterLab extension loaded from /opt/apps/rhel8/Anaconda3-2021.05/lib/python3.8/site-packages/jupyterlab
+[I 2024-09-05 19:01:44.891 LabApp] JupyterLab application directory is /admin/apps/rhel8/Anaconda3-2021.05/share/jupyter/lab
+[I 2024-09-05 19:01:44.899 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-09-05 19:01:44.926 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-09-05 19:01:44.926 ServerApp] Serving notebooks from local directory: /hpc/home/ajj54
+[I 2024-09-05 19:01:44.926 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2024-09-05 19:01:44.926 ServerApp] http://dcc-core-04:15578/node/dcc-core-04/15578/lab
+[I 2024-09-05 19:01:44.926 ServerApp]  or http://127.0.0.1:15578/node/dcc-core-04/15578/lab
+[I 2024-09-05 19:01:44.926 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-09-05 19:01:45.194 ServerApp] No web browser found: could not locate runnable browser.
+Discovered Jupyter Lab server listening on port 15578!
+TIMING - Wait ended at: Thu Sep  5 07:01:45 PM EDT 2024
+Generating connection YAML file...
+[I 2024-09-05 19:01:59.803 ServerApp] 302 POST /node/dcc-core-04/15578/login (10.183.18.196) 2.62ms
+[I 2024-09-05 19:01:59.850 ServerApp] 302 GET /node/dcc-core-04/15578/ (10.183.18.196) 0.84ms
+[W 2024-09-05 19:02:08.598 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-09-05 19:02:11.478 ServerApp] 500 GET /node/dcc-core-04/15578/api/nbconvert?1725577328383 (10.183.18.196): Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[W 2024-09-05 19:02:11.479 ServerApp] Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[E 2024-09-05 19:02:11.480 ServerApp] {
+      "Host": "dcc-core-04:15578",
+      "Sec-Ch-Ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "X-Xsrftoken": "2|9c979675|612c9cced60f6a4853d18c6ef8e00569|1725577319",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-04/15578/lab/workspaces/auto-q?reset",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-dcc-core-04-15578=\"2|1:0|10:1725577319|26:username-dcc-core-04-15578|44:MzUxNmNhZjM2YzIyNGEyYmIyM2MzZTRiN2I4MWFmMTQ=|75f8046cfebfd965115fa30a9737afc6a1dd6105e2647ee11c901fcafd522aeb\"; _xsrf=2|9c979675|612c9cced60f6a4853d18c6ef8e00569|1725577319; _ga_5R4BP9RPSY=GS1.1.1721934655.1.1.1721935869.0.0.0; _gcl_au=1.1.93754352.1721940098; _rdt_uuid=1721940098878.dabc33fa-484e-4dec-881d-b82df815ed07; _fbp=fb.1.1721940099129.232582454193655244; _hjSessionUser_3209393=eyJpZCI6ImQwYjViNDc1LTMzYjUtNTI3Yy05YTM2LTY2Njg5YjcyNjE2YSIsImNyZWF0ZWQiOjE3MjE5NDAwOTkyNjUsImV4aXN0aW5nIjpmYWxzZX0=; _ga_JDRK8M0914=GS1.1.1721940098.1.0.1721940100.0.0.0; _ga_VP33BWKZP1=GS1.1.1721940098.1.0.1721940100.58.0.0; _ga_FQH8MG1Z9C=GS1.1.1721940097.2.1.1721940122.35.0.0; _ga_T7KHMBY40X=GS1.2.1721940141.1.0.1721940141.0.0.0; _ga_18T0J58HVL=GS1.1.1721940139.1.1.1721940261.0.0.0; _ga_THGXZ7DM6Q=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_2BEJD95ZW1=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_RB5H4BVBQT=GS1.1.1722516832.4.0.1722516832.0.0.0; _ga_HJ9GVFLS08=GS1.1.1722868908.1.1.1722868942.0.0.0; _ga_T34M7MV779=GS1.1.1723046187.2.1.1723046230.0.0.0; _ga_STDXEBPYV0=GS1.1.1723836371.2.0.1723836375.0.0.0; _clck=gppc4e%7C2%7Cfok%7C0%7C1667; _ga_GJFVDNDC6R=GS1.1.1724416384.1.1.1724417971.0.0.0; _ga_CNR00DKCGC=GS1.1.1724419204.2.0.1724419204.0.0.0; fpestid=YuMy8l61xBOxJMmrwPXsLH9IO9nod1WVaCi0H0OGeWzzSbxFT1CVffHq1a5R6XC8f7KKTA; _cc_id=e34c23b3d68f4570548755eef3c55801; _ga=GA1.1.1481303474.1721829798; _ga_7LNNFG7NW2=GS1.1.1724609648.1.1.1724609667.0.0.0; _ga_ZGEZX7R0BR=GS1.1.1724609649.1.1.1724609667.0.0.0; _ga_LH9ENGBHNG=GS1.1.1724610552.3.0.1724610552.0.0.0; _ga_SYW5D2PTM9=GS1.1.1724610561.1.1.1724610927.0.0.0; _ga_3VP6LF1NFL=GS1.1.1724610640.1.1.1724610927.0.0.0; _ga_4KL7HLELGY=GS1.1.1724722840.4.0.1724722840.60.0.0; _ga_79GD7X288Z=GS1.1.1724947241.6.0.1724947241.0.0.0; SAPWP_active=1; _ga_9SLH7QHRC3=GS1.1.1725147211.2.0.1725147211.0.0.0; PS_TokenSite=https://dukehub.duke.edu/psp/CSPRD01_9/?siss-csweb-303-5600-PORTAL-PSJSESSIONID; SignOnDefault=; hpt_institution=DUKEU; ExpirePage=https://dukehub.duke.edu/psp/CSPRD01_9/; PS_LOGINLIST=https://dukehub.duke.edu/CSPRD01; PS_TOKEN=ogAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4Abwg4AC4AMQAwABR8YMvwUFLO6kJw1aQs5Qh/2P+TumIAAAAFAFNkYXRhVnicHYzBCYAwEAQnUXymE8XkEiRvFX8iWogNWpxL7jGz7MK9QN955+TP0y4YM0alsBAZdk4OwsrDxc2mNZKTlMiMcm00MaqblItYWjY565Fp4wdKYAq9; PS_LASTSITE=https://dukehub.duke.edu/psp/CSPRD01_9/; ps_theme=node:SA portal:EMPLOYEE theme_id:DU_PRD_DEFAULT_THEME_FLUID css:DU_PRD_BRAND_CLASSIC_TMPL_860 css_f:DU_PRD_BRAND_FLUID_TMPL_860 accessibility:N macroset:DU_MACROSET_PRD_860 formfactor:3 piamode:2; CSRFCookie=c4443684-5d37-4f86-b063-37144581bc21; PS_TOKENEXPIRE=3_Sep_2024_20:06:32_GMT; _ga_WB1N5CCGML=GS1.1.1725394887.7.0.1725394888.0.0.0; _ga_8PZ75Y3FMV=GS1.1.1725541955.8.0.1725541957.0.0.0; _hp2_props.3001039959=%7B%22Base.appName%22%3A%22Canvas%22%7D; _hp2_id.3001039959=%7B%22userId%22%3A%225230993266289319%22%2C%22pageviewId%22%3A%221584681605313504%22%2C%22sessionId%22%3A%221383141323384901%22%2C%22identity%22%3A%22uu-2-bfb8cec48274feadf5dcba5a8bdcfc3a247717c162275eb6c4327f7892066a12-aSv0eXf2o2liik7LauscbHJllzIjnV1XuSfipj9L%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-User": "ajj54",
+      "X-Forwarded-Escaped-Uri": "%2fnode%2fdcc-core-04%2f15578%2fapi%2fnbconvert%3f1725577328383",
+      "Via": "1.1 dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-For": "76.36.237.156",
+      "X-Forwarded-Host": "dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-Server": "dcc-ondemand-01.oit.duke.edu",
+      "Connection": "close"
+    }
+[E 2024-09-05 19:02:11.480 ServerApp] 500 GET /node/dcc-core-04/15578/api/nbconvert?1725577328383 (10.183.18.196) 47.61ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-04/15578/lab/workspaces/auto-q?reset
+[W 2024-09-05 19:02:11.484 ServerApp] 500 GET /node/dcc-core-04/15578/api/nbconvert?1725577328400 (10.183.18.196): Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[W 2024-09-05 19:02:11.485 ServerApp] Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[E 2024-09-05 19:02:11.485 ServerApp] {
+      "Host": "dcc-core-04:15578",
+      "Sec-Ch-Ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "X-Xsrftoken": "2|9c979675|612c9cced60f6a4853d18c6ef8e00569|1725577319",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-04/15578/lab/workspaces/auto-q?reset",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-dcc-core-04-15578=\"2|1:0|10:1725577319|26:username-dcc-core-04-15578|44:MzUxNmNhZjM2YzIyNGEyYmIyM2MzZTRiN2I4MWFmMTQ=|75f8046cfebfd965115fa30a9737afc6a1dd6105e2647ee11c901fcafd522aeb\"; _xsrf=2|9c979675|612c9cced60f6a4853d18c6ef8e00569|1725577319; _ga_5R4BP9RPSY=GS1.1.1721934655.1.1.1721935869.0.0.0; _gcl_au=1.1.93754352.1721940098; _rdt_uuid=1721940098878.dabc33fa-484e-4dec-881d-b82df815ed07; _fbp=fb.1.1721940099129.232582454193655244; _hjSessionUser_3209393=eyJpZCI6ImQwYjViNDc1LTMzYjUtNTI3Yy05YTM2LTY2Njg5YjcyNjE2YSIsImNyZWF0ZWQiOjE3MjE5NDAwOTkyNjUsImV4aXN0aW5nIjpmYWxzZX0=; _ga_JDRK8M0914=GS1.1.1721940098.1.0.1721940100.0.0.0; _ga_VP33BWKZP1=GS1.1.1721940098.1.0.1721940100.58.0.0; _ga_FQH8MG1Z9C=GS1.1.1721940097.2.1.1721940122.35.0.0; _ga_T7KHMBY40X=GS1.2.1721940141.1.0.1721940141.0.0.0; _ga_18T0J58HVL=GS1.1.1721940139.1.1.1721940261.0.0.0; _ga_THGXZ7DM6Q=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_2BEJD95ZW1=GS1.1.1721946265.3.0.1721946283.0.0.0; _ga_RB5H4BVBQT=GS1.1.1722516832.4.0.1722516832.0.0.0; _ga_HJ9GVFLS08=GS1.1.1722868908.1.1.1722868942.0.0.0; _ga_T34M7MV779=GS1.1.1723046187.2.1.1723046230.0.0.0; _ga_STDXEBPYV0=GS1.1.1723836371.2.0.1723836375.0.0.0; _clck=gppc4e%7C2%7Cfok%7C0%7C1667; _ga_GJFVDNDC6R=GS1.1.1724416384.1.1.1724417971.0.0.0; _ga_CNR00DKCGC=GS1.1.1724419204.2.0.1724419204.0.0.0; fpestid=YuMy8l61xBOxJMmrwPXsLH9IO9nod1WVaCi0H0OGeWzzSbxFT1CVffHq1a5R6XC8f7KKTA; _cc_id=e34c23b3d68f4570548755eef3c55801; _ga=GA1.1.1481303474.1721829798; _ga_7LNNFG7NW2=GS1.1.1724609648.1.1.1724609667.0.0.0; _ga_ZGEZX7R0BR=GS1.1.1724609649.1.1.1724609667.0.0.0; _ga_LH9ENGBHNG=GS1.1.1724610552.3.0.1724610552.0.0.0; _ga_SYW5D2PTM9=GS1.1.1724610561.1.1.1724610927.0.0.0; _ga_3VP6LF1NFL=GS1.1.1724610640.1.1.1724610927.0.0.0; _ga_4KL7HLELGY=GS1.1.1724722840.4.0.1724722840.60.0.0; _ga_79GD7X288Z=GS1.1.1724947241.6.0.1724947241.0.0.0; SAPWP_active=1; _ga_9SLH7QHRC3=GS1.1.1725147211.2.0.1725147211.0.0.0; PS_TokenSite=https://dukehub.duke.edu/psp/CSPRD01_9/?siss-csweb-303-5600-PORTAL-PSJSESSIONID; SignOnDefault=; hpt_institution=DUKEU; ExpirePage=https://dukehub.duke.edu/psp/CSPRD01_9/; PS_LOGINLIST=https://dukehub.duke.edu/CSPRD01; PS_TOKEN=ogAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4Abwg4AC4AMQAwABR8YMvwUFLO6kJw1aQs5Qh/2P+TumIAAAAFAFNkYXRhVnicHYzBCYAwEAQnUXymE8XkEiRvFX8iWogNWpxL7jGz7MK9QN955+TP0y4YM0alsBAZdk4OwsrDxc2mNZKTlMiMcm00MaqblItYWjY565Fp4wdKYAq9; PS_LASTSITE=https://dukehub.duke.edu/psp/CSPRD01_9/; ps_theme=node:SA portal:EMPLOYEE theme_id:DU_PRD_DEFAULT_THEME_FLUID css:DU_PRD_BRAND_CLASSIC_TMPL_860 css_f:DU_PRD_BRAND_FLUID_TMPL_860 accessibility:N macroset:DU_MACROSET_PRD_860 formfactor:3 piamode:2; CSRFCookie=c4443684-5d37-4f86-b063-37144581bc21; PS_TOKENEXPIRE=3_Sep_2024_20:06:32_GMT; _ga_WB1N5CCGML=GS1.1.1725394887.7.0.1725394888.0.0.0; _ga_8PZ75Y3FMV=GS1.1.1725541955.8.0.1725541957.0.0.0; _hp2_props.3001039959=%7B%22Base.appName%22%3A%22Canvas%22%7D; _hp2_id.3001039959=%7B%22userId%22%3A%225230993266289319%22%2C%22pageviewId%22%3A%221584681605313504%22%2C%22sessionId%22%3A%221383141323384901%22%2C%22identity%22%3A%22uu-2-bfb8cec48274feadf5dcba5a8bdcfc3a247717c162275eb6c4327f7892066a12-aSv0eXf2o2liik7LauscbHJllzIjnV1XuSfipj9L%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-User": "ajj54",
+      "X-Forwarded-Escaped-Uri": "%2fnode%2fdcc-core-04%2f15578%2fapi%2fnbconvert%3f1725577328400",
+      "Via": "1.1 dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-For": "76.36.237.156",
+      "X-Forwarded-Host": "dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-Server": "dcc-ondemand-01.oit.duke.edu",
+      "Connection": "close"
+    }
+[E 2024-09-05 19:02:11.486 ServerApp] 500 GET /node/dcc-core-04/15578/api/nbconvert?1725577328400 (10.183.18.196) 52.03ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-04/15578/lab/workspaces/auto-q?reset
+[W 2024-09-05 19:02:19.751 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:02:20.725 ServerApp] Kernel started: 7307bfe1-852a-4d06-8ea6-5505e8222795
+[I 2024-09-05 19:02:30.895 ServerApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 2024-09-05 19:03:48.540 ServerApp] Creating new directory in /STORMS/01_windstorm
+[I 2024-09-05 19:04:20.567 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:04:20.568 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:06:44.408 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:06:44.427 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:08:45.533 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:08:45.574 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:10:46.723 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:10:46.726 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:12:48.528 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:12:48.538 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:18:50.291 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:18:50.292 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:20:50.719 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:20:50.728 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:22:22.796 ServerApp] Creating new file in /STORMS/01_windstorm/STORM_event_raster/general_data
+[I 2024-09-05 19:26:53.349 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:26:53.350 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:27:28.597 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:27:28.598 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:28:37.697 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:28:37.699 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:28:55.256 ServerApp] Kernel shutdown: 7307bfe1-852a-4d06-8ea6-5505e8222795
+[I 2024-09-05 19:28:56.148 ServerApp] Kernel started: ac785a72-2f89-43e6-8fbb-aff26d6276a2
+[I 2024-09-05 19:28:59.282 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:28:59.283 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[W 2024-09-05 19:31:51.904 ServerApp] 400 GET /node/dcc-core-04/15578/api/contents/STORMS/01_windstorm/LUISA_damage_info_curves.xlsx?format=text&type=file&content=1&1725579111674 (10.183.18.196): /hpc/home/ajj54/STORMS/01_windstorm/LUISA_damage_info_curves.xlsx is not UTF-8 encoded
+[W 2024-09-05 19:31:51.905 ServerApp] /hpc/home/ajj54/STORMS/01_windstorm/LUISA_damage_info_curves.xlsx is not UTF-8 encoded
+[W 2024-09-05 19:31:51.906 ServerApp] 400 GET /node/dcc-core-04/15578/api/contents/STORMS/01_windstorm/LUISA_damage_info_curves.xlsx?format=text&type=file&content=1&1725579111674 (10.183.18.196) 33.69ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-04/15578/lab/workspaces/auto-q/tree/STORMS/01_windstorm
+[I 2024-09-05 19:43:08.328 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:43:08.329 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:44:15.603 ServerApp] Copying STORMS/01_windstorm/bea0c4407a16a079cc95dba1d896bac6.zip to /STORMS/01_windstorm/STORM_event_raster/general_data
+[I 2024-09-05 19:45:08.904 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:45:08.904 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:47:09.428 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:47:09.429 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:49:09.915 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:49:09.916 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:51:10.452 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:51:10.464 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:53:11.014 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:53:11.018 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:57:12.375 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:57:12.377 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 19:59:13.373 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 19:59:13.374 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:01:14.481 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 20:01:14.483 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[W 2024-09-05 20:03:43.860 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:03:45.195 ServerApp] Kernel started: 71325feb-c445-42b3-8f01-8f33476bbce2
+[I 2024-09-05 20:05:46.144 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:05:46.148 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:07:15.366 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 20:07:15.367 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:07:47.917 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:07:47.919 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:09:49.906 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:09:49.909 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:11:15.821 ServerApp] Saving file at /STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb
+[W 2024-09-05 20:11:15.822 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:11:51.685 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:11:51.686 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:13:29.146 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel ac785a72-2f89-43e6-8fbb-aff26d6276a2 restarted
+[I 2024-09-05 20:13:29.203 ServerApp] Starting buffering for ac785a72-2f89-43e6-8fbb-aff26d6276a2:097b12a3-3dbe-4ff2-937a-bdd3592af33a
+[I 2024-09-05 20:13:29.316 ServerApp] Restoring connection for ac785a72-2f89-43e6-8fbb-aff26d6276a2:097b12a3-3dbe-4ff2-937a-bdd3592af33a
+[I 2024-09-05 20:13:41.629 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:13:41.631 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:13:44.169 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:13:44.170 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:15:45.721 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:15:45.724 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:17:47.604 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:17:47.606 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:18:30.193 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 71325feb-c445-42b3-8f01-8f33476bbce2 restarted
+[I 2024-09-05 20:18:30.242 ServerApp] Starting buffering for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:18:30.349 ServerApp] Restoring connection for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:19:49.030 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:19:49.033 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:21:50.513 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:21:50.515 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:23:39.232 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 71325feb-c445-42b3-8f01-8f33476bbce2 restarted
+[I 2024-09-05 20:23:39.284 ServerApp] Starting buffering for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:23:39.408 ServerApp] Restoring connection for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:23:51.863 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:23:51.865 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:25:06.256 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 71325feb-c445-42b3-8f01-8f33476bbce2 restarted
+[I 2024-09-05 20:25:06.305 ServerApp] Starting buffering for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:25:06.425 ServerApp] Restoring connection for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:25:53.291 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:25:53.293 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[I 2024-09-05 20:26:45.296 ServerApp] AsyncIOLoopKernelRestarter: restarting kernel (1/5), keep random ports
+kernel 71325feb-c445-42b3-8f01-8f33476bbce2 restarted
+[I 2024-09-05 20:26:45.358 ServerApp] Starting buffering for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:26:45.461 ServerApp] Restoring connection for 71325feb-c445-42b3-8f01-8f33476bbce2:7cf4cf44-7845-4f96-975b-960364151b14
+[I 2024-09-05 20:27:54.738 ServerApp] Saving file at /STORMS/01_windstorm/Risk_assessment_STORMS.ipynb
+[W 2024-09-05 20:27:54.741 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+slurmstepd: error: *** JOB 15578941 ON dcc-core-04 CANCELLED AT 2024-09-05T20:39:15 ***
+slurmstepd: error: Detected 5 oom_kill events in StepId=15578941.batch. Some of the step tasks have been OOM Killed.

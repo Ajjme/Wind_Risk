@@ -1,0 +1,9 @@
+c.ServerApp.ip = '*'
+c.ServerApp.port = 48251
+c.ServerApp.port_retries = 0
+c.ServerApp.password = u'sha1:Phml5nkuKY5WoOpK:261c99bb76ea6229eaae96069980d9babe7b3fbd'
+c.ServerApp.base_url = '/node/dcc-core-29/48251/'
+c.ServerApp.open_browser = False
+c.ServerApp.allow_origin = '*'
+c.ServerApp.root_dir = '/hpc/home/ajj54'
+c.ServerApp.disable_check_xsrf = True

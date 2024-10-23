@@ -1,0 +1,9 @@
+{
+  "bc_num_hours": "4",
+  "num_cpus": "2",
+  "num_mem": "2",
+  "num_gpus": "0",
+  "custom_account": "borsuklab",
+  "custom_queue": "common",
+  "singularity_img": "/opt/apps/community/od_chsi_rstudio/hiv_r25_rstudio.sif"
+}

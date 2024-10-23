@@ -1,0 +1,96 @@
+Script starting...
+Waiting for Jupyter Lab server to open port 8687...
+TIMING - Starting main script at: Mon Sep 23 09:03:56 PM EDT 2024
+TIMING - Starting wait at: Mon Sep 23 09:03:56 PM EDT 2024
+Anaconda3 2021.05
+Currently Loaded Modulefiles:
+ 1) Anaconda3/2021.05  
+TIMING - Starting jupyter at: Mon Sep 23 09:03:56 PM EDT 2024
++ jupyter lab --config=/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_jupyter/output/d969f128-6b9d-4e16-bea0-c7f8cbbb8619/config.py
+[I 2024-09-23 21:04:10.074 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-09-23 21:04:13.703 ServerApp] nbclassic | extension was successfully linked.
+[W 2024-09-23 21:04:18.570 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-09-23 21:04:18.624 LabApp] JupyterLab extension loaded from /opt/apps/rhel8/Anaconda3-2021.05/lib/python3.8/site-packages/jupyterlab
+[I 2024-09-23 21:04:18.624 LabApp] JupyterLab application directory is /admin/apps/rhel8/Anaconda3-2021.05/share/jupyter/lab
+[I 2024-09-23 21:04:18.629 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-09-23 21:04:18.673 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-09-23 21:04:18.674 ServerApp] Serving notebooks from local directory: /hpc/home/ajj54
+[I 2024-09-23 21:04:18.674 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2024-09-23 21:04:18.674 ServerApp] http://dcc-core-05:8687/node/dcc-core-05/8687/lab
+[I 2024-09-23 21:04:18.674 ServerApp]  or http://127.0.0.1:8687/node/dcc-core-05/8687/lab
+[I 2024-09-23 21:04:18.674 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-09-23 21:04:18.701 ServerApp] No web browser found: could not locate runnable browser.
+Discovered Jupyter Lab server listening on port 8687!
+TIMING - Wait ended at: Mon Sep 23 09:04:18 PM EDT 2024
+Generating connection YAML file...
+[I 2024-09-23 21:04:26.824 ServerApp] 302 POST /node/dcc-core-05/8687/login (10.183.18.196) 16.42ms
+[I 2024-09-23 21:04:26.873 ServerApp] 302 GET /node/dcc-core-05/8687/ (10.183.18.196) 1.11ms
+[W 2024-09-23 21:04:34.078 LabApp] Could not determine jupyterlab build status without nodejs
+[W 2024-09-23 21:04:35.919 ServerApp] 500 GET /node/dcc-core-05/8687/api/nbconvert?1727139873936 (10.183.18.196): Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[W 2024-09-23 21:04:35.919 ServerApp] Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[E 2024-09-23 21:04:35.919 ServerApp] {
+      "Host": "dcc-core-05:8687",
+      "Sec-Ch-Ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "X-Xsrftoken": "2|11138a18|acac1473e3da02b489c94481c107afdf|1727139866",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-05/8687/lab?",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-dcc-core-05-8687=\"2|1:0|10:1727139866|25:username-dcc-core-05-8687|44:ZWIxN2IzOGNkODk4NDE2ZjhlYmYwMTYyMWY4Y2Y0Y2I=|b21c6ae001214c8227b5ce03d2107c463e992a1790e3103b7cd9668d8292b46e\"; _xsrf=2|11138a18|acac1473e3da02b489c94481c107afdf|1727139866; _ga_4KL7HLELGY=GS1.1.1725736776.1.0.1725736779.57.0.0; __utma=76785792.2118490413.1725736776.1726154597.1726154597.1; __utmz=76785792.1726154597.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga_EFHNRXCSHV=GS1.1.1726157280.2.0.1726157280.0.0.0; _ga=GA1.1.2118490413.1725736776; _ga_LQL2VH08V0=GS1.1.1726252830.1.0.1726252837.0.0.0; SAPWP_active=1; PS_LASTSITE=https://dukehub.duke.edu/psp/CSPRD01_9/; ExpirePage=https://dukehub.duke.edu/psp/CSPRD01_9/; PS_TokenSite=https://dukehub.duke.edu/psp/CSPRD01_9/?siss-csweb-302-5600-PORTAL-PSJSESSIONID; PS_LOGINLIST=https://dukehub.duke.edu/CSPRD01; SignOnDefault=; ps_theme=node:SA portal:EMPLOYEE theme_id:DU_PRD_DEFAULT_THEME_FLUID css:DU_PRD_BRAND_CLASSIC_TMPL_860 css_f:DU_PRD_BRAND_FLUID_TMPL_860 accessibility:N macroset:DU_MACROSET_PRD_860 formfactor:3 piamode:2; hpt_institution=DUKEU; PS_DEVICEFEATURES=width:1536 height:864 pixelratio:1.25 touch:0 geolocation:1 websockets:1 webworkers:1 datepicker:1 dtpicker:1 timepicker:1 dnd:1 sessionstorage:1 localstorage:1 history:1 canvas:1 svg:1 postmessage:1 hc:0 maf:0; psback=%22%22url%22%3A%22https%3A%2F%2Fdukehub.duke.edu%2Fpsc%2FCSPRD01_9%2FEMPLOYEE%2FSA%2Fc%2FNUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL%3FPage%3DPT_AGSTARTPAGE_NUI%26Action%3DU%26CONTEXTIDPARAMS%3DTEMPLATE_ID%3ADUSTDVR001280445%26CONTEXTIDPARAMS%3DINSTANCE_ID%3ADUSTDVR001280445%26replaceCurrentTopWindow%3DY%26AgInHistory%3DN%26AJAXTransfer%3Dy%22%20%22label%22%3A%22Agreement1%22%20%22origin%22%3A%22PIA%22%20%22layout%22%3A%220%22%20%22refurl%22%3A%22https%3A%2F%2Fdukehub.duke.edu%2Fpsc%2FCSPRD01_9%2FEMPLOYEE%2FSA%22%22; _gcl_au=1.1.449935016.1726412679; _cq_duid=1.1726412679.iT6LXrCxIDxJ2EL9; _cq_suid=1.1726412679.N06kxDoa6WScY0bw; _clck=4wrcv5%7C2%7Cfp7%7C0%7C1719; _fbp=fb.1.1726412679937.526718867702998771; _rdt_uuid=1726412679053.e9a373f1-47ac-497b-9e0f-e84aa0f82def; _hjSessionUser_3209393=eyJpZCI6IjkyYWEwZWE0LWEyMjEtNThkYS05NzliLWE3ZjkzMDVkMWQ0NCIsImNyZWF0ZWQiOjE3MjY0MTI2Nzk5ODAsImV4aXN0aW5nIjp0cnVlfQ==; _ga_7RSRXTCZBG=GS1.1.1726412678.1.1.1726412994.0.0.0; _ga_VP33BWKZP1=GS1.1.1726412678.1.1.1726412994.58.0.0; _ga_N0EQJVERJ2=GS1.1.1726503743.1.1.1726503769.0.0.0; _ga_8PZ75Y3FMV=GS1.1.1726843029.3.0.1726843030.0.0.0; MYSAPSSO2=AjExMDAgAAxwb3J0YWw6QUpKNTSIABNiYXNpY2F1dGhlbnRpY2F0aW9uAQAFQUpKNTQCAAMwMDADAANOUFAEAAwyMDI0MDkyMDE0MzcFAAQAAAAICgAFQUpKNTT%2FAQUwggEBBgkqhkiG9w0BBwKggfMwgfACAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3DQEHATGB0DCBzQIBATAiMB0xDDAKBgNVBAMTA05QUDENMAsGA1UECxMESjJFRQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjQwOTIwMTQzNzI0WjAjBgkqhkiG9w0BCQQxFgQUQSt%2FrXhcUTV6QK8p3UQybRCfMpwwCQYHKoZIzjgEAwQvMC0CFAnu7L4TlPuYGzr%2F8K8IDSZ05ONPAhUA4KW!BFbHZitIMIyi3Rysd2aUPCM%3D; _ga_5R4BP9RPSY=GS1.1.1726939513.1.0.1726939513.0.0.0; PS_TOKEN=pAAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4Abwg4AC4AMQAwABRswIea1Xx1pUr8v2rwPutvT9CdH2QAAAAFAFNkYXRhWHicHYtLCoAwEENfVVz2Ji39Kl2ruBPRg3hBD2dwAnnMJPMAQ98ZI74d/9hMINOozETGjYMdu3BzcrEqjZQkJApObPIkOQUTXo9VnnT32qMU1IzwAUtqCsE=; CSRFCookie=693b821d-d916-4773-b2d1-e2da4a850aa7; PS_TOKENEXPIRE=23_Sep_2024_00:59:57_GMT; _ga_WB1N5CCGML=GS1.1.1727101845.5.0.1727101847.0.0.0; _hp2_ses_props.3001039959=%7B%22ts%22%3A1727139616257%2C%22d%22%3A%22canvas.duke.edu%22%2C%22h%22%3A%22%2Fcourses%2F39783%22%7D; _hp2_props.3001039959=%7B%22Base.appName%22%3A%22Canvas%22%7D; _hp2_id.3001039959=%7B%22userId%22%3A%223921144883060778%22%2C%22pageviewId%22%3A%228853722768090017%22%2C%22sessionId%22%3A%228011694438323083%22%2C%22identity%22%3A%22uu-2-bfb8cec48274feadf5dcba5a8bdcfc3a247717c162275eb6c4327f7892066a12-aSv0eXf2o2liik7LauscbHJllzIjnV1XuSfipj9L%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-User": "ajj54",
+      "X-Forwarded-Escaped-Uri": "%2fnode%2fdcc-core-05%2f8687%2fapi%2fnbconvert%3f1727139873936",
+      "Via": "1.1 dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-For": "76.36.237.156",
+      "X-Forwarded-Host": "dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-Server": "dcc-ondemand-01.oit.duke.edu",
+      "Connection": "close"
+    }
+[E 2024-09-23 21:04:35.920 ServerApp] 500 GET /node/dcc-core-05/8687/api/nbconvert?1727139873936 (10.183.18.196) 60.05ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-05/8687/lab?
+[W 2024-09-23 21:04:35.922 ServerApp] 500 GET /node/dcc-core-05/8687/api/nbconvert?1727139873953 (10.183.18.196): Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[W 2024-09-23 21:04:35.922 ServerApp] Could not import nbconvert: cannot import name 'contextfilter' from 'jinja2' (/hpc/home/ajj54/.local/lib/python3.8/site-packages/jinja2/__init__.py)
+[E 2024-09-23 21:04:35.923 ServerApp] {
+      "Host": "dcc-core-05:8687",
+      "Sec-Ch-Ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+      "Sec-Ch-Ua-Platform": "\"Windows\"",
+      "X-Xsrftoken": "2|11138a18|acac1473e3da02b489c94481c107afdf|1727139866",
+      "Sec-Ch-Ua-Mobile": "?0",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+      "Content-Type": "application/json",
+      "Accept": "*/*",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-05/8687/lab?",
+      "Accept-Encoding": "gzip, deflate, br, zstd",
+      "Accept-Language": "en-US,en;q=0.9",
+      "Cookie": "username-dcc-core-05-8687=\"2|1:0|10:1727139866|25:username-dcc-core-05-8687|44:ZWIxN2IzOGNkODk4NDE2ZjhlYmYwMTYyMWY4Y2Y0Y2I=|b21c6ae001214c8227b5ce03d2107c463e992a1790e3103b7cd9668d8292b46e\"; _xsrf=2|11138a18|acac1473e3da02b489c94481c107afdf|1727139866; _ga_4KL7HLELGY=GS1.1.1725736776.1.0.1725736779.57.0.0; __utma=76785792.2118490413.1725736776.1726154597.1726154597.1; __utmz=76785792.1726154597.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ga_EFHNRXCSHV=GS1.1.1726157280.2.0.1726157280.0.0.0; _ga=GA1.1.2118490413.1725736776; _ga_LQL2VH08V0=GS1.1.1726252830.1.0.1726252837.0.0.0; SAPWP_active=1; PS_LASTSITE=https://dukehub.duke.edu/psp/CSPRD01_9/; ExpirePage=https://dukehub.duke.edu/psp/CSPRD01_9/; PS_TokenSite=https://dukehub.duke.edu/psp/CSPRD01_9/?siss-csweb-302-5600-PORTAL-PSJSESSIONID; PS_LOGINLIST=https://dukehub.duke.edu/CSPRD01; SignOnDefault=; ps_theme=node:SA portal:EMPLOYEE theme_id:DU_PRD_DEFAULT_THEME_FLUID css:DU_PRD_BRAND_CLASSIC_TMPL_860 css_f:DU_PRD_BRAND_FLUID_TMPL_860 accessibility:N macroset:DU_MACROSET_PRD_860 formfactor:3 piamode:2; hpt_institution=DUKEU; PS_DEVICEFEATURES=width:1536 height:864 pixelratio:1.25 touch:0 geolocation:1 websockets:1 webworkers:1 datepicker:1 dtpicker:1 timepicker:1 dnd:1 sessionstorage:1 localstorage:1 history:1 canvas:1 svg:1 postmessage:1 hc:0 maf:0; psback=%22%22url%22%3A%22https%3A%2F%2Fdukehub.duke.edu%2Fpsc%2FCSPRD01_9%2FEMPLOYEE%2FSA%2Fc%2FNUI_FRAMEWORK.PT_AGSTARTPAGE_NUI.GBL%3FPage%3DPT_AGSTARTPAGE_NUI%26Action%3DU%26CONTEXTIDPARAMS%3DTEMPLATE_ID%3ADUSTDVR001280445%26CONTEXTIDPARAMS%3DINSTANCE_ID%3ADUSTDVR001280445%26replaceCurrentTopWindow%3DY%26AgInHistory%3DN%26AJAXTransfer%3Dy%22%20%22label%22%3A%22Agreement1%22%20%22origin%22%3A%22PIA%22%20%22layout%22%3A%220%22%20%22refurl%22%3A%22https%3A%2F%2Fdukehub.duke.edu%2Fpsc%2FCSPRD01_9%2FEMPLOYEE%2FSA%22%22; _gcl_au=1.1.449935016.1726412679; _cq_duid=1.1726412679.iT6LXrCxIDxJ2EL9; _cq_suid=1.1726412679.N06kxDoa6WScY0bw; _clck=4wrcv5%7C2%7Cfp7%7C0%7C1719; _fbp=fb.1.1726412679937.526718867702998771; _rdt_uuid=1726412679053.e9a373f1-47ac-497b-9e0f-e84aa0f82def; _hjSessionUser_3209393=eyJpZCI6IjkyYWEwZWE0LWEyMjEtNThkYS05NzliLWE3ZjkzMDVkMWQ0NCIsImNyZWF0ZWQiOjE3MjY0MTI2Nzk5ODAsImV4aXN0aW5nIjp0cnVlfQ==; _ga_7RSRXTCZBG=GS1.1.1726412678.1.1.1726412994.0.0.0; _ga_VP33BWKZP1=GS1.1.1726412678.1.1.1726412994.58.0.0; _ga_N0EQJVERJ2=GS1.1.1726503743.1.1.1726503769.0.0.0; _ga_8PZ75Y3FMV=GS1.1.1726843029.3.0.1726843030.0.0.0; MYSAPSSO2=AjExMDAgAAxwb3J0YWw6QUpKNTSIABNiYXNpY2F1dGhlbnRpY2F0aW9uAQAFQUpKNTQCAAMwMDADAANOUFAEAAwyMDI0MDkyMDE0MzcFAAQAAAAICgAFQUpKNTT%2FAQUwggEBBgkqhkiG9w0BBwKggfMwgfACAQExCzAJBgUrDgMCGgUAMAsGCSqGSIb3DQEHATGB0DCBzQIBATAiMB0xDDAKBgNVBAMTA05QUDENMAsGA1UECxMESjJFRQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMjQwOTIwMTQzNzI0WjAjBgkqhkiG9w0BCQQxFgQUQSt%2FrXhcUTV6QK8p3UQybRCfMpwwCQYHKoZIzjgEAwQvMC0CFAnu7L4TlPuYGzr%2F8K8IDSZ05ONPAhUA4KW!BFbHZitIMIyi3Rysd2aUPCM%3D; _ga_5R4BP9RPSY=GS1.1.1726939513.1.0.1726939513.0.0.0; PS_TOKEN=pAAAAAQDAgEBAAAAvAIAAAAAAAAsAAAABABTaGRyAk4Abwg4AC4AMQAwABRswIea1Xx1pUr8v2rwPutvT9CdH2QAAAAFAFNkYXRhWHicHYtLCoAwEENfVVz2Ji39Kl2ruBPRg3hBD2dwAnnMJPMAQ98ZI74d/9hMINOozETGjYMdu3BzcrEqjZQkJApObPIkOQUTXo9VnnT32qMU1IzwAUtqCsE=; CSRFCookie=693b821d-d916-4773-b2d1-e2da4a850aa7; PS_TOKENEXPIRE=23_Sep_2024_00:59:57_GMT; _ga_WB1N5CCGML=GS1.1.1727101845.5.0.1727101847.0.0.0; _hp2_ses_props.3001039959=%7B%22ts%22%3A1727139616257%2C%22d%22%3A%22canvas.duke.edu%22%2C%22h%22%3A%22%2Fcourses%2F39783%22%7D; _hp2_props.3001039959=%7B%22Base.appName%22%3A%22Canvas%22%7D; _hp2_id.3001039959=%7B%22userId%22%3A%223921144883060778%22%2C%22pageviewId%22%3A%228853722768090017%22%2C%22sessionId%22%3A%228011694438323083%22%2C%22identity%22%3A%22uu-2-bfb8cec48274feadf5dcba5a8bdcfc3a247717c162275eb6c4327f7892066a12-aSv0eXf2o2liik7LauscbHJllzIjnV1XuSfipj9L%22%2C%22trackerVersion%22%3A%224.0%22%2C%22identityField%22%3Anull%2C%22isIdentified%22%3A1%7D",
+      "X-Forwarded-Proto": "https",
+      "X-Forwarded-User": "ajj54",
+      "X-Forwarded-Escaped-Uri": "%2fnode%2fdcc-core-05%2f8687%2fapi%2fnbconvert%3f1727139873953",
+      "Via": "1.1 dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-For": "76.36.237.156",
+      "X-Forwarded-Host": "dcc-ondemand-01.oit.duke.edu",
+      "X-Forwarded-Server": "dcc-ondemand-01.oit.duke.edu",
+      "Connection": "close"
+    }
+[E 2024-09-23 21:04:35.923 ServerApp] 500 GET /node/dcc-core-05/8687/api/nbconvert?1727139873953 (10.183.18.196) 62.83ms referer=https://dcc-ondemand-01.oit.duke.edu/node/dcc-core-05/8687/lab?
+[W 2024-09-23 21:04:36.677 ServerApp] Notebook STORMS/01_windstorm/Risk_assessment_STORMS.ipynb is not trusted
+[W 2024-09-23 21:04:36.860 ServerApp] Notebook STORMS/01_windstorm/Hazard_assessment_STORMS.ipynb is not trusted
+[I 2024-09-23 21:04:37.976 ServerApp] Kernel started: 3f2e3db9-3dae-48ad-96b6-d0e85c1a5aa4
+[I 2024-09-23 21:04:37.983 ServerApp] Kernel started: 003a7523-ab12-4b6f-8912-e8d7e6233c79
+[I 2024-09-23 21:04:38.017 ServerApp] Kernel started: f7323003-8075-4243-9e54-47006d0d2dd2
+[I 2024-09-23 21:04:43.823 ServerApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+Websocket closed
+[I 2024-09-23 21:18:15.275 ServerApp] Starting buffering for 003a7523-ab12-4b6f-8912-e8d7e6233c79:8ec21ea8-6da4-4f4a-a01e-8300f4b755e5
+[I 2024-09-23 21:18:15.281 ServerApp] Starting buffering for f7323003-8075-4243-9e54-47006d0d2dd2:eb27c83d-12e4-4b0e-90aa-425014f44bc3
+[I 2024-09-23 21:18:15.281 ServerApp] Starting buffering for 3f2e3db9-3dae-48ad-96b6-d0e85c1a5aa4:61917273-d68e-428d-a16d-74e79eed5edf

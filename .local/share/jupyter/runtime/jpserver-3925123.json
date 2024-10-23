@@ -1,0 +1,13 @@
+{
+  "base_url": "/node/dcc-core-04/15597/",
+  "hostname": "localhost",
+  "password": true,
+  "pid": 3925123,
+  "port": 15597,
+  "root_dir": "/hpc/home/ajj54",
+  "secure": false,
+  "sock": "",
+  "token": "",
+  "url": "http://localhost:15597/node/dcc-core-04/15597/",
+  "version": "1.23.6"
+}

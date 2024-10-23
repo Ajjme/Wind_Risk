@@ -1,0 +1,129 @@
+Script starting...
+Waiting for RStudio Server to open port 61854...
+++ date
++ echo 'TIMING - Starting main script at: Thu Aug 22 02:27:19 PM EDT 2024'
+TIMING - Starting main script at: Thu Aug 22 02:27:19 PM EDT 2024
++ module purge
++ local _mlredir=0
++ '[' -n '' ']'
++ case " $@ " in
++ '[' 0 -eq 0 ']'
++ _module_raw purge
+++ /usr/bin/tclsh /usr/share/Modules/libexec/modulecmd.tcl bash purge
++ eval ''
++ _mlstatus=0
++ return 0
++ '[' -n '' ']'
++ '[' -z /tmp ']'
++ '[' /tmp == /tmp ']'
+++ mktemp -d
++ TMPDIR=/tmp/tmp.jiB8qrjEt8
++ export TMPDIR
++ cat
++ cat
++ cat
++ echo 'Generate Modified R Environment Site File'
+Generate Modified R Environment Site File
++ singularity -vvv exec --bind=/tmp/tmp.jiB8qrjEt8:/tmp /opt/apps/community/od_chsi_rstudio/hiv_r25_rstudio.sif bash ./genenv.sh
+VERBOSE: Not forwarding APPTAINER_VERBOSE environment variable
+VERBOSE: Setting HOME=/hpc/home/ajj54
+VERBOSE: Setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+VERBOSE: Set messagelevel to: 4
+VERBOSE: Starter initialization
+VERBOSE: Check if we are running as setuid: 1
+VERBOSE: Drop root privileges
+VERBOSE: Drop root privileges permanently
+VERBOSE: Spawn stage 1
+VERBOSE: Execute stage 1
+VERBOSE: stage 1 exited with status 0
+VERBOSE: Get root privileges
+VERBOSE: Change filesystem uid to 1546375
+VERBOSE: Spawn master process
+VERBOSE: Create mount namespace
+VERBOSE: Entering in mount namespace
+VERBOSE: Create mount namespace
+VERBOSE: Spawn RPC server
+VERBOSE: Execute master process
+VERBOSE: Default mount: /proc:/proc
+VERBOSE: Default mount: /sys:/sys
+VERBOSE: Default mount: /dev:/dev
+VERBOSE: Found 'bind path' = /etc/localtime, /etc/localtime
+VERBOSE: Found 'bind path' = /etc/hosts, /etc/hosts
+VERBOSE: Default mount: /tmp:/tmp
+VERBOSE: Default mount: /var/tmp:/var/tmp
+VERBOSE: Default mount: /etc/resolv.conf:/etc/resolv.conf
+VERBOSE: Serve RPC requests
+VERBOSE: Checking for template passwd file: /var/apptainer/mnt/session/rootfs/etc/passwd
+VERBOSE: Creating passwd content
+VERBOSE: Creating template passwd file and appending user data: /var/apptainer/mnt/session/rootfs/etc/passwd
+VERBOSE: Default mount: /etc/passwd:/etc/passwd
+VERBOSE: Checking for template group file: /var/apptainer/mnt/session/rootfs/etc/group
+VERBOSE: Creating group content
+VERBOSE: Default mount: /etc/group:/etc/group
+VERBOSE: /hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/chsi-rstudio-workshop/output/348b8431-4032-42bc-b783-b60eb4e7e350 found within container
+VERBOSE: rpc server exited with status 0
+VERBOSE: Execute stage 2
+++ cat ./Renviron.path
++ renv_path=/usr/local/lib/R/etc/Renviron
++ mkdir -p /tmp/tmp.jiB8qrjEt8/rstudio-server/var/lib
++ mkdir -p /tmp/tmp.jiB8qrjEt8/rstudio-server/var/run
++ uuidgen
++ chmod 600 /tmp/tmp.jiB8qrjEt8/rstudio-server/secure-cookie-key
++ BPath=/tmp/tmp.jiB8qrjEt8:/tmp
++ BPath+=,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/lib:/var/lib/rstudio-server
++ BPath+=,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/run:/var/run/rstudio-server
++ BPath+=,logging.conf:/etc/rstudio/logging.conf
++ BPath+=,rsession.conf:/etc/rstudio/rsession.conf
++ BPath+=,rserver.conf:/etc/rstudio/rserver.conf
++ BPath+=,Renviron.site:/usr/local/lib/R/etc/Renviron
++ BPath+=,sessions:/hpc/home/ajj54/.local/share/rstudio/sessions
++ BPath+=,/hpc/group/borsuklab:/hpc/group/borsuklab
++ BPath+=,/work:/work
++ echo /tmp/tmp.jiB8qrjEt8:/tmp,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/lib:/var/lib/rstudio-server,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/run:/var/run/rstudio-server,logging.conf:/etc/rstudio/logging.conf,rsession.conf:/etc/rstudio/rsession.conf,rserver.conf:/etc/rstudio/rserver.conf,Renviron.site:/usr/local/lib/R/etc/Renviron,sessions:/hpc/home/ajj54/.local/share/rstudio/sessions,/hpc/group/borsuklab:/hpc/group/borsuklab,/work:/work
+/tmp/tmp.jiB8qrjEt8:/tmp,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/lib:/var/lib/rstudio-server,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/run:/var/run/rstudio-server,logging.conf:/etc/rstudio/logging.conf,rsession.conf:/etc/rstudio/rsession.conf,rserver.conf:/etc/rstudio/rserver.conf,Renviron.site:/usr/local/lib/R/etc/Renviron,sessions:/hpc/home/ajj54/.local/share/rstudio/sessions,/hpc/group/borsuklab:/hpc/group/borsuklab,/work:/work
+++ date
++ echo 'TIMING - Starting RStudio Server at: Thu Aug 22 02:27:28 PM EDT 2024'
+TIMING - Starting RStudio Server at: Thu Aug 22 02:27:28 PM EDT 2024
++ '[' no == no ']'
++ singularity -vvv exec --bind=/tmp/tmp.jiB8qrjEt8:/tmp,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/lib:/var/lib/rstudio-server,/tmp/tmp.jiB8qrjEt8/rstudio-server/var/run:/var/run/rstudio-server,logging.conf:/etc/rstudio/logging.conf,rsession.conf:/etc/rstudio/rsession.conf,rserver.conf:/etc/rstudio/rserver.conf,Renviron.site:/usr/local/lib/R/etc/Renviron,sessions:/hpc/home/ajj54/.local/share/rstudio/sessions,/hpc/group/borsuklab:/hpc/group/borsuklab,/work:/work /opt/apps/community/od_chsi_rstudio/hiv_r25_rstudio.sif rserver
+VERBOSE: Not forwarding APPTAINER_VERBOSE environment variable
+VERBOSE: Setting HOME=/hpc/home/ajj54
+VERBOSE: Setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+VERBOSE: Set messagelevel to: 4
+VERBOSE: Starter initialization
+VERBOSE: Check if we are running as setuid: 1
+VERBOSE: Drop root privileges
+VERBOSE: Drop root privileges permanently
+VERBOSE: Spawn stage 1
+VERBOSE: Execute stage 1
+VERBOSE: stage 1 exited with status 0
+VERBOSE: Get root privileges
+VERBOSE: Change filesystem uid to 1546375
+VERBOSE: Spawn master process
+VERBOSE: Create mount namespace
+VERBOSE: Entering in mount namespace
+VERBOSE: Create mount namespace
+VERBOSE: Spawn RPC server
+VERBOSE: Execute master process
+VERBOSE: Default mount: /proc:/proc
+VERBOSE: Default mount: /sys:/sys
+VERBOSE: Default mount: /dev:/dev
+VERBOSE: Found 'bind path' = /etc/localtime, /etc/localtime
+VERBOSE: Found 'bind path' = /etc/hosts, /etc/hosts
+VERBOSE: Default mount: /tmp:/tmp
+VERBOSE: Default mount: /var/tmp:/var/tmp
+VERBOSE: Default mount: /etc/resolv.conf:/etc/resolv.conf
+VERBOSE: Serve RPC requests
+VERBOSE: Checking for template passwd file: /var/apptainer/mnt/session/rootfs/etc/passwd
+VERBOSE: Creating passwd content
+VERBOSE: Creating template passwd file and appending user data: /var/apptainer/mnt/session/rootfs/etc/passwd
+VERBOSE: Default mount: /etc/passwd:/etc/passwd
+VERBOSE: Checking for template group file: /var/apptainer/mnt/session/rootfs/etc/group
+VERBOSE: Creating group content
+VERBOSE: Default mount: /etc/group:/etc/group
+VERBOSE: /hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/chsi-rstudio-workshop/output/348b8431-4032-42bc-b783-b60eb4e7e350 found within container
+VERBOSE: rpc server exited with status 0
+VERBOSE: Execute stage 2
+Discovered RStudio Server listening on port 61854!
+Generating connection YAML file...
+slurmstepd: error: *** JOB 14875455 ON dcc-core-25 CANCELLED AT 2024-08-22T18:27:36 DUE TO TIME LIMIT ***

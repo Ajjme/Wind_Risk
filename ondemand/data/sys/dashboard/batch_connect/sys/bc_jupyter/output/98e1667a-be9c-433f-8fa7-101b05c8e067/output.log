@@ -1,0 +1,26 @@
+Script starting...
+Waiting for Jupyter Lab server to open port 48251...
+TIMING - Starting wait at: Thu Aug 29 12:01:29 PM EDT 2024
+TIMING - Starting main script at: Thu Aug 29 12:01:29 PM EDT 2024
+Anaconda3 2021.05
+Currently Loaded Modulefiles:
+ 1) Anaconda3/2021.05  
+TIMING - Starting jupyter at: Thu Aug 29 12:01:29 PM EDT 2024
++ jupyter lab --config=/hpc/home/ajj54/ondemand/data/sys/dashboard/batch_connect/sys/bc_jupyter/output/98e1667a-be9c-433f-8fa7-101b05c8e067/config.py
+[I 2024-08-29 12:01:39.456 ServerApp] jupyterlab | extension was successfully linked.
+[I 2024-08-29 12:01:50.392 ServerApp] nbclassic | extension was successfully linked.
+[W 2024-08-29 12:01:51.929 ServerApp] WARNING: The Jupyter server is listening on all IP addresses and not using encryption. This is not recommended.
+[I 2024-08-29 12:01:52.056 LabApp] JupyterLab extension loaded from /opt/apps/rhel8/Anaconda3-2021.05/lib/python3.8/site-packages/jupyterlab
+[I 2024-08-29 12:01:52.056 LabApp] JupyterLab application directory is /admin/apps/rhel8/Anaconda3-2021.05/share/jupyter/lab
+[I 2024-08-29 12:01:52.064 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2024-08-29 12:01:52.171 ServerApp] nbclassic | extension was successfully loaded.
+[I 2024-08-29 12:01:52.171 ServerApp] Serving notebooks from local directory: /hpc/home/ajj54
+[I 2024-08-29 12:01:52.171 ServerApp] Jupyter Server 1.4.1 is running at:
+[I 2024-08-29 12:01:52.171 ServerApp] http://dcc-core-29:48251/node/dcc-core-29/48251/lab
+[I 2024-08-29 12:01:52.171 ServerApp]  or http://127.0.0.1:48251/node/dcc-core-29/48251/lab
+[I 2024-08-29 12:01:52.171 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 2024-08-29 12:01:52.205 ServerApp] No web browser found: could not locate runnable browser.
+Discovered Jupyter Lab server listening on port 48251!
+TIMING - Wait ended at: Thu Aug 29 12:01:52 PM EDT 2024
+Generating connection YAML file...
+slurmstepd: error: *** JOB 15184101 ON dcc-core-29 CANCELLED AT 2024-08-29T13:01:23 DUE TO TIME LIMIT ***
